@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+<!--     <TextView
+        android:id="@+id/tbjl_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="投标标题" /> -->
+
+    <TextView
+        android:id="@+id/tbjl_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:padding="10dp"
+            android:src="@drawable/zc" />
+
+        <ProgressBar
+            android:id="@+id/zcxq_progress"
+            style="@style/progressBarHorizontal_color"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:max="100"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/zc_support"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_yj_red"
+            android:gravity="center"
+            android:text="读取中" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:padding="10dp"
+            android:src="@drawable/bzc" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2" >
+
+            <ProgressBar
+                android:id="@+id/zcxq_b_progress"
+                style="@style/progressBarHorizontal_color"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:max="100"
+                android:progress="0" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/zc_oppose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_yj_red"
+            android:gravity="center"
+            android:text="读取中" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string-array name="js_16">
+        <item>按天到期还款</item>
+        <item>每月还息到期还本</item>
+        <item>按月分期还款</item>
+        <item>一次性还款</item>
+    </string-array>
+    <string-array name="fbdx">
+        <item>个人账户</item>
+        <item>银行账户</item>
+    </string-array>
+
+</resources>

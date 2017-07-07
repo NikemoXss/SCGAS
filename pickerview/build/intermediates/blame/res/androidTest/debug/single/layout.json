@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pw_time.xml",
+        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\pw_time.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pw_options.xml",
+        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\pw_options.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\include_timepicker.xml",
+        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\include_timepicker.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\include_optionspicker.xml",
+        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\include_optionspicker.xml"
+    }
+]

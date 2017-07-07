@@ -1,0 +1,826 @@
+[
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_tab.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_tab.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\logo.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\logo.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\diydialog.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\diydialog.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\skyblue_editpage_inc_image_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\skyblue_editpage_inc_image_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_jxj_scg.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_jxj_scg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_xxpay.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_xxpay.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_zcjsfragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_zcjsfragment.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\rb_author_bank_card.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\rb_author_bank_card.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\notification_custom_builder.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\notification_custom_builder.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\show_package_dialog.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\show_package_dialog.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_safe.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_safe.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_lend_money.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_lend_money.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\web.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\web.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_mybriberymoney.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_mybriberymoney.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\costom_image.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\costom_image.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\invest_manager_zt_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\invest_manager_zt_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\fragment_more.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\fragment_more.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_mybm.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_mybm.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\skyblue_share_platform_list_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\skyblue_share_platform_list_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\list_foot.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\list_foot.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\moneymoremore.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\moneymoremore.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\main_activity.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_redpkg_scg.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_redpkg_scg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_item3_1_new.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_item3_1_new.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_update_bankcard.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_update_bankcard.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\calculate.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\calculate.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_mybm3.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_mybm3.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\xxpl_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\xxpl_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_fwhtfragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_fwhtfragment.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_set_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_set_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_item2_2.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_item2_2.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_data.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_data.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\show_web_image.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\show_web_image.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\common_flipping_loading_diloag.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\common_flipping_loading_diloag.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_bind_bankcard.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_bind_bankcard.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\lmq_dialog_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\lmq_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\adapter_item_tz2.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_tz2.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_money.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_money.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\bpush_media_list.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\bpush_media_list.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\progress_view_gif.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\progress_view_gif.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\gesturepassword_create.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\gesturepassword_create.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\peopleinfo_pay.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\peopleinfo_pay.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\gesturepassword_unlock.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\gesturepassword_unlock.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_withdrawal.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_withdrawal.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\wxlogin.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\wxlogin.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\auto_tender_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\auto_tender_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\list_head.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\list_head.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\map_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\map_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_zcjlfragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_zcjlfragment.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\bpush_media_list_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\bpush_media_list_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_jinxingrz.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_jinxingrz.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\forgot_pwd.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\forgot_pwd.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_yy_indexfragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_yy_indexfragment.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\inverst_manager_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\inverst_manager_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\skyblue_editpage_at_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\skyblue_editpage_at_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\common_toast.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\common_toast.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_update_loginpsw.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_update_loginpsw.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\lmq_webview_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\lmq_webview_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\banner_view.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\banner_view.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_crowd_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_crowd_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\about_us.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\about_us.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_tpjlfragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_tpjlfragment.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\citys.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\citys.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\main.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_redpkg.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_redpkg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\include_timepicker.xml",
+        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\default\\res\\layout\\include_timepicker.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\card_activity.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\card_activity.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\adapter_item_more.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_more.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_jxj_tz.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_jxj_tz.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_bindemail.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_bindemail.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\downlaod_notification.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\downlaod_notification.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\progress_dialog.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tzdetail.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tzdetail.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_home.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_home.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\menu_frame.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\menu_frame.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_menu1.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_menu1.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\zq_request_dialog.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\zq_request_dialog.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\deal_list.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\deal_list.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\zoom_image_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\zoom_image_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\news_list.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\news_list.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\gesturepassword_guide.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\gesturepassword_guide.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\moneymoremore_kh_sq.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\moneymoremore_kh_sq.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\loading_view.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\loading_view.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_zcjl.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_zcjl.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\zcitem_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\zcitem_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\diloag_zqzr.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\diloag_zqzr.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\page_head_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\page_head_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_main.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_main.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\pomenu_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\pomenu_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\record_of_lendmoney.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\record_of_lendmoney.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\xxpl_activity.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\xxpl_activity.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\adapter_item_tz_detail.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_tz_detail.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\about_new.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\about_new.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_index_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_index_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\help.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\forgot_pwd2.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\forgot_pwd2.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\show_borrow_context.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\show_borrow_context.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_sqjl_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_sqjl_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_login.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_menu.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_menu.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\myjiekuang.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\myjiekuang.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\czlayout_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\czlayout_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_mybm2.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_mybm2.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_jiaoyi_new.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_jiaoyi_new.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\adapter_item_deal_new.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_deal_new.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\skyblue_share_actionbar.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\skyblue_share_actionbar.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\diydialogtitle.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\diydialogtitle.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\invest_manage_debet_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\invest_manage_debet_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_yhk.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_yhk.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\actvity_addnewpwd.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\actvity_addnewpwd.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\biditem_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\biditem_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\pop_list.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\pop_list.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\rb_pay_final.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\rb_pay_final.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\adapter_item_news.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_news.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\debet_zr_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\debet_zr_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\page_foot.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\page_foot.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\personalset.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\personalset.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\login.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\index_tz.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\index_tz.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\zq_item2_new.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\zq_item2_new.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\news.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\news.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_update_jiaoyipsw.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_update_jiaoyipsw.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_redpkg_tz.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_redpkg_tz.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\rongbao_pay.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\rongbao_pay.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_password.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_password.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\view_cycle_viewpager_indicator.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\view_cycle_viewpager_indicator.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_user_info.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_user_info.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_tab_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_tab_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\page_head.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\page_head.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\vip.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\vip.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\view_banner.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\view_banner.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_gesturelock.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_gesturelock.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\borrowmoney_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\borrowmoney_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info2_new.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info2_new.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_myborrow_item2.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_myborrow_item2.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_list.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_list.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\skyblue_editpage.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\skyblue_editpage.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_tt_indexfragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_tt_indexfragment.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\zc_diydialog.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\zc_diydialog.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_list_indexfragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_list_indexfragment.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\test.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\xxplimg_activity.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\xxplimg_activity.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_bonus.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_bonus.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_updatephone.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_updatephone.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_item3_2.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_item3_2.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\invest_manage_hk_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\invest_manage_hk_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\feedback.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\feedback.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\register.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_jingzhibiao.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_jingzhibiao.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\invest_manager_debet_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\invest_manager_debet_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\skyblue_share_platform_list.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\skyblue_share_platform_list.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\detail_page_foot.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\detail_page_foot.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\invest_manager_sb_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\invest_manager_sb_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_touzi_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_touzi_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_touzi_sx2.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_touzi_sx2.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\contactus.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\contactus.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_shimingyz.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_shimingyz.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\qqlogin.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\qqlogin.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\adapter_item_bonus.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_bonus.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_gerenzhongxin.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_gerenzhongxin.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\pw_time.xml",
+        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\default\\res\\layout\\pw_time.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\adapter_item_deal.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_deal.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_stretch_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_stretch_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\progress_view.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\progress_view.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_touzi_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_touzi_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_setting.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_setting.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\slidingmenumain.xml",
+        "source": "E:\\As\\SCGAS\\SlidingMenuLib\\build\\intermediates\\bundles\\default\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\dialog_head.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\dialog_head.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_zhongzhou_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_zhongzhou_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\login_scg.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\login_scg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\more.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\more.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_index.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_index.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\a_homepage.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\a_homepage.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\include_optionspicker.xml",
+        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\default\\res\\layout\\include_optionspicker.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_item2_1_new.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_item2_1_new.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\qz_item2.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\qz_item2.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_zhanghu.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_zhanghu.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_user_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_user_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\load_introduce.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\load_introduce.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\biditem.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\biditem.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_lendmoney.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_lendmoney.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\view_cycle_viewpager_contet.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\view_cycle_viewpager_contet.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\activity_mycaupon.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\activity_mycaupon.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\adapter_item_tz.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_tz.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\adapter_item_bank.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_bank.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\show_register_context.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\show_register_context.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_account_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_account_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\common_dialog_generic.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\common_dialog_generic.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\bpush_download_progress.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\bpush_download_progress.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\pw_options.xml",
+        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\default\\res\\layout\\pw_options.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\setting_news_or_notice.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\setting_news_or_notice.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\invest_mange_hk_detail_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\invest_mange_hk_detail_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\actvity_gettelyzm.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\actvity_gettelyzm.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\newversion_dialog.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\newversion_dialog.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\people_info_idcard.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_idcard.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\tz_myborrow_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tz_myborrow_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\modiy_user_pwd.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\modiy_user_pwd.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\choosepaytype.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\choosepaytype.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_touzi_sx_fragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_touzi_sx_fragment.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\item_canandnotjxj.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_canandnotjxj.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\layout_jxjlist_tz.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_jxjlist_tz.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\image_details.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\image_details.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\layout\\pop_list_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\pop_list_item.xml"
+    }
+]

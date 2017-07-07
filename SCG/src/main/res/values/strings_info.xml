@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation"
+    >
+
+    <!-- 项目名称 -->
+    <string name="app_name">苏常网</string>
+    <!-- 公司电话 -->
+    <string name="about_info3"></string>
+    <!-- 微信帐号 -->
+    <string name="company_weichat_str"></string>
+    <!-- 数据地址 -->
+    <string name="server_ip"></string>
+    <!-- 双雄数据地址 -->
+     <string name="server_ip_sx">http://www.czsuchang.com/</string>
+    <!-- 双雄QQ群 -->
+ <string name="company_QQ_str">458776578</string>
+  <string name="company_phone_str">0519-68981592</string>
+    <string-array name="bank_name">
+        <item>工商银行</item>
+        <item>农业银行</item>
+        <item>中国银行</item>
+        <item>建设银行</item>
+        <item>邮政银行</item>
+        <item>中信银行</item>
+        <item>光大银行</item>
+        <item>民生银行</item>
+        <item>平安银行</item>
+        <item>兴业银行</item>
+    </string-array>
+    <string-array name="bank_id">
+        <item>ICBC</item>
+        <item>ABC</item>
+        <item>BOC</item>
+        <item>CCB</item>
+        <item>POST</item>
+        <item>CITIC</item>
+        <item>CEB</item>
+        <item>CMBC</item>
+        <item>PINGAN</item>
+        <item>CIB</item>
+    </string-array>
+
+     <string-array name="debet_type">
+        <item>可转让债权</item>
+        <item>转让中债权</item>
+        <item>已转让债权</item>
+        <item>已认购债权</item>
+        <item>回收中债权</item>
+        <item>已撤销债权</item>
+    </string-array>
+    
+    <string-array name="debet_tips1">
+        <item>利率</item>
+        <item>待收本金/利息</item>
+        <item>投资时间</item>
+        <item>到期时间</item>
+    </string-array>
+    
+    <string-array name="debet_tips2">
+        <item>利率</item>
+        <item>未还/总期数</item>
+        <item>转让本金</item>
+        <item>转让时间</item>
+    </string-array>
+
+    <string-array name="debet_tips3">
+        <item>利率</item>
+        <item>购买期数/总期数</item>
+        <item>转让本金</item>
+        <item>转让时间</item>
+    </string-array>
+
+    <string-array name="debet_tips4">
+        <item>利率</item>
+        <item>转让期数/总期数</item>
+        <item>债权总值</item>
+        <item>购买价格</item>
+    </string-array>
+    <string-array name="debet_tips5">
+        <item>借款人</item>
+        <item>转让期数/总期数</item>
+        <item>应收总额</item>
+        <item>已收本金</item>
+    </string-array>
+    <string-array name="debet_tips6">
+        <item>利率</item>
+        <item>未还期数/总期数</item>
+        <item>待收本息</item>
+        <item>撤销次数</item>
+    </string-array>
+    
+    <string-array name="auto_tender">
+        <item>普通标</item>
+        <item>企业直投</item>
+   </string-array>
+   
+    <string-array name="sb_type">
+        <item>竞标中</item>
+        <item>回收中</item>
+        <!-- <item>已逾期</item> -->
+        <item>已回收</item>
+    </string-array>
+    
+    <string-array name="sb_tips1">
+        <item>借款金额</item>
+        <item>年化利率</item>
+        <item>借款期限</item>
+        <item>预期本息</item>
+    </string-array>
+    
+    <string-array name="sb_tips2">
+        <item>投资金额</item>
+        <item>年化利率</item>
+        <item>已还/总期数</item>
+        <item>已还本息</item>
+    </string-array>
+
+    <string-array name="sb_tips3">
+        <item>待收本金</item>
+        <item>年化利率</item>
+        <item>逾期天数</item>
+        <item>待收利息</item>
+    </string-array>
+
+    <string-array name="sb_tips4">
+        <item>出借金额</item>
+        <item>年化收益</item>
+        <item>出借期限</item>
+        <item>出借日期</item>
+    </string-array>
+    
+    <string-array name="zt_type">
+        <item>回收中</item>
+        <item>已回收</item>
+
+    </string-array>
+    
+    <string-array name="zt_tips1">
+       <item>投资金额</item>
+       <item>年化利率</item>
+       <item>待收本息</item>
+       <item>回收时间</item>
+    </string-array>
+    
+    <string-array name="zt_tips2">
+       <item>投资金额</item>
+       <item>年化利率</item>
+       <item>已收本息</item>
+       <item>回收时间</item>
+    </string-array>
+    
+</resources>

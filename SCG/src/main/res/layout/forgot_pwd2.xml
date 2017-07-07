@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical" >
+
+    <include layout="@layout/page_head" />
+
+    <LinearLayout 
+        android:gravity="center"
+            android:layout_margin="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+        >
+            <TextView
+            style="@style/black16Text"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们已经将验证码发送到：" />
+            <TextView
+                android:id="@+id/phone"
+            style="@style/orange16Text" 
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/load" />
+    </LinearLayout>
+ 
+
+    <RelativeLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_edit"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/yzm"
+            style="@style/edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="&#160;&#160;&#160;&#160;验证码:" />
+
+        <EditText
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/yzm"
+            android:id="@+id/user_yzm"
+            style="@style/edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:hint="请输入短信验证码"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:width="190dip" />
+        
+        <TextView 
+            android:id="@+id/send"
+            android:layout_centerVertical="true"
+            android:layout_height="40dp"
+            android:layout_width="90dp"
+            android:background="@color/orange"
+            style="@style/white13Text"
+            android:text="发送"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            />
+        
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_edit"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="&#160;&#160;&#160;&#160;新密码:" />
+
+        <EditText
+            android:id="@+id/user_pwd"
+            style="@style/edittext"
+            android:inputType="textPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:hint="请输入新的登录密码！"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:width="190dip" />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_edit"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="确认密码:" />
+
+        <EditText
+            android:id="@+id/user_pwd2"
+            style="@style/edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:hint="请重新输入新的登录密码！"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:width="190dip" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/forget_pwd"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_b_back1"
+        android:text="完&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;成"
+        android:textColor="@color/white" />
+
+</LinearLayout>

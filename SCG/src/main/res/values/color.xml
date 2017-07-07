@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent_background">#80000000</color>
+    <color name="red">#ff0000</color>
+    <color name="orgine">#FF613A</color>
+    <color name="gray_sx">#F5F5F5</color>
+    <color name="white">#ffffff</color>
+    <color name="tztx_color">#1081C3</color>
+    <color name="black">#000000</color>
+    <color name="blue">#1883E3</color>
+    <color name="line">#d3dede</color>
+    <color name="gold">#FFA900</color>
+    <color name="back">#e7e7e8</color>
+    <color name="gray">#696969</color>
+    <color name="orange">#ff870f</color>
+    <color name="white_t">#95ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="normal">#F0EFF5</color>
+    <color name="click">#404040</color>
+    <color name="gesture_background">#ff303237</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="title_color">#e25453</color>
+ 
+    <color name="green_color_sx">#30C37C</color>
+    <color name="tz_title_color">#FF8247</color>
+    <color name="title_black">#333333</color>
+    <color name="view_bg_color">#f0eff4</color>
+    <color name="index_2_1_color">#1C96D4</color>
+    <color name="index_2_2_color">#7FC369</color>
+    <color name="index_2_3_color">#FEB500</color>
+    <color name="green">#228B22</color>
+    <color name="new_black_color">#333333</color>
+    <color name="new_black_color_1">#666666</color>
+    <color name="new_gray_color">#999999</color>
+    <color name="RoundProgressBar">#fb9e65</color>
+    <color name="RoundProgressBarback">#cccccc</color>
+    <color name="new_bk">#f0f4f5</color>
+    <color name="zdwz">#27c679</color>
+    <color name="main_color">#FC7B16</color>
+   <color name="title_color_sx">#FB5255</color>
+   
+     <color name="zdwzlb">#27c679</color>
+   
+    <drawable name="trans">@color/color_hei_8</drawable>
+
+    <color name="tab_color">#8d8d8d</color>
+    <color name="RoundProgressBarback_2">#585252</color>
+    <color name="tz_red">#e25453</color>
+    <color name="tajax_invest_color">#fe6e44</color>
+    <color name="index_kuang_red">#f76c6b</color>
+    <color name="index_rate_red">#ed3230</color>
+
+</resources>

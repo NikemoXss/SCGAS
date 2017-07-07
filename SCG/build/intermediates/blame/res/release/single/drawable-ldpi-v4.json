@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\qiandao.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-ldpi\\qiandao.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\yiqian.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-ldpi\\yiqian.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\simple_notification_icon.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-ldpi\\simple_notification_icon.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\app_01.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-ldpi\\app_01.png"
+    }
+]

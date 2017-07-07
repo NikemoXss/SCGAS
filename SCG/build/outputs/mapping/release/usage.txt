@@ -1,0 +1,726 @@
+com.bigkoo.pickerview.OptionsPopupWindow:
+    private static final java.lang.String TAG_SUBMIT
+    private static final java.lang.String TAG_CANCEL
+com.bigkoo.pickerview.TimePopupWindow:
+    private static final java.lang.String TAG_SUBMIT
+    private static final java.lang.String TAG_CANCEL
+com.bigkoo.pickerview.lib.NumericWheelAdapter:
+    private static final int DEFAULT_MIN_VALUE
+com.bigkoo.pickerview.lib.WheelView:
+    private static final int SCROLLING_DURATION
+    private static final int MIN_DELTA_FOR_SCROLLING
+    private static final int VALUE_TEXT_COLOR
+    private static final int ITEMS_TEXT_COLOR
+    private static final int ADDITIONAL_ITEM_HEIGHT
+    private static final int ADDITIONAL_ITEMS_SPACE
+    private static final int PADDING
+    private static final int DEF_VISIBLE_ITEMS
+    720:725:private void drawShadows(android.graphics.Canvas)
+com.czscg.wxapi.WXEntryActivity:
+    private android.os.Bundle bundle
+com.fuiou.pay.activity.FyActivityManager:
+    8:8:FyActivityManager()
+    32:38:static void finishAllActivity()
+    41:41:static java.util.List getActivityList()
+com.fuiou.pay.activity.FyBaseActivity:
+    58:69:private void checkCallBackIsNull()
+com.fuiou.pay.activity.FyBaseActivity$2
+com.fuiou.pay.activity.RequestOrder:
+    private java.lang.String mSIGNTP
+    private java.lang.String md5Sing
+com.fuiou.pay.bean.OrderBean:
+    private java.lang.String yuan
+com.fuiou.pay.http.HttpClient:
+    private static final int RESPONSE_TYPE_TEXT
+    private static final int RESPONSE_TYPE_JSON
+    private static final int RESPONSE_TYPE_XML
+    private static final int CONN_TIMEOUT
+    private static final int RECV_TIMEOUT
+    private static final int POOL_TIMEOUT
+    private static final java.lang.String CHARSET
+    private static final int PER_ROUTE
+    private static final int MAX_CONNECT
+    private byte[] data_b_0
+    private byte[] data_b_1
+    private byte[] rsaResult1
+    230:231:private static void asyncSendRquest(java.lang.String,org.apache.http.client.methods.HttpUriRequest,java.lang.String,int,com.fuiou.pay.http.HttpInterface)
+com.fuiou.pay.http.HttpConfig:
+    private android.content.Context context
+com.fuiou.pay.http.XmlNodeArray:
+    private static final long serialVersionUID
+com.fuiou.pay.http.XmlNodeData:
+    private static final long serialVersionUID
+com.fuiou.pay.util.AppConfig:
+    private static final java.lang.String tag
+com.fuiou.pay.util.Base64:
+    private static final int LOWER_CASE_A_VALUE
+    private static final int ZERO_VALUE
+    private static final int PLUS_VALUE
+    private static final int SLASH_VALUE
+    private static final int SIX_BIT_MASK
+    private static final int EIGHT_BIT_MASK
+com.fuiou.pay.util.EncryptUtils:
+    private static final java.lang.String RELEASE_RSA_KEY
+    private static final java.lang.String TEST_RSA_KEY
+com.fuiou.pay.util.FyLogUtil:
+    private static final boolean DEBUG
+    68:69:private static java.lang.String _FUNC_()
+    73:74:private static int _LINE_()
+    78:80:private static java.lang.String _TIME_()
+com.handmark.pulltorefresh.library.OverscrollHelper:
+    static final java.lang.String LOG_TAG
+    static final float DEFAULT_OVERSCROLL_SCALE
+com.handmark.pulltorefresh.library.PullToRefreshBase:
+    static final boolean DEBUG
+    static final boolean USE_HW_LAYERS
+    static final java.lang.String LOG_TAG
+    static final float FRICTION
+    static final int DEMO_SCROLL_INTERVAL
+    static final java.lang.String STATE_STATE
+    static final java.lang.String STATE_MODE
+    static final java.lang.String STATE_CURRENT_MODE
+    static final java.lang.String STATE_SCROLLING_REFRESHING_ENABLED
+    static final java.lang.String STATE_SHOW_REFRESHING_VIEW
+    static final java.lang.String STATE_SUPER
+com.handmark.pulltorefresh.library.PullToRefreshWebView$InternalWebViewSDK9:
+    static final int OVERSCROLL_FUZZY_THRESHOLD
+    static final float OVERSCROLL_SCALE_FACTOR
+com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2:
+    static final java.lang.String JS_INTERFACE_PKG
+    static final java.lang.String DEF_JS_READY_PULL_DOWN_CALL
+    static final java.lang.String DEF_JS_READY_PULL_UP_CALL
+    54:54:static synthetic java.util.concurrent.atomic.AtomicBoolean access$000(com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2)
+    54:54:static synthetic java.util.concurrent.atomic.AtomicBoolean access$100(com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2)
+com.handmark.pulltorefresh.library.extras.PullToRefreshWebView2$JsValueCallback:
+    117:118:public void isReadyForPullUpResponse(boolean)
+    121:122:public void isReadyForPullDownResponse(boolean)
+com.handmark.pulltorefresh.library.internal.FlipLoadingLayout:
+    static final int FLIP_ANIMATION_DURATION
+com.handmark.pulltorefresh.library.internal.IndicatorLayout:
+    static final int DEFAULT_ROTATION_ANIMATION_DURATION
+com.handmark.pulltorefresh.library.internal.LoadingLayout:
+    static final java.lang.String LOG_TAG
+com.handmark.pulltorefresh.library.internal.RotateLoadingLayout:
+    static final int ROTATION_ANIMATION_DURATION
+com.handmark.pulltorefresh.library.internal.Utils:
+    static final java.lang.String LOG_TAG
+com.handmark.pulltorefresh.library.internal.ViewCompat$SDK11:
+    50:50:ViewCompat$SDK11()
+com.handmark.pulltorefresh.library.internal.ViewCompat$SDK16:
+    58:58:ViewCompat$SDK16()
+com.imp.qq.QQLogin:
+    private static final java.lang.String APPID
+com.imp.qq.WXLogin:
+    private static final java.lang.String APP_ID
+com.lmq.adapter.RedPkg_tzAdapter$ViewHolder:
+    android.widget.TextView invest_money_tz
+com.lmq.gesture.CreateGesturePasswordActivity:
+    private static final int ID_EMPTY_MESSAGE
+    private static final java.lang.String KEY_UI_STAGE
+    private static final java.lang.String KEY_PATTERN_CHOICE
+com.lmq.gesture.LockPasswordUtils:
+    private static final java.lang.String TAG
+    private static final java.lang.String LOCK_PASSWORD_SALT_FILE
+    private static final java.lang.String LOCK_PASSWORD_SALT_KEY
+    private static final java.lang.String LOCK_PASSWORD_FILE
+com.lmq.gesturelock.GestureLockView:
+    private static final java.lang.String TAG
+com.lmq.gesturelock.GestureLockViewGroup:
+    private static final java.lang.String TAG
+com.lmq.http.HttpUtils:
+    private static final java.lang.String BOUNDARY
+com.lmq.http.NetWorkStatusBroadcastReceiver:
+    private static final java.lang.String TAG
+com.lmq.library.CircleImageView:
+    private static final int COLORDRAWABLE_DIMENSION
+    private static final int DEFAULT_BORDER_WIDTH
+    private static final int DEFAULT_BORDER_COLOR
+    private static final boolean DEFAULT_BORDER_OVERLAY
+com.lmq.main.activity.AboutUsActivity:
+    android.widget.TextView verson_sx
+com.lmq.main.activity.BidItem_Scg:
+    android.widget.RelativeLayout xmmx_re_sx
+    android.widget.RelativeLayout item_xxpl
+    android.widget.RelativeLayout cjjl_rs
+com.lmq.main.activity.ContactUsActivity:
+    java.lang.String[] loca
+    com.baidu.mapapi.map.MarkerOptions marker2
+com.lmq.main.activity.FeedbackActivity:
+    private java.lang.String mMessage
+com.lmq.main.activity.ForgotPwdActivity:
+    private android.widget.EditText phoneEditor
+    private android.widget.EditText usernameEditor
+    private java.lang.String phoneNum
+    private java.lang.String username
+    74:128:private void dohttp()
+    24:24:static synthetic void access$000(com.lmq.main.activity.ForgotPwdActivity,java.lang.String)
+    24:24:static synthetic android.widget.Toast access$100(com.lmq.main.activity.ForgotPwdActivity,java.lang.String)
+    24:24:static synthetic java.lang.String access$200(com.lmq.main.activity.ForgotPwdActivity)
+    24:24:static synthetic android.widget.Toast access$300(com.lmq.main.activity.ForgotPwdActivity,java.lang.String)
+    24:24:static synthetic android.widget.Toast access$400(com.lmq.main.activity.ForgotPwdActivity,int)
+    24:24:static synthetic void access$500(com.lmq.main.activity.ForgotPwdActivity)
+    24:24:static synthetic void access$600(com.lmq.main.activity.ForgotPwdActivity)
+com.lmq.main.activity.ForgotPwdActivity$1
+com.lmq.main.activity.IndexTouZiActivity:
+    private android.view.View parentView
+    private android.widget.Button button1
+    private android.widget.Button button2
+    private android.widget.Button button3
+    private android.widget.Button button4
+    private android.widget.PopupWindow popWindow
+com.lmq.main.activity.LendMoneyActivity:
+    android.view.View mainView
+com.lmq.main.activity.LoadIntroduceActivity:
+    private int currentIndex
+    76:81:private void setCurView(int)
+com.lmq.main.activity.LoginActivity_Scg:
+    android.widget.Button login_sx
+    android.widget.TextView register_sx
+    android.widget.TextView forget_pwd_sx
+com.lmq.main.activity.MyCaupon:
+    303:334:private void test()
+com.lmq.main.activity.MyCaupon$2
+com.lmq.main.activity.PeopleInfoIdcard:
+    private static final int PHOTO_WITH_DATA
+    private static final int PHOTO_WITH_CAMERA
+    274:278:private java.lang.String createPhotoFileName()
+    282:292:private void displayForDlg(android.widget.ImageView,java.lang.String,android.widget.Button)
+com.lmq.main.activity.PeopleInfo_XS_backcard:
+    private android.content.SharedPreferences sp
+com.lmq.main.activity.PeopleInfo_backcard:
+    private java.lang.String strOldBankNum
+com.lmq.main.activity.SMSValidateActivity:
+    24:63:private void doHttpyzmyz()
+    66:105:private void doHttpyzm()
+    16:16:static synthetic void access$000(com.lmq.main.activity.SMSValidateActivity)
+    16:16:static synthetic android.widget.Toast access$100(com.lmq.main.activity.SMSValidateActivity,java.lang.String)
+    16:16:static synthetic android.widget.Toast access$200(com.lmq.main.activity.SMSValidateActivity,java.lang.String)
+    16:16:static synthetic void access$300(com.lmq.main.activity.SMSValidateActivity)
+    16:16:static synthetic void access$400(com.lmq.main.activity.SMSValidateActivity)
+    16:16:static synthetic android.widget.Toast access$500(com.lmq.main.activity.SMSValidateActivity,java.lang.String)
+    16:16:static synthetic android.widget.Toast access$600(com.lmq.main.activity.SMSValidateActivity,java.lang.String)
+    16:16:static synthetic void access$700(com.lmq.main.activity.SMSValidateActivity)
+com.lmq.main.activity.SMSValidateActivity$1
+com.lmq.main.activity.SMSValidateActivity$2
+com.lmq.main.activity.ShowBorrowContextActivity:
+    private android.webkit.WebView webview
+    80:128:private void dohttp()
+    24:24:static synthetic void access$000(com.lmq.main.activity.ShowBorrowContextActivity,java.lang.String)
+    24:24:static synthetic android.webkit.WebView access$100(com.lmq.main.activity.ShowBorrowContextActivity)
+    24:24:static synthetic void access$200(com.lmq.main.activity.ShowBorrowContextActivity)
+    24:24:static synthetic void access$300(com.lmq.main.activity.ShowBorrowContextActivity)
+com.lmq.main.activity.ShowBorrowContextActivity$1
+com.lmq.main.activity.ShowRegisterContextActivity:
+    private android.webkit.WebView webview
+    45:93:private void dohttp()
+    20:20:static synthetic void access$000(com.lmq.main.activity.ShowRegisterContextActivity,java.lang.String)
+    20:20:static synthetic android.webkit.WebView access$100(com.lmq.main.activity.ShowRegisterContextActivity)
+    20:20:static synthetic void access$200(com.lmq.main.activity.ShowRegisterContextActivity)
+    20:20:static synthetic void access$300(com.lmq.main.activity.ShowRegisterContextActivity)
+com.lmq.main.activity.ShowRegisterContextActivity$1
+com.lmq.main.activity.XxplActivity:
+    private android.widget.SimpleAdapter sim_adapter
+    com.lmq.adapter.MyGridViewAdapter mgva
+com.lmq.main.activity.ZcItem_Sx:
+    android.support.v4.app.Fragment zcxq_fragment
+    java.util.Map map
+com.lmq.main.activity.calculateActivity:
+    private android.widget.ImageView title_right
+    private double yuelilv
+com.lmq.main.activity.investmanager.InvestManagerDirectlyActivity:
+    private com.lmq.main.dialog.DedetCancleDialog dialog
+com.lmq.main.activity.itemInfo2_1Activity:
+    private android.widget.TextView borrowing_purposes
+    private android.widget.TextView rewardTextView
+    private android.widget.ImageView mImageViewType
+    private boolean mShowDx
+    private java.lang.String messageInfo
+com.lmq.main.activity.itemInfo3_1Activity:
+    private android.widget.ImageView mImageViewType
+    private boolean mShowDx
+    private java.lang.String messageInfo
+com.lmq.main.activity.itemNewsActivity:
+    private com.lmq.main.item.newsItem mItem
+com.lmq.main.activity.loginActivity:
+    private boolean flag
+com.lmq.main.activity.peopleInfoDataActivity:
+    private android.widget.TextView exit
+    android.widget.RelativeLayout gesture_login
+com.lmq.main.activity.peopleInfoWithdrawalActivity:
+    private java.lang.String mSjhm
+com.lmq.main.api.res.RunInOtherThread:
+    private static final java.lang.String LOG_TAG
+com.lmq.main.dialog.DedetCancleDialog:
+    private android.view.View$OnClickListener mClickListener
+com.lmq.main.dialog.NewVersionDialog:
+    com.ant.liao.GifView gf1
+    private java.lang.String downloadNewAppuUrl
+com.lmq.main.dialog.PopDialog:
+    private android.view.View$OnClickListener mClickListener
+com.lmq.main.dialog.ProgressDialog_gif:
+    private android.widget.TextView text
+    android.webkit.WebView webView
+com.lmq.main.util.LockPatternUtils:
+    private static final java.lang.String TAG
+    private static final java.lang.String LOCK_PATTERN_FILE
+com.lmq.main.util.LockPatternView:
+    private static final java.lang.String TAG
+    private static final int ASPECT_SQUARE
+    private static final int ASPECT_LOCK_WIDTH
+    private static final int ASPECT_LOCK_HEIGHT
+    private static final boolean PROFILE_DRAWING
+    static final int STATUS_BAR_HEIGHT
+    private static final int MILLIS_PER_CIRCLE_ANIMATING
+com.lmq.map.MapActivity:
+    java.lang.String[] loca
+    com.baidu.mapapi.map.MarkerOptions marker2
+com.lmq.menu.Crowd_Sx:
+    76:90:private void initData()
+com.lmq.menu.HomeFragment:
+    private android.widget.RadioGroup top_switch
+    private android.widget.PopupWindow popWindow
+    private int beginIndex
+    private int endIndex
+com.lmq.menu.IndexFragment_Scg:
+    android.widget.LinearLayout item_tt
+    android.widget.LinearLayout item_yy
+com.lmq.menu.SettingFragment:
+    private android.view.View parentView
+    private static final int UPDATE_TIME
+com.lmq.menu.TouziFragment:
+    android.widget.TextView _all
+    android.widget.TextView _pre
+    android.widget.TextView _toubiaoing
+    android.widget.TextView _chushouing
+    android.widget.TextView _toupiaoing
+    android.widget.TextView _finish
+com.lmq.update.UpdateChecker:
+    private static final java.lang.String TAG
+com.lmq.update.UpdateChecker2:
+    private static final java.lang.String TAG
+    private java.lang.Thread mThread
+    private com.lmq.update.AppVersion mAppVersion
+    132:144:private com.lmq.update.AppVersion parseJson(java.lang.String)
+com.lmq.view.ChuckWaveView:
+    private static final float DEFAULT_AMPLITUDE_RATIO
+    private static final float DEFAULT_WATER_LEVEL_RATIO
+    private static final float DEFAULT_WAVE_LENGTH_RATIO
+    private static final float DEFAULT_WAVE_SHIFT_RATIO
+com.lmq.view.CustomImageView:
+    private static final java.lang.String TAG
+    static final float MAX_SCALE
+    static final int NONE
+    static final int DRAG
+    static final int ZOOM
+com.lmq.view.EditTextWithDel:
+    private static final java.lang.String TAG
+com.lmq.view.MyListView$DListViewLoadingMore
+com.lmq.view.ShowWebImageView:
+    private android.widget.ImageView[] tips
+com.mob.tools.gui.BitmapProcessor:
+    private static final int CAPACITY
+    private static final int SCAN_INTERVAL
+    private static final int MAX_CACHE_TIME
+    private static final int MAX_REQ_TIME
+    private static final int MAX_SIZE
+    private static final int OVERFLOW_SIZE
+    private static final int MAX_CACHE_SIZE
+com.mob.tools.gui.MobViewPager:
+    private static final int TOUCH_STATE_REST
+    private static final int TOUCH_STATE_SCROLLING
+    private static final int SNAP_VELOCITY
+com.mob.tools.gui.PullToRequestView:
+    private static final long MIN_REF_TIME
+com.mob.tools.gui.ScaledImageView:
+    private static final int DRAG_1
+    private static final int DRAG_2
+    private static final int NONE
+    private static final int ZOOM
+com.mob.tools.log.NativeErrorHandler:
+    private static final int MAX_LOG_SIZE
+com.mob.tools.utils.Data:
+    private static final java.lang.String CHAT_SET
+com.nineoldandroids.animation.AnimatorInflater:
+    private static final int AnimatorSet_ordering
+    private static final int PropertyAnimator_propertyName
+    private static final int Animator_interpolator
+    private static final int Animator_duration
+    private static final int Animator_startOffset
+    private static final int Animator_repeatCount
+    private static final int Animator_repeatMode
+    private static final int Animator_valueFrom
+    private static final int Animator_valueTo
+    private static final int Animator_valueType
+    private static final int TOGETHER
+    private static final int VALUE_TYPE_FLOAT
+com.nineoldandroids.animation.AnimatorSet$Dependency:
+    static final int WITH
+    static final int AFTER
+com.nineoldandroids.animation.ObjectAnimator:
+    private static final boolean DBG
+com.nineoldandroids.animation.PreHoneycombCompat:
+    167:167:private PreHoneycombCompat()
+com.nineoldandroids.animation.ValueAnimator:
+    private static final long DEFAULT_FRAME_DELAY
+    static final int ANIMATION_START
+    static final int ANIMATION_FRAME
+    static final int STOPPED
+    static final int RUNNING
+    static final int SEEKED
+com.nineoldandroids.util.ReflectiveProperty:
+    private static final java.lang.String PREFIX_GET
+    private static final java.lang.String PREFIX_IS
+    private static final java.lang.String PREFIX_SET
+com.nineoldandroids.view.ViewHelper$Honeycomb:
+    179:179:private ViewHelper$Honeycomb()
+com.nineoldandroids.view.ViewPropertyAnimatorHC:
+    private static final int NONE
+    private static final int TRANSLATION_X
+    private static final int TRANSLATION_Y
+    private static final int SCALE_X
+    private static final int SCALE_Y
+    private static final int ROTATION
+    private static final int ROTATION_X
+    private static final int ROTATION_Y
+    private static final int X
+    private static final int Y
+    private static final int ALPHA
+    private static final int TRANSFORM_MASK
+com.nineoldandroids.view.ViewPropertyAnimatorICS:
+    private static final long RETURN_WHEN_NULL
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC:
+    private static final int NONE
+    private static final int TRANSLATION_X
+    private static final int TRANSLATION_Y
+    private static final int SCALE_X
+    private static final int SCALE_Y
+    private static final int ROTATION
+    private static final int ROTATION_X
+    private static final int ROTATION_Y
+    private static final int X
+    private static final int Y
+    private static final int ALPHA
+    private static final int TRANSFORM_MASK
+com.nostra13.universalimageloader.cache.disc.impl.BaseDiscCache:
+    private static final java.lang.String ERROR_ARG_NULL
+    private static final java.lang.String TEMP_IMAGE_POSTFIX
+com.nostra13.universalimageloader.cache.disc.impl.ext.DiskLruCache:
+    static final java.lang.String JOURNAL_FILE
+    static final java.lang.String JOURNAL_FILE_TEMP
+    static final java.lang.String JOURNAL_FILE_BACKUP
+    static final java.lang.String MAGIC
+    static final java.lang.String VERSION_1
+    static final long ANY_SEQUENCE_NUMBER
+    private static final java.lang.String CLEAN
+    private static final java.lang.String DIRTY
+    private static final java.lang.String REMOVE
+    private static final java.lang.String READ
+    512:514:public synchronized void setMaxSize(long)
+    522:522:public synchronized long size()
+    531:531:public synchronized long fileCount()
+    637:637:public synchronized boolean isClosed()
+    648:652:public synchronized void flush()
+com.nostra13.universalimageloader.cache.disc.impl.ext.LruDiscCache:
+    private static final java.lang.String ERROR_ARG_NULL
+    private static final java.lang.String ERROR_ARG_NEGATIVE
+com.nostra13.universalimageloader.cache.disc.impl.ext.StrictLineReader:
+    private static final byte CR
+    private static final byte LF
+com.nostra13.universalimageloader.cache.disc.impl.ext.Util:
+    30:31:private Util()
+com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator:
+    private static final java.lang.String HASH_ALGORITHM
+    private static final int RADIX
+com.nostra13.universalimageloader.cache.memory.LimitedMemoryCache:
+    private static final int MAX_NORMAL_CACHE_SIZE_IN_MB
+    private static final int MAX_NORMAL_CACHE_SIZE
+com.nostra13.universalimageloader.cache.memory.impl.LRULimitedMemoryCache:
+    private static final int INITIAL_CAPACITY
+    private static final float LOAD_FACTOR
+com.nostra13.universalimageloader.core.DisplayBitmapTask:
+    private static final java.lang.String LOG_DISPLAY_IMAGE_IN_IMAGEAWARE
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_REUSED
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_COLLECTED
+com.nostra13.universalimageloader.core.ImageLoader:
+    static final java.lang.String LOG_INIT_CONFIG
+    static final java.lang.String LOG_DESTROY
+    static final java.lang.String LOG_LOAD_IMAGE_FROM_MEMORY_CACHE
+    private static final java.lang.String WARNING_RE_INIT_CONFIG
+    private static final java.lang.String ERROR_WRONG_ARGUMENTS
+    private static final java.lang.String ERROR_NOT_INIT
+    private static final java.lang.String ERROR_INIT_CONFIG_WITH_NULL
+com.nostra13.universalimageloader.core.ImageLoaderConfiguration$Builder:
+    private static final java.lang.String WARNING_OVERLAP_DISK_CACHE_PARAMS
+    private static final java.lang.String WARNING_OVERLAP_DISK_CACHE_NAME_GENERATOR
+    private static final java.lang.String WARNING_OVERLAP_MEMORY_CACHE
+    private static final java.lang.String WARNING_OVERLAP_EXECUTOR
+com.nostra13.universalimageloader.core.LoadAndDisplayImageTask:
+    private static final java.lang.String LOG_WAITING_FOR_RESUME
+    private static final java.lang.String LOG_RESUME_AFTER_PAUSE
+    private static final java.lang.String LOG_DELAY_BEFORE_LOADING
+    private static final java.lang.String LOG_START_DISPLAY_IMAGE_TASK
+    private static final java.lang.String LOG_WAITING_FOR_IMAGE_LOADED
+    private static final java.lang.String LOG_GET_IMAGE_FROM_MEMORY_CACHE_AFTER_WAITING
+    private static final java.lang.String LOG_LOAD_IMAGE_FROM_NETWORK
+    private static final java.lang.String LOG_LOAD_IMAGE_FROM_DISK_CACHE
+    private static final java.lang.String LOG_RESIZE_CACHED_IMAGE_FILE
+    private static final java.lang.String LOG_PREPROCESS_IMAGE
+    private static final java.lang.String LOG_POSTPROCESS_IMAGE
+    private static final java.lang.String LOG_CACHE_IMAGE_IN_MEMORY
+    private static final java.lang.String LOG_CACHE_IMAGE_ON_DISK
+    private static final java.lang.String LOG_PROCESS_IMAGE_BEFORE_CACHE_ON_DISK
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_REUSED
+    private static final java.lang.String LOG_TASK_CANCELLED_IMAGEAWARE_COLLECTED
+    private static final java.lang.String LOG_TASK_INTERRUPTED
+    private static final java.lang.String ERROR_PRE_PROCESSOR_NULL
+    private static final java.lang.String ERROR_POST_PROCESSOR_NULL
+    private static final java.lang.String ERROR_PROCESSOR_FOR_DISK_CACHE_NULL
+com.nostra13.universalimageloader.core.ProcessAndDisplayImageTask:
+    private static final java.lang.String LOG_POSTPROCESS_IMAGE
+com.nostra13.universalimageloader.core.assist.ImageSize:
+    private static final int TO_STRING_MAX_LENGHT
+    private static final java.lang.String SEPARATOR
+com.nostra13.universalimageloader.core.assist.deque.LIFOLinkedBlockingDeque:
+    private static final long serialVersionUID
+com.nostra13.universalimageloader.core.assist.deque.LinkedBlockingDeque:
+    private static final long serialVersionUID
+    1133:1146:private void writeObject(java.io.ObjectOutputStream)
+    1155:1167:private void readObject(java.io.ObjectInputStream)
+com.nostra13.universalimageloader.core.download.BaseImageDownloader:
+    private static final java.lang.String ERROR_UNSUPPORTED_SCHEME
+com.nostra13.universalimageloader.utils.ImageSizeUtils:
+    private static final int DEFAULT_MAX_BITMAP_DIMENSION
+com.nostra13.universalimageloader.utils.L:
+    private static final java.lang.String LOG_FORMAT
+com.nostra13.universalimageloader.utils.MemoryCacheUtils:
+    private static final java.lang.String URI_AND_SIZE_SEPARATOR
+    private static final java.lang.String WIDTH_AND_HEIGHT_SEPARATOR
+com.nostra13.universalimageloader.utils.StorageUtils:
+    private static final java.lang.String EXTERNAL_STORAGE_PERMISSION
+    private static final java.lang.String INDIVIDUAL_DIR_NAME
+com.sun.crypto.provider.AESWrapCipher:
+    private static final int b
+com.sun.crypto.provider.DESKey:
+    static final long serialVersionUID
+    private void readObject(java.io.ObjectInputStream)
+    private java.lang.Object writeReplace()
+com.sun.crypto.provider.DESedeKey:
+    static final long serialVersionUID
+    private void readObject(java.io.ObjectInputStream)
+    private java.lang.Object writeReplace()
+com.sun.crypto.provider.DHPrivateKey:
+    static final long serialVersionUID
+    private java.lang.Object writeReplace()
+com.sun.crypto.provider.DHPublicKey:
+    static final long serialVersionUID
+    private java.lang.Object writeReplace()
+com.sun.crypto.provider.HmacMD5:
+    private static final int b
+com.sun.crypto.provider.HmacPKCS12PBESHA1:
+    private static final int b
+com.sun.crypto.provider.HmacSHA1:
+    private static final int b
+com.sun.crypto.provider.JceKeyStore:
+    private static final int a
+    private static final int b
+    private static final int c
+    private static final int d
+com.sun.crypto.provider.PBEKey:
+    static final long serialVersionUID
+    private void readObject(java.io.ObjectInputStream)
+    private java.lang.Object writeReplace()
+com.sun.crypto.provider.PKCS12PBECipherCore:
+    private static final int g
+    private static final int h
+    static final int i
+    static final int j
+    static final int k
+com.sun.crypto.provider.RSACipher:
+    private static final int b
+    private static final int c
+    private static final int d
+    private static final int e
+    private static final java.lang.String f
+    private static final java.lang.String g
+    private static final java.lang.String h
+com.sun.crypto.provider.SealedObjectForKeyProtector:
+    static final long serialVersionUID
+com.sun.crypto.provider.SunJCE:
+    private static final long serialVersionUID
+    private static final java.lang.String a
+    private static final java.lang.String b
+    private static final java.lang.String c
+    private static final java.lang.String d
+    private static final java.lang.String e
+    private static final java.lang.String f
+    static final boolean g
+com.sun.crypto.provider.SunJCE_ab:
+    private int c
+    void a(java.lang.String)
+    void b(java.lang.String)
+com.sun.crypto.provider.SunJCE_ae:
+    static final long serialVersionUID
+    private java.lang.Object writeReplace()
+com.sun.crypto.provider.SunJCE_b:
+    private static final boolean a
+com.sun.crypto.provider.SunJCE_d:
+    public static final int a
+com.sun.crypto.provider.SunJCE_f:
+    private static final int k
+    private static final int l
+    private static final int m
+    private static final int n
+    private static final int o
+    private static final int p
+    private static final int q
+com.sun.crypto.provider.SunJCE_g:
+    java.lang.String a()
+com.sun.crypto.provider.SunJCE_h:
+    final int f()
+    abstract java.lang.String a()
+com.sun.crypto.provider.SunJCE_k:
+    java.lang.String a()
+com.sun.crypto.provider.SunJCE_l:
+    java.lang.String a()
+com.sun.crypto.provider.SunJCE_m:
+    java.lang.String a()
+com.sun.crypto.provider.SunJCE_n:
+    java.lang.String a()
+com.sun.crypto.provider.SunJCE_o:
+    java.lang.String a()
+com.sun.crypto.provider.SunJCE_p:
+    java.lang.String a()
+com.sun.crypto.provider.SunJCE_s:
+    SunJCE_s()
+com.sun.crypto.provider.SunJCE_t:
+    byte[] a(java.lang.String)
+com.sun.crypto.provider.SunJCE_v
+com.sun.crypto.provider.SunJCE_x
+com.sun.crypto.provider.SunJCE_z:
+    private static final java.lang.String a
+    private static final java.lang.String b
+    private static final int c
+    private static final int d
+com.sun.crypto.provider.TlsKeyMaterialGenerator:
+    private static final java.lang.String MSG
+com.sun.crypto.provider.TlsMasterSecretGenerator:
+    private static final java.lang.String MSG
+com.sun.crypto.provider.TlsMasterSecretGenerator$TlsMasterSecretKey:
+    public int getMajorVersion()
+    public int getMinorVersion()
+    public java.lang.String getAlgorithm()
+    public java.lang.String getFormat()
+    public byte[] getEncoded()
+com.sun.crypto.provider.TlsPrfGenerator:
+    private static final java.lang.String MSG
+com.sun.crypto.provider.TlsRsaPremasterSecretGenerator:
+    private static final java.lang.String MSG
+com.sun.crypto.provider.ai
+com.tencent.open.TDialog:
+    44:44:static synthetic android.os.Handler b(com.tencent.open.TDialog)
+com.tencent.open.TDialog$JsListener:
+    325:327:public void onAddShare(java.lang.String)
+    332:333:public void onInvite(java.lang.String)
+    338:340:public void onCancelAddShare(java.lang.String)
+    345:346:public void onCancelLogin()
+    351:353:public void onCancelInvite()
+    356:359:public void onComplete(java.lang.String)
+    362:365:public void onCancel(java.lang.String)
+    369:370:public void showMsg(java.lang.String)
+    379:380:public void onLoad(java.lang.String)
+io.card.payment.CameraUnavailableException:
+    private static final long serialVersionUID
+io.card.payment.CardScanner:
+    private native void nGetFrameCounts(int[])
+    private native double nGetElapsedTime()
+    private native long nGetElapsedClock()
+    void onEdgeUpdate(io.card.payment.DetectionInfo)
+io.card.payment.CreditCard:
+    private static final java.lang.String TAG
+    CreditCard(java.lang.String)
+    java.util.List toNameValueList()
+    boolean failed()
+kankan.wheel.widget.WheelScroller:
+    private static final int SCROLLING_DURATION
+kankan.wheel.widget.WheelView:
+    private static final int ITEM_OFFSET_PERCENT
+    private static final int PADDING
+    private static final int DEF_VISIBLE_ITEMS
+kankan.wheel.widget.adapters.NumericWheelAdapter:
+    private static final int DEFAULT_MIN_VALUE
+m.framework.ui.widget.asyncview.AsyncImageView:
+    private static final int MSG_IMG_GOT
+m.framework.ui.widget.asyncview.BitmapProcessor:
+    private static final int CAPACITY
+    private static final int MAX_REQ_TIME
+    private static final int MAX_SIZE
+    private static final int OVERFLOW_SIZE
+m.framework.ui.widget.pulltorefresh.PullToRefreshView:
+    private static final long MIN_REF_TIME
+m.framework.ui.widget.slidingmenu.BodyContainer:
+    private static final int MIN_FLING_VEL
+    private static final int MENU_COVER_ALPHA
+m.framework.ui.widget.slidingmenu.MenuAdapter:
+    48:61:void setGroup(m.framework.ui.widget.slidingmenu.SlidingMenuGroup)
+m.framework.ui.widget.slidingmenu.SlidingMenu:
+    446:446:android.view.View itemToView(m.framework.ui.widget.slidingmenu.SlidingMenuItem)
+m.framework.ui.widget.viewpager.ViewPagerClassic:
+    private static final int SNAP_VELOCITY
+    private static final int TOUCH_STATE_REST
+    private static final int TOUCH_STATE_SCROLLING
+m.framework.utils.Data:
+    private static final java.lang.String CHAT_SET
+org.apache.commons.httpclient.HttpMethodBase:
+    private static final int RESPONSE_WAIT_TIME_MS
+    private static final int DEFAULT_INITIAL_BUFFER_SIZE
+org.apache.commons.httpclient.HttpMethodDirector:
+    public static final java.lang.String WWW_AUTH_CHALLENGE
+    public static final java.lang.String WWW_AUTH_RESP
+    public static final java.lang.String PROXY_AUTH_CHALLENGE
+    public static final java.lang.String PROXY_AUTH_RESP
+    913:913:public org.apache.commons.httpclient.HostConfiguration getHostConfiguration()
+    920:920:public org.apache.commons.httpclient.HttpState getState()
+    927:927:public org.apache.commons.httpclient.HttpConnectionManager getConnectionManager()
+    934:934:public org.apache.commons.httpclient.params.HttpParams getParams()
+org.apache.commons.httpclient.HttpURL:
+    static final long serialVersionUID
+org.apache.commons.httpclient.HttpsURL:
+    static final long serialVersionUID
+org.apache.commons.httpclient.SimpleHttpConnectionManager:
+    private static final java.lang.String MISUSE_MESSAGE
+org.apache.commons.httpclient.URI:
+    static final long serialVersionUID
+org.apache.commons.httpclient.Wire:
+    94:98:public void output(java.io.InputStream)
+    102:106:public void input(java.io.InputStream)
+org.apache.commons.httpclient.auth.DigestScheme:
+    private static final java.lang.String NC
+    private static final int QOP_MISSING
+    private static final int QOP_AUTH_INT
+    private static final int QOP_AUTH
+org.apache.commons.httpclient.auth.NTLM:
+    public static final java.lang.String DEFAULT_CHARSET
+    554:554:public java.lang.String getCredentialCharset()
+org.apache.commons.httpclient.auth.NTLMScheme:
+    private static final int UNINITIATED
+    private static final int INITIATED
+    private static final int TYPE1_MSG_GENERATED
+    private static final int TYPE2_MSG_RECEIVED
+    private static final int TYPE3_MSG_GENERATED
+    private static final int FAILED
+org.apache.commons.httpclient.methods.multipart.MultipartRequestEntity:
+    private static final java.lang.String MULTIPART_FORM_CONTENT_TYPE
+org.apache.commons.httpclient.util.EncodingUtil:
+    private static final java.lang.String DEFAULT_CHARSET
+uk.co.senab.photoview.Compat:
+    private static final int SIXTY_FPS_INTERVAL
+uk.co.senab.photoview.PhotoViewAttacher:
+    private static final java.lang.String LOG_TAG
+    static final int EDGE_NONE
+    static final int EDGE_LEFT
+    static final int EDGE_RIGHT
+    static final int EDGE_BOTH
+uk.co.senab.photoview.gestures.CupcakeGestureDetector:
+    private static final java.lang.String LOG_TAG
+uk.co.senab.photoview.gestures.EclairGestureDetector:
+    private static final int INVALID_POINTER_ID

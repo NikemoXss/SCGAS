@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\skyblue_editpage_divider.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_divider.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\skin_common_btn_red_disabled.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skin_common_btn_red_disabled.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\btn_cancel_back.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\btn_cancel_back.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\edittext_back.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\edittext_back.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\skin_common_btn_green_normal.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skin_common_btn_green_normal.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\skin_common_btn_green_disable.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skin_common_btn_green_disable.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\skin_common_btn_green_pressed.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skin_common_btn_green_pressed.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\skin_common_btn_red_unpressed.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skin_common_btn_red_unpressed.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\skin_common_btn_red_pressed.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skin_common_btn_red_pressed.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\skyblue_editpage_image_bg.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_image_bg.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\skyblue_editpage_bg.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_bg.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\gesture_pattern_item_bg.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\gesture_pattern_item_bg.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\btn_back_nor.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\btn_back_nor.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\share_vp_back.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\share_vp_back.9.png"
+    }
+]

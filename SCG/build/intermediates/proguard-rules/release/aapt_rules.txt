@@ -1,0 +1,441 @@
+# view res/layout/banner_view.xml #generated:11
+# view res/layout/image_details.xml #generated:6
+# view res/layout/layout_index.xml #generated:18
+# view res/layout/load_introduce.xml #generated:8
+# view res/layout/show_web_image.xml #generated:6
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/notification_custom_builder.xml #generated:48
+-keep class android.widget.DateTimeView { <init>(...); }
+
+# view res/layout/progress_view_gif.xml #generated:13
+-keep class com.ant.liao.GifView { <init>(...); }
+
+# view AndroidManifest.xml #generated:978
+-keep class com.baidu.android.pushservice.CommandService { <init>(...); }
+
+# view AndroidManifest.xml #generated:927
+-keep class com.baidu.android.pushservice.PushInfoProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:970
+-keep class com.baidu.android.pushservice.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:936
+-keep class com.baidu.android.pushservice.PushServiceReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:951
+-keep class com.baidu.android.pushservice.RegistrationReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:906
+-keep class com.baidu.android.pushservice.richmedia.MediaListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:901
+-keep class com.baidu.android.pushservice.richmedia.MediaViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/contactus.xml #generated:162
+# view res/layout/map_layout.xml #generated:7
+-keep class com.baidu.mapapi.map.MapView { <init>(...); }
+
+# view res/layout/include_optionspicker.xml #generated:13
+# view res/layout/include_optionspicker.xml #generated:19
+# view res/layout/include_optionspicker.xml #generated:7
+# view res/layout/include_timepicker.xml #generated:13
+# view res/layout/include_timepicker.xml #generated:19
+# view res/layout/include_timepicker.xml #generated:25
+# view res/layout/include_timepicker.xml #generated:31
+# view res/layout/include_timepicker.xml #generated:7
+-keep class com.bigkoo.pickerview.lib.WheelView { <init>(...); }
+
+# view AndroidManifest.xml #generated:331
+-keep class com.czscg.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:239
+-keep class com.fuiou.pay.activity.FyWebActivity { <init>(...); }
+
+# view res/layout/activity_mybriberymoney.xml #generated:46
+# view res/layout/activity_mycaupon.xml #generated:46
+# view res/layout/invest_manage_debet_layout.xml #generated:99
+# view res/layout/invest_manage_hk_layout.xml #generated:12
+# view res/layout/layout_crowd_sx.xml #generated:71
+# view res/layout/layout_home.xml #generated:120
+# view res/layout/layout_jxj_scg.xml #generated:99
+# view res/layout/layout_jxjlist_tz.xml #generated:11
+# view res/layout/layout_redpkg_scg.xml #generated:98
+# view res/layout/layout_touzi_sx.xml #generated:11
+# view res/layout/layout_touzi_sx_fragment.xml #generated:8
+# view res/layout/people_info_jiaoyi_new.xml #generated:32
+# view res/layout/record_of_lendmoney.xml #generated:21
+# view res/layout/tzdetail.xml #generated:14
+-keep class com.handmark.pulltorefresh.library.PullToRefreshListView { <init>(...); }
+
+# view res/layout/people_info2_new.xml #generated:8
+-keep class com.handmark.pulltorefresh.library.PullToRefreshScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:843
+-keep class com.imp.qq.QQLogin { <init>(...); }
+
+# view AndroidManifest.xml #generated:849
+-keep class com.imp.qq.WXLogin { <init>(...); }
+
+# view res/layout/slidingmenumain.xml #generated:2
+-keep class com.jeremyfeinstein.slidingmenu.lib.SlidingMenu { <init>(...); }
+
+# view res/layout/activity_gesturelock.xml #generated:14
+-keep class com.lmp.gesturelock.GestureLockViewGroup { <init>(...); }
+
+# view res/layout/xxpl_activity.xml #generated:27
+-keep class com.lmp.photowallfalls.MyScrollView { <init>(...); }
+
+# view res/layout/zoom_image_layout.xml #generated:2
+-keep class com.lmp.photowallfalls.ZoomImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:867
+-keep class com.lmq.card.Card { <init>(...); }
+
+# view AndroidManifest.xml #generated:771
+-keep class com.lmq.gesture.CreateGesturePasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:776
+-keep class com.lmq.gesture.GuideGesturePasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:765
+-keep class com.lmq.gesture.UnlockGesturePasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:964
+-keep class com.lmq.http.NetWorkStatusBroadcastReceiver { <init>(...); }
+
+# view res/layout/layout_user_sx.xml #generated:29
+# view res/layout/people_info2_new.xml #generated:38
+-keep class com.lmq.library.CircleImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:728
+-keep class com.lmq.main.activity.AboutUsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:627
+-keep class com.lmq.main.activity.AboutUsNewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:722
+-keep class com.lmq.main.activity.AddNewPwd { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.lmq.main.activity.BidItem_Scg { <init>(...); }
+
+# view AndroidManifest.xml #generated:192
+-keep class com.lmq.main.activity.BorrowMoney_Sx { <init>(...); }
+
+# view AndroidManifest.xml #generated:633
+-keep class com.lmq.main.activity.ChooseJxjList { <init>(...); }
+
+# view AndroidManifest.xml #generated:639
+-keep class com.lmq.main.activity.ChooseRedPacketList { <init>(...); }
+
+# view AndroidManifest.xml #generated:229
+-keep class com.lmq.main.activity.CitiesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class com.lmq.main.activity.ContactUsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.lmq.main.activity.CzActivity_Sx { <init>(...); }
+
+# view AndroidManifest.xml #generated:611
+-keep class com.lmq.main.activity.FeedbackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:383
+-keep class com.lmq.main.activity.ForgotPwd2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:377
+-keep class com.lmq.main.activity.ForgotPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class com.lmq.main.activity.GestureLockViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:716
+-keep class com.lmq.main.activity.GetTelYzm { <init>(...); }
+
+# view AndroidManifest.xml #generated:419
+-keep class com.lmq.main.activity.IndexTouZiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:734
+-keep class com.lmq.main.activity.InterestratesecuritiesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:578
+-keep class com.lmq.main.activity.LendMoneyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:596
+-keep class com.lmq.main.activity.LendMoneyRecordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:590
+-keep class com.lmq.main.activity.LendMoney_Choice_kindActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:364
+-keep class com.lmq.main.activity.LoadIntroduceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:172
+-keep class com.lmq.main.activity.LoginActivity_Scg { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.lmq.main.activity.LogoActicity { <init>(...); }
+
+# view AndroidManifest.xml #generated:757
+-keep class com.lmq.main.activity.ModifyUserPWDActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.lmq.main.activity.MyBriberyMoney { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.lmq.main.activity.MyCaupon { <init>(...); }
+
+# view AndroidManifest.xml #generated:562
+-keep class com.lmq.main.activity.NewsListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:570
+-keep class com.lmq.main.activity.NoticeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:742
+-keep class com.lmq.main.activity.PasswordJaoYiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:668
+-keep class com.lmq.main.activity.PeopleInfoEmail { <init>(...); }
+
+# view AndroidManifest.xml #generated:647
+-keep class com.lmq.main.activity.PeopleInfoIdcard { <init>(...); }
+
+# view AndroidManifest.xml #generated:710
+-keep class com.lmq.main.activity.PeopleInfoJiaoYi_New { <init>(...); }
+
+# view AndroidManifest.xml #generated:654
+-keep class com.lmq.main.activity.PeopleInfoSmrz { <init>(...); }
+
+# view AndroidManifest.xml #generated:661
+-keep class com.lmq.main.activity.PeopleInfoUpdatePhone { <init>(...); }
+
+# view AndroidManifest.xml #generated:682
+-keep class com.lmq.main.activity.PeopleInfo_XS_backcard { <init>(...); }
+
+# view AndroidManifest.xml #generated:675
+-keep class com.lmq.main.activity.PeopleInfo_backcard { <init>(...); }
+
+# view AndroidManifest.xml #generated:855
+-keep class com.lmq.main.activity.PersonalSetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.lmq.main.activity.ShowBorrowContextActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:517
+-keep class com.lmq.main.activity.ShowRegisterContextActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.lmq.main.activity.Stretch_sx { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.lmq.main.activity.TouziActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.lmq.main.activity.UserActivity_Sx { <init>(...); }
+
+# view AndroidManifest.xml #generated:265
+-keep class com.lmq.main.activity.VIPActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.lmq.main.activity.XxPay { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.lmq.main.activity.XxplActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.lmq.main.activity.XxplImgActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class com.lmq.main.activity.ZcItem_Sx { <init>(...); }
+
+# view AndroidManifest.xml #generated:389
+-keep class com.lmq.main.activity.calculateActivity { <init>(...); }
+
+# view res/layout/a_homepage.xml #generated:11
+# view res/layout/activity_main.xml #generated:11
+-keep class com.lmq.main.activity.fragment.TabFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:809
+-keep class com.lmq.main.activity.investmanager.AutoTenderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:799
+-keep class com.lmq.main.activity.investmanager.InvestManagerDebetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:814
+-keep class com.lmq.main.activity.investmanager.InvestManagerDebetZR { <init>(...); }
+
+# view AndroidManifest.xml #generated:831
+-keep class com.lmq.main.activity.investmanager.InvestManagerDirectlyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:804
+-keep class com.lmq.main.activity.investmanager.InvestManagerMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:825
+-keep class com.lmq.main.activity.investmanager.InvestManagerStandardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:837
+-keep class com.lmq.main.activity.investmanager.RepaymentStandardDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:463
+-keep class com.lmq.main.activity.itemInfo2_1Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:413
+-keep class com.lmq.main.activity.itemInfo2_2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:401
+-keep class com.lmq.main.activity.itemInfo3_1Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:407
+-keep class com.lmq.main.activity.itemInfo3_2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:469
+-keep class com.lmq.main.activity.itemNewsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:370
+-keep class com.lmq.main.activity.loginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:584
+-keep class com.lmq.main.activity.myjiekuan { <init>(...); }
+
+# view AndroidManifest.xml #generated:554
+-keep class com.lmq.main.activity.passwordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:499
+-keep class com.lmq.main.activity.peopleInfoBonusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:511
+-keep class com.lmq.main.activity.peopleInfoDataActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:535
+-keep class com.lmq.main.activity.peopleInfoSafeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:541
+-keep class com.lmq.main.activity.peopleInfoWithdrawalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:357
+-keep class com.lmq.main.activity.registerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:475
+-keep class com.lmq.main.activity.tzDetailsListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.lmq.main.api.LocationApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:351
+-keep class com.lmq.main.api.TabGroupActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:819
+-keep class com.lmq.main.tools.LMQWebViewActivity { <init>(...); }
+
+# view res/layout/gesturepassword_create.xml #generated:132
+# view res/layout/gesturepassword_unlock.xml #generated:75
+-keep class com.lmq.main.util.LockPatternView { <init>(...); }
+
+# view AndroidManifest.xml #generated:861
+-keep class com.lmq.map.MapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.lmq.menu.MainMenuActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class com.lmq.menu.MainTabActivit_Scg { <init>(...); }
+
+# view AndroidManifest.xml #generated:182
+-keep class com.lmq.menu.MainTabActivity_Sx { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.lmq.pay.ChoosePayType { <init>(...); }
+
+# view AndroidManifest.xml #generated:246
+-keep class com.lmq.pay.FyPayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:916
+-keep class com.lmq.push.MyPushMessageReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.lmq.update.DownloadService { <init>(...); }
+
+# view res/layout/layout_index.xml #generated:49
+-keep class com.lmq.view.AutoVerticalScrollTextView { <init>(...); }
+
+# view res/layout/view_cycle_viewpager_contet.xml #generated:12
+-keep class com.lmq.view.BaseViewPager { <init>(...); }
+
+# view res/layout/layout_account_sx.xml #generated:20
+-keep class com.lmq.view.ChuckWaveView { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class com.lmq.view.CustomDetailView { <init>(...); }
+
+# view res/layout/zcitem_sx.xml #generated:45
+-keep class com.lmq.view.CycleViewPager { <init>(...); }
+
+# view res/layout/auto_tender_layout.xml #generated:21
+# view res/layout/invest_manage_debet_layout.xml #generated:32
+# view res/layout/layout_jxj_scg.xml #generated:32
+# view res/layout/layout_redpkg_scg.xml #generated:31
+-keep class com.lmq.view.DrawableCenterButton { <init>(...); }
+
+# view res/layout/login_scg.xml #generated:44
+# view res/layout/login_scg.xml #generated:62
+-keep class com.lmq.view.EditTextWithDel { <init>(...); }
+
+# view res/layout/xxpl_activity.xml #generated:18
+-keep class com.lmq.view.MyGridView { <init>(...); }
+
+# view res/layout/index_tz.xml #generated:10
+# view res/layout/news_list.xml #generated:23
+# view res/layout/tz_list.xml #generated:45
+-keep class com.lmq.view.MyListView { <init>(...); }
+
+# view res/layout/activity_zcjlfragment.xml #generated:46
+-keep class com.lmq.view.MyPullToRefreshListView { <init>(...); }
+
+# view res/layout/adapter_item_tz.xml #generated:71
+-keep class com.lmq.view.RoundProgressBar { <init>(...); }
+
+# view res/layout/item_touzi_sx.xml #generated:21
+-keep class com.lmq.view.RoundProgressBar_Tz_Sx { <init>(...); }
+
+# view AndroidManifest.xml #generated:208
+-keep class com.lmq.view.ShowBannerViewDetail { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.lmq.view.ShowWebImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:314
+-keep class com.mob.tools.MobUIShell { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.taobao.sophix.aidl.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:895
+-keep class com.tencent.connect.common.AssistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:882
+-keep class com.tencent.tauth.AuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:873
+-keep class io.card.payment.CardIOActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:878
+-keep class io.card.payment.DataEntryActivity { <init>(...); }
+
+# view res/layout/citys.xml #generated:33
+# view res/layout/citys.xml #generated:40
+# view res/layout/citys.xml #generated:47
+-keep class kankan.wheel.widget.WheelView { <init>(...); }
+
+# view res/layout/xxplimg_activity.xml #generated:11
+-keep class uk.co.senab.photoview.PhotoView { <init>(...); }
+
+# onClick res/layout/card_activity.xml #generated:13
+-keepclassmembers class * { *** onScanPress(...); }
+
+# onClick res/layout/citys.xml #generated:19
+-keepclassmembers class * { *** showChoose(...); }
+
