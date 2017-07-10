@@ -1,15 +1,23 @@
 [
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_timebtn.xml",
-        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\default\\res\\drawable\\wheel_timebtn.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\border_bottom.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\border_bottom.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_p_back6.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_p_back6.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_error_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_click_error_selector.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
@@ -28,28 +36,272 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\skyblue_platform_list_item_selected.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_page_1.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_page_1.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_back_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_click_back_selector.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_setting_attention_selector.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_setting_attention_selector.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_seek_thumb_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_seek_thumb_pressed.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\skyblue_platform_list_item.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\skyblue_platform_list_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jk_layout_edt.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\jk_layout_edt.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\top_btn.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\top_btn.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_to_right_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_to_right_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_bg.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\layout_bg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_line_timepicker.png",
+        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\default\\res\\drawable\\bg_line_timepicker.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.gif",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\loading.gif"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_back_tiny_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_click_back_tiny_selector.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\titlebar_menu_selector.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\titlebar_menu_selector.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_yj_et.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\btn_yj_et.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_seek_thumb_normal.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_seek_thumb_normal.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_p_jt_r.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_p_jt_r.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bk.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\btn_bk.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_user_attention_selector.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_user_attention_selector.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_page_4.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_page_4.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_bear.gif",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\loading_bear.gif"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_p_back2.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_p_back2.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\torggle_bg.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\torggle_bg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\new_edt_shape.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\new_edt_shape.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_zhongchou_attention_selector.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_zhongchou_attention_selector.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\scrollbar_handle_vertical.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\scrollbar_handle_vertical.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_yy.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\progressbar_yy.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_left_right_back.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_left_right_back.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_play_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_click_play_selector.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\person_info_radio_selector.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\person_info_radio_selector.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_lend_attention_selector.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_lend_attention_selector.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_yj_red.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\btn_yj_red.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_layer.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\layout_layer.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_to_left_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_to_left_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_to_left.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_to_left.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\new_btn_down_shape.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\new_btn_down_shape.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_loading.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_loading.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\news_item_click.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\news_item_click.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_bottom_seek_progress.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_bottom_seek_progress.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_timebtn.xml",
+        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\default\\res\\drawable\\wheel_timebtn.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_p_back6.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_p_back6.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_page_1.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_page_1.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_back1.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_back1.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_dialog_progress.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_dialog_progress.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\more_item_click.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\more_item_click.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jk_layout_edt.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\jk_layout_edt.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_xmxq.xml",
@@ -72,40 +324,28 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\update_progress_style.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\top_btn.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\top_btn.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\person_info_btn_selector.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\person_info_btn_selector.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_to_right_sx.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_to_right_sx.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_bg.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\layout_bg.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_line_timepicker.png",
-        "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\default\\res\\drawable\\bg_line_timepicker.png"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_pause_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_click_pause_selector.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.gif",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\loading.gif"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\person_info_auto_selector.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\person_info_auto_selector.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\titlebar_menu_selector.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\titlebar_menu_selector.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_yj_et.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\btn_yj_et.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_p_jt_l.xml",
@@ -120,6 +360,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\bearfly1.gif"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bg.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\progress_bg.xml"
     },
@@ -128,24 +372,20 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_check.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_p_jt_r.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_p_jt_r.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bk.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\btn_bk.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_home_attention_selector.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_home_attention_selector.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_user_attention_selector.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_user_attention_selector.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\skin_color_button.xml",
@@ -160,6 +400,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_tz_attention_selector.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_p_back3.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_p_back3.xml"
     },
@@ -168,16 +412,8 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_touzi_attention_selector.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_page_4.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_page_4.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\person_info_tender_selector.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\person_info_tender_selector.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_bear.gif",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\loading_bear.gif"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\common_btn_red.xml",
@@ -188,10 +424,6 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\new_btn_shape.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\indicator_bg_top.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_exit.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\btn_exit.xml"
     },
@@ -200,24 +432,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\btn_yj.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_p_back2.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_p_back2.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\torggle_bg.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\torggle_bg.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_clear_bk.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\btn_clear_bk.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\new_edt_shape.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\new_edt_shape.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_zhongchou_attention_selector.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_zhongchou_attention_selector.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
@@ -232,18 +452,6 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\scg_logo.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\scrollbar_handle_vertical.9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\scrollbar_handle_vertical.9.png"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_yy.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\progressbar_yy.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_left_right_back.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_left_right_back.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_textview.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\shape_round_textview.xml"
     },
@@ -256,56 +464,56 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\shezhilinearlayout_bk.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\person_info_radio_selector.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\person_info_radio_selector.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_lend_attention_selector.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_lend_attention_selector.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_p_kuang4.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_p_kuang4.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_yj_red.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\btn_yj_red.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_selector.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_layer.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\layout_layer.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_to_left_sx.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_to_left_sx.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_dialog_progress_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_dialog_progress_bg.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_page_3.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_page_3.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_to_left.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_to_left.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_volume_progress_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_volume_progress_bg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_bottom_progress.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_bottom_progress.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_title_bg.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_title_bg.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\button_b_tz_fx.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\button_b_tz_fx.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\new_btn_down_shape.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\new_btn_down_shape.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\more_item_selector.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\more_item_selector.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\news_item_click.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\news_item_click.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_tt.xml",
@@ -316,8 +524,16 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_color_selector.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_bottom_bg.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_bottom_bg.9.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\classic_platform_corners_bg.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\classic_platform_corners_bg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_bottom_seek_thumb.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\\output\\res\\drawable\\jc_bottom_seek_thumb.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_progressbar.xml",

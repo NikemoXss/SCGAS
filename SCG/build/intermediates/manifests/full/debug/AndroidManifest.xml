@@ -5,8 +5,8 @@
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="20" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
 
     <!-- <permission android:name="com.fuiou.permission.FUIOU_PAY" /> -->
 
@@ -71,6 +71,10 @@
     <!-- Push service 结束 -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
 
     <application
         android:name="com.lmq.main.api.LocationApplication"
