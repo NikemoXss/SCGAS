@@ -1,4 +1,4 @@
-include ':SlidingMenuLib'
+include ':SlidingMenuLib', ':jcvideoplayer-lib'
 include ':pickerview'
 include ':wheel'
 include ':SCG'

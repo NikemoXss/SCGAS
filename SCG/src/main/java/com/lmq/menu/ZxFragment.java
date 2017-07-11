@@ -19,10 +19,11 @@ import butterknife.InjectView;
 import fm.jiecao.jcvideoplayer_lib.JCVideoPlayer;
 import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
 
+
 /**
  * Created by Administrator on 2017/7/10.
  */
-
+//http://blog.csdn.net/First_CooMan/article/details/69367519     jcvideoplayer遇到的坑
 public class ZxFragment extends Fragment{
 
     @InjectView(R.id.videoList)
@@ -43,6 +44,7 @@ public class ZxFragment extends Fragment{
         super.onViewCreated(view, savedInstanceState);
         ZxAdapter zxAdapter=new ZxAdapter(getActivity());
         videoList.setAdapter(zxAdapter);
+        zxAdapter.notifyDataSetChanged();
         videoList.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(AbsListView view, int scrollState) {

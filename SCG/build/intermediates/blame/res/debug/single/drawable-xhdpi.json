@@ -28,16 +28,16 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skin_common_btn_green_normal.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\share_vp_back.9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\share_vp_back.9.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gesture_pattern_item_bg.9.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\gesture_pattern_item_bg.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\skin_common_btn_red_unpressed.9.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\skin_common_btn_red_unpressed.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\share_vp_back.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-xhdpi\\share_vp_back.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\edittext_back.9.png",

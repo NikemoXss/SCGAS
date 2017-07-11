@@ -84,15 +84,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\2aec4c6f3a28d2ceeda8ff9b819e7024f3fb7c99\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="321fc887135754204dacab741594a1cc4cea3997">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ca9dea8bfcbbf6493fe4d3a13f8d1878df05c237\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\ShareSDK-Core-2.8.3.jar"
         jumboMode="true"
         optimize="true"
@@ -142,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0797e996c33a4f38cb9b08b3c3fffba9237830e1">
+        sha1="0981deede88ccf6853876f6b27a8740a6011a1c8">
         <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c91d0f7efb935ce72f4b092ea12521c1a00cb245\classes.dex" />
     </item>
     <item
@@ -264,21 +255,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_c24001011a74b1569f711c6a8332011bc7fa053f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\ShareSDK-Wechat-2.8.3.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="6c77dd3832635149e694df173896f81e1e2d07aa">
         <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-2.8.3_dc6487dd35e5ba2cf271c0f2b2a61a85f3fc8844\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_c24001011a74b1569f711c6a8332011bc7fa053f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -462,21 +453,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\86d0b6b41fc0affe271720d80ecbfbfb2df7f90f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2dad977167aed039299aeaea3626df523b6263c4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
         <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_c1835a7db0b59440884ca842a0b0bdb2ce13e64d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\86d0b6b41fc0affe271720d80ecbfbfb2df7f90f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2dad977167aed039299aeaea3626df523b6263c4\classes.dex" />
     </item>
     <item
         is-multidex="true"

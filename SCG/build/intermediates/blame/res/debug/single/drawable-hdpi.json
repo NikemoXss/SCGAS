@@ -44,12 +44,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\b_back2.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_on.9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\button_on.9.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\p_back2_2.9.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p_back2_2.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_on.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\button_on.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_common_toast.9.png",
@@ -104,12 +104,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index2_3.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index2_1.9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index2_1.9.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index2_2.9.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index2_2.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index2_1.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index2_1.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title_back2.9.png",
@@ -144,20 +144,20 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index_kuang1.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_patch_galy.9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\progress_patch_galy.9.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_patch_bg.9.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\progress_patch_bg.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\p_back3_2.9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p_back3_2.9.png"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_patch_galy.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\progress_patch_galy.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\b_paixu_back.9.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\b_paixu_back.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\p_back3_2.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p_back3_2.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title_back.9.png",
