@@ -38,7 +38,7 @@ public class ZxAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return position;
     }
 
     @Override
@@ -48,21 +48,21 @@ public class ZxAdapter extends BaseAdapter {
 //            if (convertView != null && convertView.getTag() != null && convertView.getTag() instanceof VideoHolder) {
 //                ((VideoHolder) convertView.getTag()).jcVideoPlayer.release();
 //            }
-//
-//            VideoHolder viewHolder;
-//            if (convertView != null && convertView.getTag() != null && convertView.getTag() instanceof VideoHolder) {
-//                viewHolder = (VideoHolder) convertView.getTag();
-//            } else {
-//                viewHolder = new VideoHolder();
-//                convertView = mInflater.inflate(R.layout.item_list_zx, null);
-//                viewHolder.jcVideoPlayer = (JCVideoPlayerStandard) convertView.findViewById(R.id.videoplayer);
-//                convertView.setTag(viewHolder);
-//            }
 
-            VideoHolder  viewHolder = new VideoHolder();
-            convertView = mInflater.inflate(R.layout.item_list_zx, null);
-            viewHolder.jcVideoPlayer = (JCVideoPlayerStandard) convertView.findViewById(R.id.videoplayer);
-            convertView.setTag(viewHolder);
+            VideoHolder viewHolder;
+            if (convertView != null && convertView.getTag() != null && convertView.getTag() instanceof VideoHolder) {
+                viewHolder = (VideoHolder) convertView.getTag();
+            } else {
+                viewHolder = new VideoHolder();
+                convertView = mInflater.inflate(R.layout.item_list_zx, null);
+                viewHolder.jcVideoPlayer = (JCVideoPlayerStandard) convertView.findViewById(R.id.videoplayer);
+                convertView.setTag(viewHolder);
+            }
+
+//            VideoHolder  viewHolder = new VideoHolder();
+//            convertView = mInflater.inflate(R.layout.item_list_zx, null);
+//            viewHolder.jcVideoPlayer = (JCVideoPlayerStandard) convertView.findViewById(R.id.videoplayer);
+//            convertView.setTag(viewHolder);
 
             viewHolder.jcVideoPlayer.setUp(
                     "http://gslb.miaopai.com/stream/ed5HCfnhovu3tyIQAiv60Q__.mp4", JCVideoPlayer.SCREEN_LAYOUT_LIST, "");
