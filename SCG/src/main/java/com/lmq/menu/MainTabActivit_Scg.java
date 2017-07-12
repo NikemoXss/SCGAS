@@ -52,6 +52,7 @@ import org.json.JSONObject;
 import java.io.File;
 import java.util.List;
 
+import fm.jiecao.jcvideoplayer_lib.JCVideoPlayer;
 import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
 
 //scg
@@ -822,4 +823,19 @@ public class MainTabActivit_Scg extends FragmentActivity {
         builder.create().show();
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+            if(VideoPlaying!=null)
+            {
+                if(VideoPlaying.currentState== JCVideoPlayer.CURRENT_STATE_PLAYING)
+                {
+                    VideoPlaying.startButton.performClick();
+                }else if (VideoPlaying.currentState== JCVideoPlayer.CURRENT_STATE_PREPARING)
+                {
+                    JCVideoPlayer.releaseAllVideos();
+                }
+            }
+
+    }
 }

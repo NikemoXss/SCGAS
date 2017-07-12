@@ -1,4 +1,4 @@
-#Tue Jul 11 16:11:23 CST 2017
+#Wed Jul 12 15:17:46 CST 2017
 base.0=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_64bb003b021c7e9b84259a4a7ccedf0e770bf59d
 renamed.1=classes2.dex
 renamed.0=classes.dex

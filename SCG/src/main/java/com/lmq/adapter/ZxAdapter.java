@@ -65,7 +65,7 @@ public class ZxAdapter extends BaseAdapter {
 //            convertView.setTag(viewHolder);
 
             viewHolder.jcVideoPlayer.setUp(
-                    "http://gslb.miaopai.com/stream/ed5HCfnhovu3tyIQAiv60Q__.mp4", JCVideoPlayer.SCREEN_LAYOUT_LIST, "");
+                    "http://gslb.miaopai.com/stream/ed5HCfnhovu3tyIQAiv60Q__.mp4", JCVideoPlayer.SCREEN_LAYOUT_NORMAL, "啦啦");
             Glide.with(context).load("http://a4.att.hudong.com/05/71/01300000057455120185716259013.jpg").into(viewHolder.jcVideoPlayer.thumbImageView);
             return convertView;
         }

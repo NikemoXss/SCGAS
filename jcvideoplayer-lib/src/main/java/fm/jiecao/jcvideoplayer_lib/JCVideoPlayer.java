@@ -10,7 +10,6 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Handler;
 import android.provider.Settings;
-import android.support.v7.app.ActionBar;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -21,6 +20,8 @@ import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.SeekBar;
@@ -562,7 +563,7 @@ public abstract class JCVideoPlayer extends FrameLayout implements View.OnClickL
             ((ViewGroup) JCMediaManager.textureView.getParent()).removeView(JCMediaManager.textureView);
         }
     }
-
+    @SuppressWarnings("ResourceType")
     public void clearFullscreenLayout() {
         ViewGroup vp = (ViewGroup) (JCUtils.scanForActivity(getContext()))//.getWindow().getDecorView();
                 .findViewById(Window.ID_ANDROID_CONTENT);
@@ -705,11 +706,11 @@ public abstract class JCVideoPlayer extends FrameLayout implements View.OnClickL
         JCMediaManager.instance().mediaPlayer.seekTo(time);
         Log.i(TAG, "seekTo " + time + " [" + this.hashCode() + "] ");
     }
-
+    @SuppressWarnings("ResourceType")
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
     }
-
+    @SuppressWarnings("ResourceType")
     public void startWindowFullscreen() {
         Log.i(TAG, "startWindowFullscreen " + " [" + this.hashCode() + "] ");
         hideSupportActionBar(getContext());
@@ -741,7 +742,7 @@ public abstract class JCVideoPlayer extends FrameLayout implements View.OnClickL
             e.printStackTrace();
         }
     }
-
+    @SuppressWarnings("ResourceType")
     public void startWindowTiny() {
         Log.i(TAG, "startWindowTiny " + " [" + this.hashCode() + "] ");
         onEvent(JCUserAction.ON_ENTER_TINYSCREEN);
@@ -771,7 +772,7 @@ public abstract class JCVideoPlayer extends FrameLayout implements View.OnClickL
             e.printStackTrace();
         }
     }
-
+    @SuppressWarnings("ResourceType")
     public static void startFullscreen(Context context, Class _class, String url, Object... objects) {
         hideSupportActionBar(context);
         JCUtils.getAppCompActivity(context).setRequestedOrientation(FULLSCREEN_ORIENTATION);
@@ -788,8 +789,8 @@ public abstract class JCVideoPlayer extends FrameLayout implements View.OnClickL
             FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
             vp.addView(jcVideoPlayer, lp);
-//            final Animation ra = AnimationUtils.loadAnimation(context, R.anim.start_fullscreen);
-//            jcVideoPlayer.setAnimation(ra);
+            final Animation ra = AnimationUtils.loadAnimation(context, R.anim.start_fullscreen);
+            jcVideoPlayer.setAnimation(ra);
             jcVideoPlayer.setUp(url, JCVideoPlayerStandard.SCREEN_WINDOW_FULLSCREEN, objects);
             CLICK_QUIT_FULLSCREEN_TIME = System.currentTimeMillis();
             jcVideoPlayer.startButton.performClick();

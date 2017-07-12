@@ -121,6 +121,12 @@ public class ZxFragment extends Fragment{
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-
     }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        JCVideoPlayer.releaseAllVideos();
+    }
+
 }

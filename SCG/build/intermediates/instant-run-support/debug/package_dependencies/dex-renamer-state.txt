@@ -1,4 +1,4 @@
-#Tue Jul 11 16:11:22 CST 2017
+#Wed Jul 12 14:39:45 CST 2017
 file.50=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\open_sdk_r5756_lite_0dec465d8d80852ce55df97c5ae0038a391cd537\\classes.dex
 file.49=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\baidumapapi_search_v4_3_1_0de4eac1039acaf19b2033b2428b10ab7c190726\\classes.dex
 file.48=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\libammsdk_5866bdef536a254ed9c513b47dd3d3f7b1f78c61\\classes.dex

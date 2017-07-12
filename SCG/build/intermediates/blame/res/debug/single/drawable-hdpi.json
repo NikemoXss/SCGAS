@@ -104,12 +104,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index2_3.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index2_2.9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index2_2.9.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index2_1.9.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index2_1.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index2_2.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index2_2.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title_back2.9.png",

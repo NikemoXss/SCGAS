@@ -73,13 +73,13 @@
     <uses-permission android:name="android.permission.VIBRATE"/>
 
     <application
-        android:vmSafeMode="true"
-        tools:replace="android:label"
         android:name="com.lmq.main.api.LocationApplication"
         android:allowBackup="true"
         android:icon="@drawable/scg_logo"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:vmSafeMode="true"
+        tools:replace="android:label">
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
@@ -88,11 +88,11 @@
 
         <service
             android:name="com.taobao.sophix.aidl.DownloadService"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
-                <action android:name="com.taobao.hotfix.action" />
+                <action android:name="com.taobao.hotfix.action"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </service>
 
@@ -178,7 +178,9 @@
         </activity>
         <activity
             android:name="com.lmq.menu.MainTabActivit_Scg"
+            android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar">
         </activity>
         <activity
@@ -196,6 +198,7 @@
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Light.NoTitleBar">
         </activity>
+
         <service android:name="com.lmq.update.DownloadService">
         </service>
 
@@ -223,9 +226,9 @@
         <activity android:name="com.lmq.main.activity.MyCaupon">
         </activity>
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.PeopleInfoPay"-->
-            <!--android:label="@string/app_name"-->
-            <!--android:theme="@android:style/Theme.Light.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.PeopleInfoPay"-->
+        <!--android:label="@string/app_name"-->
+        <!--android:theme="@android:style/Theme.Light.NoTitleBar">-->
         <!--</activity>-->
         <activity
             android:name="com.lmq.main.activity.CitiesActivity"
@@ -254,13 +257,13 @@
 
         <!--&lt;!&ndash; 充值银行卡按钮 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.money.more.activity.UserCardActivity"-->
-            <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
+        <!--android:name="com.money.more.activity.UserCardActivity"-->
+        <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
         <!--</activity>-->
         <!--&lt;!&ndash; 转账界面 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.money.more.activity.AccountActivity"-->
-            <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
+        <!--android:name="com.money.more.activity.AccountActivity"-->
+        <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
         <!--</activity>-->
         <activity
             android:name="com.lmq.main.activity.VIPActivity"
@@ -270,42 +273,42 @@
         </activity>
         <!--&lt;!&ndash; 充值界面 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.money.more.activity.RechargeActivity"-->
-            <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
+        <!--android:name="com.money.more.activity.RechargeActivity"-->
+        <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
         <!--</activity>-->
         <!--&lt;!&ndash; 提现界面 &ndash;&gt;-->
         <!--<activity android:name="com.money.more.activity.WithdrawDepositActivity">-->
         <!--</activity>-->
         <!--&lt;!&ndash; 开户界面 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.money.more.activity.RegisterActivity"-->
-            <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
+        <!--android:name="com.money.more.activity.RegisterActivity"-->
+        <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
         <!--</activity>-->
         <!--&lt;!&ndash; 绑定界面 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.money.more.activity.BindActivity"-->
-            <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
+        <!--android:name="com.money.more.activity.BindActivity"-->
+        <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
         <!--</activity>-->
         <!--&lt;!&ndash; 授权接口 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.money.more.activity.AuthorizationActivity"-->
-            <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
+        <!--android:name="com.money.more.activity.AuthorizationActivity"-->
+        <!--android:windowSoftInputMode="adjustPan|stateHidden">-->
         <!--</activity>-->
 
         <!--<activity-->
-            <!--android:name="cn.sharesdk.framework.ShareSDKUIShell"-->
-            <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar"-->
-            <!--android:windowSoftInputMode="stateHidden|adjustResize">-->
-            <!--<intent-filter>-->
-                <!--<data android:scheme="tencent100371282"/>-->
+        <!--android:name="cn.sharesdk.framework.ShareSDKUIShell"-->
+        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar"-->
+        <!--android:windowSoftInputMode="stateHidden|adjustResize">-->
+        <!--<intent-filter>-->
+        <!--<data android:scheme="tencent100371282"/>-->
 
-                <!--<action android:name="android.intent.action.VIEW"/>-->
+        <!--<action android:name="android.intent.action.VIEW"/>-->
 
-                <!--<category android:name="android.intent.category.BROWSABLE"/>-->
-                <!--<category android:name="android.intent.category.DEFAULT"/>-->
-            <!--</intent-filter>-->
+        <!--<category android:name="android.intent.category.BROWSABLE"/>-->
+        <!--<category android:name="android.intent.category.DEFAULT"/>-->
+        <!--</intent-filter>-->
         <!--</activity>-->
 
         <activity
@@ -331,18 +334,18 @@
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-<!--        <activity
-            android:name="com.lmq.main.MainActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar">
-        </activity>
-        <activity
-            android:name="com.lmq.main.Main"
-            android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar">
-        </activity>-->
+        <!--        <activity
+                    android:name="com.lmq.main.MainActivity"
+                    android:configChanges="orientation|keyboardHidden"
+                    android:screenOrientation="portrait"
+                    android:theme="@android:style/Theme.NoTitleBar">
+                </activity>
+                <activity
+                    android:name="com.lmq.main.Main"
+                    android:configChanges="orientation|keyboardHidden"
+                    android:screenOrientation="portrait"
+                    android:theme="@android:style/Theme.NoTitleBar">
+                </activity>-->
         <activity
             android:name="com.lmq.main.api.TabGroupActivity"
             android:configChanges="orientation|keyboardHidden"
@@ -388,10 +391,10 @@
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.myInfoActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.myInfoActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <activity
             android:name="com.lmq.main.activity.itemInfo3_1Activity"
@@ -418,42 +421,42 @@
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.aboutActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.aboutActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.moreActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.moreActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.webActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.webActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!--&lt;!&ndash; 双钱 充值提现 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.lmq.pay.MoneyMoreMorePayActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.pay.MoneyMoreMorePayActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!--&lt;!&ndash; 双钱开户授权界面 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.lmq.pay.MoneyMoreMoreSqActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.pay.MoneyMoreMoreSqActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.helpActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.helpActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <activity
             android:name="com.lmq.main.activity.itemInfo2_1Activity"
@@ -474,22 +477,22 @@
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.page.pageInfoListActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.page.pageInfoListActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.page.pageNewsListActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.page.pageNewsListActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.page.pagePeopleActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.page.pagePeopleActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <activity
             android:name="com.lmq.main.activity.peopleInfoBonusActivity"
@@ -498,10 +501,10 @@
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.peopleInfoBorrowingActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.peopleInfoBorrowingActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <activity
             android:name="com.lmq.main.activity.peopleInfoDataActivity"
@@ -516,16 +519,16 @@
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.peopleInfoInvestmentActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.peopleInfoInvestmentActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.peopleInfoMoneyActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.peopleInfoMoneyActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <activity
             android:name="com.lmq.main.activity.peopleInfoSafeActivity"
@@ -540,10 +543,10 @@
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.showMessageActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.showMessageActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!-- 登陆密码 -->
         <activity
@@ -595,10 +598,10 @@
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.LendMoneyInfoActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.LendMoneyInfoActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
 
         <!-- 意见反馈 -->
@@ -610,10 +613,10 @@
         </activity>
         <!-- 我的账户_净资产 -->
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.PeopleInfoMoney"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.PeopleInfoMoney"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
 
         <!-- 关于我们 -->
@@ -680,24 +683,24 @@
         </activity>
         <!--&lt;!&ndash; 绑定银行卡号 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.PeopleInfoLoginPassword"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.PeopleInfoLoginPassword"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!--&lt;!&ndash; 绑定银行卡号 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.PeopleInfo_Update_backcard"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.PeopleInfo_Update_backcard"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!--&lt;!&ndash; 交易记录 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.lmq.main.activity.PeopleInfoJiaoYi"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.main.activity.PeopleInfoJiaoYi"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
         <!-- 交易记录_新页面 -->
         <activity
@@ -739,10 +742,10 @@
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
         <!--<activity-->
-            <!--android:name="com.lmq.pay.RBPayActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmq.pay.RBPayActivity"-->
+        <!--android:configChanges="orientation|keyboardHidden"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
 
         <!-- 支付密码 -->
@@ -771,17 +774,17 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar"/>
         <!--<activity-->
-            <!--android:name="com.lmp.photowallfalls.ImageDetailsActivity"-->
-            <!--android:launchMode="singleTask"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@android:style/Theme.NoTitleBar">-->
+        <!--android:name="com.lmp.photowallfalls.ImageDetailsActivity"-->
+        <!--android:launchMode="singleTask"-->
+        <!--android:screenOrientation="portrait"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar">-->
         <!--</activity>-->
 
         <!--&lt;!&ndash; 宝付控制中心 开始 &ndash;&gt;-->
         <!--<activity-->
-            <!--android:name="com.baofoo.sdk.vip.BaofooPayActivity"-->
-            <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
-            <!--android:theme="@android:style/Theme.Light.NoTitleBar">-->
+        <!--android:name="com.baofoo.sdk.vip.BaofooPayActivity"-->
+        <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+        <!--android:theme="@android:style/Theme.Light.NoTitleBar">-->
         <!--</activity>-->
         <!-- 宝付控制中心 结束 -->
 
@@ -978,13 +981,13 @@
         <!--阿里热修复 -->
         <meta-data
             android:name="com.taobao.android.hotfix.IDSECRET"
-            android:value="24535016-1" />
+            android:value="24535016-1"/>
         <meta-data
             android:name="com.taobao.android.hotfix.APPSECRET"
-            android:value="f83bdaed06dad4621ada82132115c462" />
+            android:value="f83bdaed06dad4621ada82132115c462"/>
         <meta-data
             android:name="com.taobao.android.hotfix.RSASECRET"
-            android:value="MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDYD+JtZpE8cEyFxuQccw1VcSr8RePBizZfVcPflbvY6eYf3g/6rzv+8wfF/6z/lrsyofu7TB68XU0cJ/kCbSQalzl9Pa6HVZHAzml6DIHXoGoqkxBwLXebiN6v/spcv+rR93CI/54AYQTCponCKl/jj2045Bf7YeILY4J440WqW30E59j09dDxFP8AGnJktZaalzvkCXrMhJ2zrcRTlKtos6l+ZPFYzHD5RCTf3TdDovpN5yVbbjCvE0v+czFXlxgJd6k1Zc85uu+18jf0EKAv3hZyv4sEhNzupQtaZPTua/YzgsZz3FVLL0GkpiBqGrAT14jN9XyzgEJVtPojoq97AgMBAAECggEAEH5t76IT1kRQYyoCwfU6gFpKSMXhFCZXeUGn2Uqp824vpiEioSV9dAIDhub0wvIzyjK5b9vowMJyn4KhrMC+L9V5iwkJaMVsggZ/4NRRmS9iy2s8pwOhjNsO/Op7ckcoWu0Dx0GUQz0kyuNBwvPPLCUH1n77IbKgOfRXwni/GbkMRKp1ERBbDznBPuQc4Du4Mmiu0+yzndDxrsNuRJpcOohJMrAi0vWRPp9gZU1ZxmVWGsmUXdRphZZGwgi7TQAxO+OG3LOMqcVsUi9OctGl9Aj7UMI0BTi2SVWZ3vBxPycoA5fi/1NlIJ/buHv3Ol/04iVznMYNY9jY4J96VBRtwQKBgQD4lWLqhkRii4Fboo+hMfMM+y25id2s7teVou6aJXVHS7EAiNDK6qK9o6gwD7X5xhMm5EMEquD6xSPzhcLDW7/ygMRo8vjjA5Cjbn3UXD5WRbbH8K42V67YhsyATHrxulGgzNnIyO+ZFmUbkapGEEgDzTi30ziIoPE1HMzCj8VLIQKBgQDeghuWZQAfkPpPkXXzuEgEKqZjd09+Hh7bkCcJbhpvrt4jj/B8CBx9CLicNE34rkTwhYtnsRMaSE0sJJfM0GxyVb9xKmfwzOfTBydl46Y+XdnEalmKvUZpAIpyxb/W6WAEg+IDsd0a+INQEQ4vrw/BgX/E1z5nQn4GwDtRiwZjGwKBgQDiPSOfir+maI081wCdlpY8VEZTPLRx9ZZj67v4surADpVzhRFx/IZMziv+Qe4++xTnKowMLXFBCjckJbMSlehmTudzFN+LzOzQsXj301QwtJYb9mK3tqm9C0IH6pNieU5daNM1OBtIWud+Zd5wkdTZEOfz9drYDpI44pNA6BSJwQKBgQCFEdah2QF7315zm5CpEzqukzszHTWDPUxDDzDpaNmSlUfwiLLP2qH+/Oo7MOS4prBAD/3RI4tDGp5cmf3W1Ycl0bZOXYgP8Ntrz0l2m/DeN4528wtd99hWD6a9ARq70pJD4QOYJhUPfjQ5/Bk51z5bAbGB7SA67P8l1m0jVTuapQKBgQC6twRDMb7V2U6rJorQOQHtQofS6pfT4RA98b9OZA/TYsNb+QK1Yn7ddBAbwS+qJA10Uh0W/+zP/mIIH69LLaTN1HsNxxiN6GyDujkQ7FIR8P4K2yyM0b13uTkwgiLx9FEF5XGHJnw65+XlOti3Zn7CtU7uot6FCNfubZjgPBk3ng==" />
+            android:value="MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDYD+JtZpE8cEyFxuQccw1VcSr8RePBizZfVcPflbvY6eYf3g/6rzv+8wfF/6z/lrsyofu7TB68XU0cJ/kCbSQalzl9Pa6HVZHAzml6DIHXoGoqkxBwLXebiN6v/spcv+rR93CI/54AYQTCponCKl/jj2045Bf7YeILY4J440WqW30E59j09dDxFP8AGnJktZaalzvkCXrMhJ2zrcRTlKtos6l+ZPFYzHD5RCTf3TdDovpN5yVbbjCvE0v+czFXlxgJd6k1Zc85uu+18jf0EKAv3hZyv4sEhNzupQtaZPTua/YzgsZz3FVLL0GkpiBqGrAT14jN9XyzgEJVtPojoq97AgMBAAECggEAEH5t76IT1kRQYyoCwfU6gFpKSMXhFCZXeUGn2Uqp824vpiEioSV9dAIDhub0wvIzyjK5b9vowMJyn4KhrMC+L9V5iwkJaMVsggZ/4NRRmS9iy2s8pwOhjNsO/Op7ckcoWu0Dx0GUQz0kyuNBwvPPLCUH1n77IbKgOfRXwni/GbkMRKp1ERBbDznBPuQc4Du4Mmiu0+yzndDxrsNuRJpcOohJMrAi0vWRPp9gZU1ZxmVWGsmUXdRphZZGwgi7TQAxO+OG3LOMqcVsUi9OctGl9Aj7UMI0BTi2SVWZ3vBxPycoA5fi/1NlIJ/buHv3Ol/04iVznMYNY9jY4J96VBRtwQKBgQD4lWLqhkRii4Fboo+hMfMM+y25id2s7teVou6aJXVHS7EAiNDK6qK9o6gwD7X5xhMm5EMEquD6xSPzhcLDW7/ygMRo8vjjA5Cjbn3UXD5WRbbH8K42V67YhsyATHrxulGgzNnIyO+ZFmUbkapGEEgDzTi30ziIoPE1HMzCj8VLIQKBgQDeghuWZQAfkPpPkXXzuEgEKqZjd09+Hh7bkCcJbhpvrt4jj/B8CBx9CLicNE34rkTwhYtnsRMaSE0sJJfM0GxyVb9xKmfwzOfTBydl46Y+XdnEalmKvUZpAIpyxb/W6WAEg+IDsd0a+INQEQ4vrw/BgX/E1z5nQn4GwDtRiwZjGwKBgQDiPSOfir+maI081wCdlpY8VEZTPLRx9ZZj67v4surADpVzhRFx/IZMziv+Qe4++xTnKowMLXFBCjckJbMSlehmTudzFN+LzOzQsXj301QwtJYb9mK3tqm9C0IH6pNieU5daNM1OBtIWud+Zd5wkdTZEOfz9drYDpI44pNA6BSJwQKBgQCFEdah2QF7315zm5CpEzqukzszHTWDPUxDDzDpaNmSlUfwiLLP2qH+/Oo7MOS4prBAD/3RI4tDGp5cmf3W1Ycl0bZOXYgP8Ntrz0l2m/DeN4528wtd99hWD6a9ARq70pJD4QOYJhUPfjQ5/Bk51z5bAbGB7SA67P8l1m0jVTuapQKBgQC6twRDMb7V2U6rJorQOQHtQofS6pfT4RA98b9OZA/TYsNb+QK1Yn7ddBAbwS+qJA10Uh0W/+zP/mIIH69LLaTN1HsNxxiN6GyDujkQ7FIR8P4K2yyM0b13uTkwgiLx9FEF5XGHJnw65+XlOti3Zn7CtU7uot6FCNfubZjgPBk3ng=="/>
     </application>
 
 </manifest>
