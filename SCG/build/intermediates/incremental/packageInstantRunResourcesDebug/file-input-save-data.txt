@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jul 12 15:17:45 CST 2017
+#Wed Jul 12 15:49:30 CST 2017
 1073.file=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\btn_yj_et.xml
 1090.base=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\resources-debug.ap_
 1007.base=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\resources-debug.ap_

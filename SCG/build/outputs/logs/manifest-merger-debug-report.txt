@@ -22,14 +22,17 @@ ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:7:5-9:40
 MERGED from [SCGAS:SlidingMenuLib:unspecified] E:\As\SCGAS\SlidingMenuLib\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [SCGAS:wheel:unspecified] E:\As\SCGAS\wheel\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:40
 MERGED from [SCGAS:jcvideoplayer-lib:unspecified] E:\As\SCGAS\jcvideoplayer-lib\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.1] C:\Users\Administrator\.android\build-cache\9224bd7899d421cd4e5785cbba6f0156897926cf\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.1] C:\Users\Administrator\.android\build-cache\fc6f3a34d1e7785de9492ad9357d0de092f13215\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\47c98bf930ce72ad3b712dafd96d935e89118803\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\206257ad5938c4cb5b2cafbdb3509cd407cfec70\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\7003945044887d5e3626bb8df2fd50e08edb5fdf\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\0661f5a33885eb386ff8247443cec5625a311779\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\f022e0324b772c8ffecd16e6c1a78521af186d86\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\ffd2b7e15bb7c22908017fbb29578dac05388f0d\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\11b3d359a56c2526d618b4ad53e9d6e59254e9a9\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\e7408ef492e77f8ae48ff7b46371088c834f0607\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\117103c2af8a51706d09d89150f5eb2458ed62c3\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\f022e0324b772c8ffecd16e6c1a78521af186d86\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\86d0b6b41fc0affe271720d80ecbfbfb2df7f90f\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\47c98bf930ce72ad3b712dafd96d935e89118803\output\AndroidManifest.xml:23:9-75
@@ -181,18 +184,24 @@ ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:73:5-65
 application
 ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:75:5-991:19
 MERGED from [SCGAS:wheel:unspecified] E:\As\SCGAS\wheel\build\intermediates\bundles\default\AndroidManifest.xml:11:5-12:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.1] C:\Users\Administrator\.android\build-cache\9224bd7899d421cd4e5785cbba6f0156897926cf\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.1] C:\Users\Administrator\.android\build-cache\fc6f3a34d1e7785de9492ad9357d0de092f13215\output\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\47c98bf930ce72ad3b712dafd96d935e89118803\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\206257ad5938c4cb5b2cafbdb3509cd407cfec70\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\7003945044887d5e3626bb8df2fd50e08edb5fdf\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\0661f5a33885eb386ff8247443cec5625a311779\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\f022e0324b772c8ffecd16e6c1a78521af186d86\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\ffd2b7e15bb7c22908017fbb29578dac05388f0d\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\11b3d359a56c2526d618b4ad53e9d6e59254e9a9\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\e7408ef492e77f8ae48ff7b46371088c834f0607\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\f022e0324b772c8ffecd16e6c1a78521af186d86\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\86d0b6b41fc0affe271720d80ecbfbfb2df7f90f\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:79:9-41
 		REJECTED from [SCGAS:wheel:unspecified] E:\As\SCGAS\wheel\build\intermediates\bundles\default\AndroidManifest.xml:11:18-54
+		REJECTED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.1] C:\Users\Administrator\.android\build-cache\9224bd7899d421cd4e5785cbba6f0156897926cf\output\AndroidManifest.xml:13:9-41
+		REJECTED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.1] C:\Users\Administrator\.android\build-cache\fc6f3a34d1e7785de9492ad9357d0de092f13215\output\AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.1] C:\Users\Administrator\.android\build-cache\9224bd7899d421cd4e5785cbba6f0156897926cf\output\AndroidManifest.xml:14:9-35
 	android:vmSafeMode
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:81:9-34
 	android:allowBackup
@@ -1306,10 +1315,11 @@ ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.and
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\206257ad5938c4cb5b2cafbdb3509cd407cfec70\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\7003945044887d5e3626bb8df2fd50e08edb5fdf\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\0661f5a33885eb386ff8247443cec5625a311779\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\f022e0324b772c8ffecd16e6c1a78521af186d86\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\ffd2b7e15bb7c22908017fbb29578dac05388f0d\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\11b3d359a56c2526d618b4ad53e9d6e59254e9a9\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\e7408ef492e77f8ae48ff7b46371088c834f0607\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\117103c2af8a51706d09d89150f5eb2458ed62c3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\f022e0324b772c8ffecd16e6c1a78521af186d86\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\86d0b6b41fc0affe271720d80ecbfbfb2df7f90f\output\AndroidManifest.xml:25:5-27:34
 	android:value
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\47c98bf930ce72ad3b712dafd96d935e89118803\output\AndroidManifest.xml:27:9-31

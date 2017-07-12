@@ -66,6 +66,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\9224bd7899d421cd4e5785cbba6f0156897926cf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27127cc4423d6b93330b5d377346c32c83c49f31">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c815d96a7f08e4aa15252391bf29cf2cc731e1cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\ShareSDK-QZone-2.8.3.jar"
         jumboMode="true"
         optimize="true"
@@ -133,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4920232eb03b2f147769fd924aa7bc1b9db17e45">
+        sha1="11ee49c88314b52235216dfe61dbe5e67317e153">
         <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c91d0f7efb935ce72f4b092ea12521c1a00cb245\classes.dex" />
     </item>
     <item
@@ -336,6 +345,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\117103c2af8a51706d09d89150f5eb2458ed62c3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7dd0b7dfd3b9cd4268e3a23b48ffad89d01c0f8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Administrator\.android\build-cache\7003945044887d5e3626bb8df2fd50e08edb5fdf\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -360,6 +378,15 @@
         revision="25.0.0"
         sha1="57c343f05b73b923bf2502b05851dbfe12193dcb">
         <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\support-annotations-21.0.0-rc1_ba106ff9ef12d5583ab603ad3476c2e8b6febdfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\fc6f3a34d1e7785de9492ad9357d0de092f13215\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8351f6fe3dd1bd3267b9899e6484ab62520666a">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c753ea92a631aac4cf3f980680858e3e5ad6ba89\classes.dex" />
     </item>
     <item
         is-multidex="true"

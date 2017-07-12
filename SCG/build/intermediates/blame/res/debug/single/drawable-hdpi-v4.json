@@ -40,40 +40,40 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\xuxian.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\borrow_type_3.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\borrow_type_3.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_1_s.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\tab_1_s.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pay_kind1.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\pay_kind1.png"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\borrow_type_3.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\borrow_type_3.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_bar_menu_on.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\title_bar_menu_on.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\b_foot_back_9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\b_foot_back_9.png"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pay_kind1.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\pay_kind1.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hktype.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\hktype.png"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\b_foot_back_9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\b_foot_back_9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personalset.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\personalset.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hktype.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\hktype.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinzhuang.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\xinzhuang.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_03.png",

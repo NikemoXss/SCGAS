@@ -13,6 +13,12 @@ import android.widget.ListView;
 
 import com.czscg.R;
 import com.lmq.adapter.ZxAdapter;
+import com.scwang.smartrefresh.header.MaterialHeader;
+import com.scwang.smartrefresh.layout.api.RefreshLayout;
+import com.scwang.smartrefresh.layout.constant.SpinnerStyle;
+import com.scwang.smartrefresh.layout.footer.BallPulseFooter;
+import com.scwang.smartrefresh.layout.listener.OnLoadmoreListener;
+import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -24,10 +30,12 @@ import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
  * Created by Administrator on 2017/7/10.
  */
 //http://blog.csdn.net/First_CooMan/article/details/69367519     jcvideoplayer遇到的坑
-public class ZxFragment extends Fragment{
+public class ZxFragment extends Fragment {
 
     @InjectView(R.id.videoList)
     ListView videoList;
+    @InjectView(R.id.refreshLayout)
+    RefreshLayout refreshLayout;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -42,7 +50,7 @@ public class ZxFragment extends Fragment{
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        ZxAdapter zxAdapter=new ZxAdapter(getActivity());
+        ZxAdapter zxAdapter = new ZxAdapter(getActivity());
         videoList.setAdapter(zxAdapter);
         zxAdapter.notifyDataSetChanged();
         videoList.setOnScrollListener(new AbsListView.OnScrollListener() {
@@ -77,6 +85,24 @@ public class ZxFragment extends Fragment{
                 totalCount = totalItemCount;
             }
         });
+
+        refreshLayout.setOnRefreshListener(new OnRefreshListener() {
+            @Override
+            public void onRefresh(RefreshLayout refreshlayout) {
+                refreshlayout.finishRefresh(2000);
+            }
+        });
+        refreshLayout.setOnLoadmoreListener(new OnLoadmoreListener() {
+            @Override
+            public void onLoadmore(RefreshLayout refreshlayout) {
+                refreshlayout.finishLoadmore(2000);
+            }
+        });
+
+        //设置 Header 为 Material风格
+        refreshLayout.setRefreshHeader(new MaterialHeader(getActivity()).setShowBezierWave(true));
+        //设置 Footer 为 球脉冲
+        refreshLayout.setRefreshFooter(new BallPulseFooter(getActivity()).setSpinnerStyle(SpinnerStyle.Scale));
 
         videoList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

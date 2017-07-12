@@ -22,19 +22,19 @@ public final class R {
         public static final int wheel_val = 0x7f0202c5;
     }
     public static final class id {
-        public static final int btnCancel = 0x7f0b0349;
-        public static final int btnSubmit = 0x7f0b034a;
-        public static final int day = 0x7f0b01a0;
-        public static final int hour = 0x7f0b01a1;
-        public static final int min = 0x7f0b01a2;
-        public static final int month = 0x7f0b019f;
-        public static final int options1 = 0x7f0b019b;
-        public static final int options2 = 0x7f0b019c;
-        public static final int options3 = 0x7f0b019d;
-        public static final int optionspicker = 0x7f0b034b;
-        public static final int timepicker = 0x7f0b034c;
-        public static final int title = 0x7f0b0043;
-        public static final int year = 0x7f0b019e;
+        public static final int btnCancel = 0x7f0b034f;
+        public static final int btnSubmit = 0x7f0b0350;
+        public static final int day = 0x7f0b01a6;
+        public static final int hour = 0x7f0b01a7;
+        public static final int min = 0x7f0b01a8;
+        public static final int month = 0x7f0b01a5;
+        public static final int options1 = 0x7f0b01a1;
+        public static final int options2 = 0x7f0b01a2;
+        public static final int options3 = 0x7f0b01a3;
+        public static final int optionspicker = 0x7f0b0351;
+        public static final int timepicker = 0x7f0b0352;
+        public static final int title = 0x7f0b0048;
+        public static final int year = 0x7f0b01a4;
     }
     public static final class layout {
         public static final int include_optionspicker = 0x7f030059;
