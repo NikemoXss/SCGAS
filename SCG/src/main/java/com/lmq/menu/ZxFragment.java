@@ -113,7 +113,7 @@ public class ZxFragment extends Fragment{
 
             }
         }
-        Log.e("videoTest", "======================releaseAllVideos=====================");
+        Log.e("videoTest", "======================releaseAllVideos===================");
         JCVideoPlayer.releaseAllVideos();
         MainTabActivit_Scg.mainTabActivity.VideoPlaying = null;
     }
