@@ -1,7 +1,0 @@
-#Wed Jul 12 15:50:06 CST 2017
-base.0=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_64bb003b021c7e9b84259a4a7ccedf0e770bf59d
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c91d0f7efb935ce72f4b092ea12521c1a00cb245\\classes.dex
-base.1=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c91d0f7efb935ce72f4b092ea12521c1a00cb245
-file.0=E\:\\As\\SCGAS\\SCG\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_64bb003b021c7e9b84259a4a7ccedf0e770bf59d\\classes.dex

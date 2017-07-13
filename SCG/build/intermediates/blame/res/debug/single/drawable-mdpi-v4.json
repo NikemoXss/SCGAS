@@ -20,20 +20,20 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_01.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-mdpi\\app_01.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_01.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-mdpi\\app_01.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\simple_notification_icon.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-mdpi\\simple_notification_icon.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",
@@ -172,12 +172,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",

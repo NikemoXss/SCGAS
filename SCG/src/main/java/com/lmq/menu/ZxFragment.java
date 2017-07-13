@@ -2,7 +2,6 @@ package com.lmq.menu;
 
 import android.graphics.Rect;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +12,7 @@ import android.widget.ListView;
 
 import com.czscg.R;
 import com.lmq.adapter.ZxAdapter;
+import com.lmq.main.api.BaseFragment;
 import com.scwang.smartrefresh.header.MaterialHeader;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.constant.SpinnerStyle;
@@ -30,7 +30,7 @@ import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
  * Created by Administrator on 2017/7/10.
  */
 //http://blog.csdn.net/First_CooMan/article/details/69367519     jcvideoplayer遇到的坑
-public class ZxFragment extends Fragment {
+public class ZxFragment extends BaseFragment {
 
     @InjectView(R.id.videoList)
     ListView videoList;
@@ -90,12 +90,14 @@ public class ZxFragment extends Fragment {
             @Override
             public void onRefresh(RefreshLayout refreshlayout) {
                 refreshlayout.finishRefresh(2000);
+                showCustomToast("刷新完成");
             }
         });
         refreshLayout.setOnLoadmoreListener(new OnLoadmoreListener() {
             @Override
             public void onLoadmore(RefreshLayout refreshlayout) {
                 refreshlayout.finishLoadmore(2000);
+                showCustomToast("加载完成");
             }
         });
 

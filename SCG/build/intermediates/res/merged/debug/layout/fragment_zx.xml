@@ -4,6 +4,13 @@
     android:id="@+id/refreshLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:gravity="center"-->
+        <!--android:background="#444"-->
+        <!--android:textColor="#fff"-->
+        <!--android:text="看看我会不会变成Header"/>-->
 
     <ListView
         android:id="@+id/videoList"
