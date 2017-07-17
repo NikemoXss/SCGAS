@@ -656,7 +656,6 @@ public class MainTabActivit_Scg extends FragmentActivity {
                     doHttp();
                     finish();
                 } else {
-
                     showCustomToast(R.string.toast6);
                 }
             }
@@ -826,16 +825,13 @@ public class MainTabActivit_Scg extends FragmentActivity {
     @Override
     protected void onPause() {
         super.onPause();
-            if(VideoPlaying!=null)
-            {
-                if(VideoPlaying.currentState== JCVideoPlayer.CURRENT_STATE_PLAYING)
-                {
-                    VideoPlaying.startButton.performClick();
-                }else if (VideoPlaying.currentState== JCVideoPlayer.CURRENT_STATE_PREPARING)
-                {
-                    JCVideoPlayer.releaseAllVideos();
-                }
+        if (VideoPlaying != null) {
+            if (VideoPlaying.currentState == JCVideoPlayer.CURRENT_STATE_PLAYING) {
+                VideoPlaying.startButton.performClick();
+            } else if (VideoPlaying.currentState == JCVideoPlayer.CURRENT_STATE_PREPARING) {
+                JCVideoPlayer.releaseAllVideos();
             }
+        }
 
     }
 }

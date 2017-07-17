@@ -12,12 +12,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\border_bottom.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_error_selector.xml",
-        "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\drawable\\jc_click_error_selector.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_error_selector.xml",
+        "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\drawable\\jc_click_error_selector.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
@@ -48,12 +48,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\skyblue_platform_list_item.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\skyblue_platform_list_item.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_seek_thumb_pressed.xml",
         "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\drawable\\jc_seek_thumb_pressed.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\skyblue_platform_list_item.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\skyblue_platform_list_item.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
@@ -212,6 +212,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\person_info_radio_selector.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_lend_attention_selector.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\tab_lend_attention_selector.xml"
     },
@@ -258,6 +262,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_bottom_seek_progress.xml",
         "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\drawable\\jc_bottom_seek_progress.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_timebtn.xml",
@@ -330,6 +338,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\person_info_btn_selector.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\person_info_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\sys_toast.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9606850eeed2628a0153493405c78efeb433fefe\\output\\res\\drawable\\sys_toast.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
@@ -424,6 +436,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\new_btn_shape.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_exit.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable\\btn_exit.xml"
     },
@@ -494,6 +510,14 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_title_bg.9.png",

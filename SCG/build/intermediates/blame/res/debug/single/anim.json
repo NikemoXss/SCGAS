@@ -1,5 +1,117 @@
 [
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\animation_right_in.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\animation_right_in.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\triangle_totate.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\triangle_totate.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\animation_left_in.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\animation_left_in.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\down_to_up.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\down_to_up.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\light_to_dark.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\light_to_dark.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\animation_right_out.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\animation_right_out.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_out.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\alpha_out.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\quit_fullscreen.xml",
+        "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\anim\\quit_fullscreen.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_in.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\alpha_in.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\shake_y.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\shake_y.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\loading_animation.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\loading_animation.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\to_down.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\to_down.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\hyp_out.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\hyp_out.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\wb_loading_frame.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\wb_loading_frame.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\left_to_right.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\left_to_right.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\hyp_in.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\hyp_in.xml"
     },
@@ -12,20 +124,8 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\interpolator_cycle.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\animation_right_in.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\animation_right_in.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\triangle_totate.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\triangle_totate.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
@@ -48,10 +148,6 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\in_lefttoright.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\animation_left_in.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\animation_left_in.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\shake.xml"
     },
@@ -60,28 +156,8 @@
         "source": "E:\\As\\SCGAS\\pickerview\\build\\intermediates\\bundles\\default\\res\\anim\\timepicker_anim_enter_bottom.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\down_to_up.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\down_to_up.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\out_righttoleft.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\out_righttoleft.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\slide_in_from_bottom.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\light_to_dark.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\light_to_dark.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\animation_right_out.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\animation_right_out.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\to_up.xml",
@@ -92,28 +168,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\triangle_totate2.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\slide_out_to_top.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\dark_to_light.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\dark_to_light.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\start_fullscreen.xml",
         "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\anim\\start_fullscreen.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_out.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\alpha_out.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\quit_fullscreen.xml",
-        "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\anim\\quit_fullscreen.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_in.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\alpha_in.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\to_right.xml",
@@ -124,60 +184,24 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\animation_left_out.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\slide_out_to_bottom.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\shake_y.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\shake_y.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\slide_out_to_bottom.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\loading_animation.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\loading_animation.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\to_down.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\to_down.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\hyp_out.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\hyp_out.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\up_to_down.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\up_to_down.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\wb_loading_frame.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\wb_loading_frame.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\shake_x.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\shake_x.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\left_to_right.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\left_to_right.xml"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\right_to_left.xml",

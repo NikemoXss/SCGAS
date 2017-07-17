@@ -8,12 +8,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\biditem.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\invest_manage_debet_layout.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\invest_manage_debet_layout.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\skyblue_editpage.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\skyblue_editpage.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\invest_manage_debet_layout.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\invest_manage_debet_layout.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
@@ -24,8 +24,16 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_bonus.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_zx.xml",
@@ -48,12 +56,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\progress_view.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_touzi_sx.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_touzi_sx.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_touzi_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_touzi_sx.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\contactus.xml",
@@ -156,12 +164,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\page_foot.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_set_sx.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_set_sx.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_set_sx.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_set_sx.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\loading_view.xml",
@@ -212,24 +220,28 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\page_head_sx.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\actvity_gettelyzm.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\actvity_gettelyzm.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\actvity_gettelyzm.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\actvity_gettelyzm.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_menu.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_menu.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\people_info_update_jiaoyipsw.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_update_jiaoyipsw.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\xxplimg_activity.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\xxplimg_activity.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\people_info_update_jiaoyipsw.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_update_jiaoyipsw.xml"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\gesturepassword_create.xml",
@@ -240,12 +252,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\forgot_pwd2.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\personalset.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\personalset.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_item_deal.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\adapter_item_deal.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\personalset.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\personalset.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login.xml",
@@ -270,6 +282,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\item_canandnotjxj.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_canandnotjxj.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -364,8 +380,20 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info2_new.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\skyblue_editpage_at_layout.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\skyblue_editpage_at_layout.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\skyblue_editpage_inc_image_layout.xml",
@@ -442,6 +470,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\item_touzi_sx.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_touzi_sx.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\people_info_jinxingrz.xml",
@@ -628,6 +660,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\pop_list.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\sys_show_toast.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9606850eeed2628a0153493405c78efeb433fefe\\output\\res\\layout\\sys_show_toast.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\register.xml"
     },
@@ -812,6 +848,10 @@
         "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\layout\\jc_dialog_brightness.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
@@ -838,6 +878,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\diydialogtitle.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\diydialogtitle.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -868,6 +912,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_redpkg_scg.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\tzdetail.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\tzdetail.xml"
     },
@@ -878,6 +926,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\jc_layout_standard.xml",
         "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\layout\\jc_layout_standard.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_crowd_sx.xml",
@@ -898,6 +950,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\people_info_bonus.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_bonus.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -994,6 +1050,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_setting.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_setting.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\1947e76aaebfe65cf18c12460c6130f24364164d\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\invest_mange_hk_detail_item.xml",
