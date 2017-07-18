@@ -465,3 +465,23 @@
 -dontwarn com.taobao.sophix.**
 -dontwarn com.ta.utdid2.device.**
 
+-keep class butterknife.** { *; }
+-dontwarn butterknife.internal.**
+-keep class **$$ViewBinder { *; }
+
+-keepclasseswithmembernames class * {
+    @butterknife.* <fields>;
+}
+
+-keepclasseswithmembernames class * {
+    @butterknife.* <methods>;
+}
+
+-keep public class * implements com.bumptech.glide.module.GlideModule
+-keep public enum com.bumptech.glide.load.resource.bitmap.ImageHeaderParser$** {
+  **[] $VALUES;
+  public *;
+}
+
+-dontwarn org.xmlpull.v1.XmlPullParser
+-dontwarn org.xmlpull.v1.XmlSerializer

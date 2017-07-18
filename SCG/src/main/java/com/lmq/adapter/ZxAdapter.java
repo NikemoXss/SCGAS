@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.bumptech.glide.Glide;
 import com.czscg.R;
+import com.squareup.picasso.Picasso;
 
 import fm.jiecao.jcvideoplayer_lib.JCVideoPlayer;
 import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
@@ -66,7 +66,7 @@ public class ZxAdapter extends BaseAdapter {
 
             viewHolder.jcVideoPlayer.setUp(
                     "http://gslb.miaopai.com/stream/ed5HCfnhovu3tyIQAiv60Q__.mp4", JCVideoPlayer.SCREEN_LAYOUT_NORMAL, "啦啦");
-            Glide.with(context).load("http://a4.att.hudong.com/05/71/01300000057455120185716259013.jpg").into(viewHolder.jcVideoPlayer.thumbImageView);
+            Picasso.with(context).load("http://a4.att.hudong.com/05/71/01300000057455120185716259013.jpg").into(viewHolder.jcVideoPlayer.thumbImageView);
             return convertView;
         }
     }

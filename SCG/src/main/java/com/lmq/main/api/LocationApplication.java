@@ -9,7 +9,6 @@ import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.baidu.mapapi.CoordType;
 import com.baidu.mapapi.SDKInitializer;
-import com.jingewenku.abrahamcaijin.commonutil.CrashHandlerUtil;
 import com.lmq.main.util.LockPatternUtils;
 import com.taobao.sophix.PatchStatus;
 import com.taobao.sophix.SophixManager;
@@ -58,9 +57,9 @@ public class LocationApplication extends Application {
     }
 
     private void CrashE() {
-        CrashHandlerUtil crashHandlerUtil = CrashHandlerUtil.getInstance();
-        crashHandlerUtil.init(getApplicationContext());
-        crashHandlerUtil.setCrashTip("很抱歉，程序出现异常，即将退出！");
+//        CrashHandlerUtil crashHandlerUtil = CrashHandlerUtil.getInstance();
+//        crashHandlerUtil.init(getApplicationContext());
+//        crashHandlerUtil.setCrashTip("很抱歉，程序出现异常，即将退出！");
     }
 
     public void sophi() {
