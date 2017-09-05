@@ -54,6 +54,7 @@
             android:text="设置"/>
 
         <RadioButton
+            android:visibility="gone"
             android:id="@+id/tab_four"
             style="@style/tab_bar"
             android:drawableTop="@drawable/tab_setting_attention_selector"

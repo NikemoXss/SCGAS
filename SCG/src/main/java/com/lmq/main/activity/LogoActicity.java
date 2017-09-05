@@ -1,21 +1,5 @@
 package com.lmq.main.activity;
 
-import java.io.File;
-
-import org.apache.http.Header;
-import org.json.JSONObject;
-
-import com.baidu.android.pushservice.CustomPushNotificationBuilder;
-import com.baidu.android.pushservice.PushConstants;
-import com.baidu.android.pushservice.PushManager;
-import com.czscg.R;
-import com.lmq.http.BaseHttpClient;
-import com.lmq.http.JsonHttpResponseHandler;
-import com.lmq.main.api.ActivityManager;
-import com.lmq.main.api.MyLog;
-import com.lmq.main.util.Default;
-import com.lmq.menu.MainTabActivit_Scg;
-
 import android.app.Activity;
 import android.app.Notification;
 import android.content.Intent;
@@ -28,7 +12,17 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-//rs
+import com.baidu.android.pushservice.CustomPushNotificationBuilder;
+import com.baidu.android.pushservice.PushConstants;
+import com.baidu.android.pushservice.PushManager;
+import com.czscg.R;
+import com.lmq.main.api.MyLog;
+import com.lmq.main.util.Default;
+import com.lmq.menu.MainTabActivit_Scg;
+
+import java.io.File;
+
+//scw
 public class LogoActicity extends Activity implements OnClickListener {
 
 	private SharedPreferences sharedPreferences;
@@ -98,6 +92,7 @@ public class LogoActicity extends Activity implements OnClickListener {
 
 		// 推送高级设置，通知栏样式设置为下面的ID
 		PushManager.setNotificationBuilder(this, 10, cBuilder);
+
 
 	}
 

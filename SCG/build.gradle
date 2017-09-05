@@ -11,6 +11,15 @@ android {
         applicationId "com.czscg"
         minSdkVersion 16
         targetSdkVersion 25
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi' , 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+    signingConfigs {
+        release {
+            v2SigningEnabled false
+        }
     }
 
     buildTypes {
@@ -70,6 +79,9 @@ dependencies {
     //compile files('libs/support-annotations-21.0.0-rc1.jar')
     compile files('libs/universal-image-loader-1.9.3.jar')
     //阿里热修复
+//    compile ('com.aliyun.ams:alicloud-android-hotfix:3.1.0') {
+//                exclude(module:'alicloud-android-utdid')
+//            }
     compile files('libs/alicloud-android-utils-1.0.3.jar')
     compile files('libs/utdid4all-1.1.5.3_proguard.jar')
     compile files('libs/sophix-3.0.3.jar')
@@ -85,4 +97,9 @@ dependencies {
 
     //工具类
 //   compile 'com.abrahamcaijin.commonutil:CommonUtil:1.0.0'
+    compile project(path: ':jcvideoplayer-lib')
+
+    //腾信的bugly
+    compile 'com.tencent.bugly:crashreport:latest.release' //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.1.9
+    compile 'com.tencent.bugly:nativecrashreport:latest.release' //其中latest.release指代最新Bugly NDK版本号，也可以指定明确的版本号，例如3.0
 }

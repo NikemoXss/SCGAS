@@ -67,7 +67,7 @@
             android:layout_alignParentLeft="true"
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
-            android:text="影响金额"/>
+            android:text="提现金额"/>
 
         <TextView
             android:id="@+id/money"
@@ -81,6 +81,7 @@
     </RelativeLayout>
     
        <RelativeLayout
+           android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -112,6 +113,7 @@
     </RelativeLayout>
     
        <RelativeLayout
+           android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -143,6 +145,7 @@
     </RelativeLayout>
     
        <RelativeLayout
+           android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

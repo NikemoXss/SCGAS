@@ -13,12 +13,15 @@ public class Default {
 	/** 富友支付 */
 	public static final boolean use_fy = true;
 
-//	public static final String ip = "http://106.14.83.114";
-	public static final String ip = "http://120.25.58.247";
+//	public static final String ip = "http://123.56.18.67";
+	public static final String ip = "http://www.czsuchang.com";
 
 	public static final String yu = "http://www.czsuchang.com/";
 //签到
 	public static String qiandao = "NO";
+
+	public static int p = 0;
+
 	//签到接口
 	public static final String qd = "/Member/Mcenter/doSign";
 	//是否签到接口
@@ -116,6 +119,8 @@ public class Default {
 	public static final String vip_kf_inf = "/member/mcenter/vip_list";
 	/** VIP申请 **/
 	public static final String hf_vip = "/member/mcenter/apply";
+	/** VIP修改 **/
+	public static final String applyhf_vip = "/member/mcenter/applyVip";
 	//首页地址图片请求
 	public static final String indexurlpic = "/Home/Main/activityLogo";
 	//最新2个标

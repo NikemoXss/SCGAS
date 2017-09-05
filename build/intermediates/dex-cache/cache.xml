@@ -2,472 +2,346 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.1\2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0\gson-2.8.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\gson-2.8.1_83db0f1a5c1f672e459d878df079f3d0d00fee1d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\e8809b9fe334f82735d6f553176993d7c0732245\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_8e2cbbcdda1dee2ba7226b439bc3d5b4d0785464.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\support-annotations-21.0.0-rc1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="57c343f05b73b923bf2502b05851dbfe12193dcb">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\support-annotations-21.0.0-rc1_ba106ff9ef12d5583ab603ad3476c2e8b6febdfe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\26bd1c911eb1ef9007882c7412b5fc5e3eb78863\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_e609ba8178636a2869120b84869b25960fc3de5f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\wheel\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2618b2198caf732038284f09c9f749af781436d0">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_beb39b0aebf567f2b05e684f7407816030eb4bb7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\libammsdk.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ef29ec238e1bad6c47297595fada8d7a7d794ff0">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\libammsdk_5866bdef536a254ed9c513b47dd3d3f7b1f78c61.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\baidumapapi_cloud_v4_3_1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d24c8d407f1506d4216d899ae8dc24e78ca00d03">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\baidumapapi_cloud_v4_3_1_fd200fd95eebf56b242a3530716dd4ba22b31517.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\baidumapapi_search_v4_3_1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9e6645eba59f74b0fca84ce7d26f8bdc7160764e">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\baidumapapi_search_v4_3_1_0de4eac1039acaf19b2033b2428b10ab7c190726.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\httpmime-4.1.3.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\httpmime-4.1.3_059ffe55f4607418e661fb80ab1dc718f18d7d1d.jar" />
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.1.3_059ffe55f4607418e661fb80ab1dc718f18d7d1d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\utdid4all-1.1.5.3_proguard.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="989c3bb13060da1e3154bfe00236f76453a2725f">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\utdid4all-1.1.5.3_proguard_e985c54e7468b764e0e58ba8fbb5803135243680.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\25b43ed8aea6d9e2da797073c7fcec7648c28eaf\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_5f413a7e84e1b9187f3ece6954be0772477787fb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\faa883ac9e29f7b8839d098c1f4ab22c16b4cf49\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_2a75ef740e4f776534a13823d29fb76a64b0484c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\picasso-2.5.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\picasso-2.5.2_c1835a7db0b59440884ca842a0b0bdb2ce13e64d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\1947e76aaebfe65cf18c12460c6130f24364164d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_6b474a1a7a8c94e48c5534ff911b2899f327421f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\pushservice-5.6.0.30.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d008d89d05a62f6c3d381fbc56c51d921fab4d76">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\pushservice-5.6.0.30_cbd4760eb4354489c84f691050bec2f20fcd0a15.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\nineoldandroids-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\nineoldandroids-2.4.0_fbe819269c158a8d55255ac4c7044e31da7230fe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\baidumapapi_radar_v4_3_1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1fc076f176eb31a019a30c9e335c4b2960abfbc2">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\baidumapapi_radar_v4_3_1_6d13f88eb103d2c2c21d7d73cd2ef8c199b348c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\jcvideoplayer-lib\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f4aadbcbb39d452528af7bb443496957e98ad97f">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_3f1614c1eeb0a82349f3e50060b8962c728c0093.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\card.io.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6871955c5f3c7b8488036dd8308225d57b7dabee">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\card.io_dfb926ce78f2cb049eafe82bb541b1e3349ae175.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\baidumapapi_base_v4_3_1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bd351c75a2320b69d34b4e8f02c1b3bc029265ec">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\baidumapapi_base_v4_3_1_3c415c20753419c06e8d0a41290c2b2f665570ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\MobCommons-2017.0412.1554.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f93319b520c12b41265a55d1ccacde97b9f18a9c">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\MobCommons-2017.0412.1554_2a5396265e03cf586f3396116063768ec9fffbab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SlidingMenuLib\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="137d7ba5dfea57f18101cb1fd32bb9d69b0216d0">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_8f8bc0877b44df6b7b404f1d2acfd6ee450641dd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\open_sdk_r5756_lite.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="06379788d59fda28f99848b542d55c94f48322a9">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\open_sdk_r5756_lite_0dec465d8d80852ce55df97c5ae0038a391cd537.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\ShareSDK-QZone-2.8.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fd16dfa76c87ad822163bee854914bd065042059">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\ShareSDK-QZone-2.8.3_41146899f1d546ee30347fd02ef68d033b49ad3d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\pickerview\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2f44e9a206b18627f3fa9d93693ae8db6657b79b">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_c3b7106cae48dd769ee4dca48306e4fff66119d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\android-async-http-1.4.6.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\android-async-http-1.4.6_9bfd6ff4300dddcc715eaed028b186d57d41c45b.jar" />
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.6_9bfd6ff4300dddcc715eaed028b186d57d41c45b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\ShareSDK-Wechat-Favorite-2.8.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0be6c30c87d2213d57d60adf04d4567639603070">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\ShareSDK-Wechat-Favorite-2.8.3_6b957104cf8f0dd68f18e8d9355f402b4d3147f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\mta-sdk-1.6.2.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\mta-sdk-1.6.2_7e287d22d731162370018a233622b3250e6e76db.jar" />
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\mta-sdk-1.6.2_7e287d22d731162370018a233622b3250e6e76db\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\baidumapapi_util_v4_3_1.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="f35f848bd2d9c4fadaa9410b4de1756c58cc7bfd">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\baidumapapi_util_v4_3_1_741a1302e0db7d11bd8166d45ee65a7e90ef298f.jar" />
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_util_v4_3_1_741a1302e0db7d11bd8166d45ee65a7e90ef298f\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\card.io.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6871955c5f3c7b8488036dd8308225d57b7dabee">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\card.io_dfb926ce78f2cb049eafe82bb541b1e3349ae175\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\MobCommons-2017.0412.1554.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f93319b520c12b41265a55d1ccacde97b9f18a9c">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2017.0412.1554_2a5396265e03cf586f3396116063768ec9fffbab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\baidumapapi_radar_v4_3_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1fc076f176eb31a019a30c9e335c4b2960abfbc2">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_radar_v4_3_1_6d13f88eb103d2c2c21d7d73cd2ef8c199b348c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\alicloud-android-utils-1.0.3.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="000626735e82687be89e3ba1ac481540fcab031c">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\alicloud-android-utils-1.0.3_a5fb19355857e503c07cc317ddd720b1aa0ff97f.jar" />
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\alicloud-android-utils-1.0.3_a5fb19355857e503c07cc317ddd720b1aa0ff97f\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\acdd0970a07a9e99686e974ea56f260e51df6d9f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_9ed381c25e2116e8dbcc8e66c76167437d034776.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\mframework.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="25509058b34a5ee08dbf66e57078e3083735d200">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\mframework_ebb3055b6315925a11354cf2206607a19577ab7e.jar" />
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\mframework_ebb3055b6315925a11354cf2206607a19577ab7e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\ShareSDK-Core-2.8.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\baidumapapi_cloud_v4_3_1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="da4b0def0be4d4be0d3460638e087d01f60347c0">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\ShareSDK-Core-2.8.3_c16c1c7ed69bfad3efbd960a74766b2797cb4c78.jar" />
+        sha1="d24c8d407f1506d4216d899ae8dc24e78ca00d03">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_cloud_v4_3_1_fd200fd95eebf56b242a3530716dd4ba22b31517\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\universal-image-loader-1.9.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\ShareSDK-QZone-2.8.3.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\universal-image-loader-1.9.3_d301f309be2240bf5afabd0f51ed7805be4094b7.jar" />
+        sha1="fd16dfa76c87ad822163bee854914bd065042059">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QZone-2.8.3_41146899f1d546ee30347fd02ef68d033b49ad3d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\ShareSDK-QQ-2.8.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\libammsdk.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="56808c93d53310bb7e5d79a1a5709dfd2c11d532">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\ShareSDK-QQ-2.8.3_9771a529d498a405ac5fa14a7d625d63d4787d11.jar" />
+        sha1="ef29ec238e1bad6c47297595fada8d7a7d794ff0">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\libammsdk_5866bdef536a254ed9c513b47dd3d3f7b1f78c61\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\ShareSDK-Wechat-Moments-2.8.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="415c1cb912f11e414e6beaf1e59090c154f6da8d">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\ShareSDK-Wechat-Moments-2.8.3_8f9682f65ead26412e67a891c5f151892afee7b0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\bolts-tasks-1.4.0_c64325f78a24c085b700c554244dc03fa6bc6a89.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\GifView.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5a518235931001b94e87540c99bd13258f614622">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\GifView_33d43ee8728d69bcad73c564c0bfaf56b3df478b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\9606850eeed2628a0153493405c78efeb433fefe\output\jars\libs\ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7798c9e4488d7c7f42a7621be1bf83583e4ef706">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\ksoap2-android-assembly-3.3.0-jar-with-dependencies_9c6288faa52dfa69bafb2670853cfd627b4ccee3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\baidumapapi_map_v4_3_1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c28d81ba8665fd2f5176a218f4829e7457fb0276">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\baidumapapi_map_v4_3_1_a0f756b2efd980176540c8d6b1657e4d4c83e3c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\ShareSDK-Wechat-Core-2.8.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="65d3d26aac0c67984e4612539017f7a5f4bd6507">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\ShareSDK-Wechat-Core-2.8.3_8666c720ce8448046235a4e74ac4132bfacc8baf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\commons-httpclient-3.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d6364bcc1b2b2aa69d008602d36a700453648560">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\commons-httpclient-3.0.1_ac305f097a02ec2ade9bdb0a036fb7ab3c0eff0d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\sunjce_provider.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2357317d1e1f14937b3bda942c58791ee1dba581">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\sunjce_provider_0f9579082f060a67089eb662fa4b29eee955a8b0.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\sophix-3.0.3.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="08d8209b683a3ce1b091fd43dc3029ba18421f16">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\sophix-3.0.3_87150c0e8ddd647d65cef0aaa195b6c3908fae7b.jar" />
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\sophix-3.0.3_87150c0e8ddd647d65cef0aaa195b6c3908fae7b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\paysdkPY36sdk生产.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\ShareSDK-QQ-2.8.3.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="87463f7f7f64c2a67bfef9a719dd4a438617bfa5">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\paysdkPY36sdk生产_8340142e4aba52d583cc010b8b13fb707a923b99.jar" />
+        sha1="56808c93d53310bb7e5d79a1a5709dfd2c11d532">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QQ-2.8.3_9771a529d498a405ac5fa14a7d625d63d4787d11\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\9606850eeed2628a0153493405c78efeb433fefe\output\jars\libs\BASE64Decoder.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\utdid4all-1.1.5.3_proguard.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="2ce82c44dff33530a6399041e5bea62f2a679452">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\BASE64Decoder_3e4af49e91cb3f7b3e3b5bd1e82d3bc5f75e339f.jar" />
+        sha1="989c3bb13060da1e3154bfe00236f76453a2725f">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\utdid4all-1.1.5.3_proguard_e985c54e7468b764e0e58ba8fbb5803135243680\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\locSDK_6.13.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\ShareSDK-Core-2.8.3.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\locSDK_6.13_71226484a11f845f66bf1569fb01b743827bd8e6.jar" />
+        sha1="da4b0def0be4d4be0d3460638e087d01f60347c0">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Core-2.8.3_c16c1c7ed69bfad3efbd960a74766b2797cb4c78\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="E:\As\SCGAS\SCG\libs\ShareSDK-Wechat-2.8.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\ShareSDK-Wechat-Favorite-2.8.3.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6c77dd3832635149e694df173896f81e1e2d07aa">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\ShareSDK-Wechat-2.8.3_dc6487dd35e5ba2cf271c0f2b2a61a85f3fc8844.jar" />
+        sha1="0be6c30c87d2213d57d60adf04d4567639603070">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Favorite-2.8.3_6b957104cf8f0dd68f18e8d9355f402b4d3147f1\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\9606850eeed2628a0153493405c78efeb433fefe\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\baidumapapi_search_v4_3_1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="72a856b22d8179b4b20aad2ea4cffab808f94059">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_1cb896376f74bb39525db913983bc26441c45d4d.jar" />
+        sha1="9e6645eba59f74b0fca84ce7d26f8bdc7160764e">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_search_v4_3_1_0de4eac1039acaf19b2033b2428b10ab7c190726\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\5bbbf0d686fb173c2e136de897b1502cfbc5a42f\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\ShareSDK-Wechat-Moments-2.8.3.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\classes_c7d92d5df762e2da85225552057691428a875a3b.jar" />
+        sha1="415c1cb912f11e414e6beaf1e59090c154f6da8d">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Moments-2.8.3_8f9682f65ead26412e67a891c5f151892afee7b0\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.3_d301f309be2240bf5afabd0f51ed7805be4094b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\b5ed5a3e35070fe595ffce52886f640f7dfaa174\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="21257e8fb439affef2a89c23ddfda45869ac0c31">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10\classes_128fda9082493608e5f6d30b4fbc07e97ab7e977\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c866fd5b6d9574668ed8b0b01fb124233e588f3">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c91d0f7efb935ce72f4b092ea12521c1a00cb245\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\open_sdk_r5756_lite.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="06379788d59fda28f99848b542d55c94f48322a9">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\open_sdk_r5756_lite_0dec465d8d80852ce55df97c5ae0038a391cd537\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\photoview.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a9034d40f76d783e24b3dc5c38b1b42da3417440">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\photoview_d33be27c1265798a039f25ce690a477eb2bf016e.jar" />
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\photoview_d33be27c1265798a039f25ce690a477eb2bf016e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\GifView.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a518235931001b94e87540c99bd13258f614622">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\GifView_33d43ee8728d69bcad73c564c0bfaf56b3df478b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\ShareSDK-Wechat-Core-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d3d26aac0c67984e4612539017f7a5f4bd6507">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Core-2.8.3_8666c720ce8448046235a4e74ac4132bfacc8baf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\As\SCGAS\SCG\libs\MobTools-2017.0412.1554.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="ff1c0540ed5607fa34269a7adc63679e4fcfb714">
-        <dex dex="E:\As\SCGAS\SCG\build\intermediates\pre-dexed\release\MobTools-2017.0412.1554_d6dd0ee454ae66452f8a469628985ea78db6d141.jar" />
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2017.0412.1554_d6dd0ee454ae66452f8a469628985ea78db6d141\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\paysdkPY36sdk生产.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="87463f7f7f64c2a67bfef9a719dd4a438617bfa5">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\paysdkPY36sdk生产_8340142e4aba52d583cc010b8b13fb707a923b99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\baidumapapi_map_v4_3_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c28d81ba8665fd2f5176a218f4829e7457fb0276">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_map_v4_3_1_a0f756b2efd980176540c8d6b1657e4d4c83e3c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\sunjce_provider.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2357317d1e1f14937b3bda942c58791ee1dba581">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\sunjce_provider_0f9579082f060a67089eb662fa4b29eee955a8b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\commons-httpclient-3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6364bcc1b2b2aa69d008602d36a700453648560">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\commons-httpclient-3.0.1_ac305f097a02ec2ade9bdb0a036fb7ab3c0eff0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\locSDK_6.13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.13_71226484a11f845f66bf1569fb01b743827bd8e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_64bb003b021c7e9b84259a4a7ccedf0e770bf59d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_fbe819269c158a8d55255ac4c7044e31da7230fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\pushservice-5.6.0.30.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d008d89d05a62f6c3d381fbc56c51d921fab4d76">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\pushservice-5.6.0.30_cbd4760eb4354489c84f691050bec2f20fcd0a15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\baidumapapi_base_v4_3_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd351c75a2320b69d34b4e8f02c1b3bc029265ec">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_base_v4_3_1_3c415c20753419c06e8d0a41290c2b2f665570ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\ShareSDK-Wechat-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6c77dd3832635149e694df173896f81e1e2d07aa">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-2.8.3_dc6487dd35e5ba2cf271c0f2b2a61a85f3fc8844\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\As\SCGAS\SCG\libs\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\As\SCGAS\SCG\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_c1835a7db0b59440884ca842a0b0bdb2ce13e64d\classes.dex" />
     </item>
 
 </items>

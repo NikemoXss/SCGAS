@@ -117,6 +117,9 @@ public class SystenmApi {
 	public static float getRounding(double ft) {
 		float value = 0;
 		int scale = 2;// 设置位数
+		if(Double.isNaN(ft)){
+			return (float) 0.0;
+		}
 		int roundingMode = BigDecimal.ROUND_HALF_UP;// 表示四舍五入，可以选择其他舍值方式，例如去尾，等等.
 		BigDecimal bd = new BigDecimal(ft);
 		bd = bd.setScale(scale, roundingMode);
@@ -475,7 +478,6 @@ public class SystenmApi {
 	 * @param context
 	 * @param title
 	 * @param Contenttext
-	 * @param shareURL
 	 */
 	public static void showShareView(Context context, String title, String Contenttext, String url) {
 //		ShareSDK.initSDK(context);
@@ -532,11 +534,18 @@ public class SystenmApi {
 	 * @return
 	 */
 	public static boolean isMobileNO(String mobiles) {
-		String telRegex = "13\\d{9}|14[57]\\d{8}|15[012356789]\\d{8}|18[01256789]\\d{8}|17[0678]\\d{8}";
+
+//		String regExp = "^((13[0-9])|(15[^4])|(18[0,2,3,5-9])|(17[0-8])|(147))\\d{8}$";
+
+		String regExp = "^1\\d{10}$";
+
+//		String REGEX_MOBILE = "^((17[0-9])|(14[0-9])|(13[0-9])|(15[^4,\\D])|(18[0,5-9]))\\d{8}$";
+
+//		String telRegex = "13\\d{9}|14[57]\\d{8}|15[012356789]\\d{8}|18[01256789]\\d{8}|17[0678]\\d{8}";
 		if (TextUtils.isEmpty(mobiles)) {
 			return false;
 		} else {
-			return mobiles.matches(telRegex);
+			return mobiles.matches(regExp);
 		}
 	}
 

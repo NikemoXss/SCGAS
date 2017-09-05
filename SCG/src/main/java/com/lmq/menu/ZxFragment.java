@@ -26,6 +26,7 @@ import fm.jiecao.jcvideoplayer_lib.JCVideoPlayer;
 import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
 
 
+
 /**
  * Created by Administrator on 2017/7/10.
  */

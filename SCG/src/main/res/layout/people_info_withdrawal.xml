@@ -120,7 +120,7 @@
             android:paddingLeft="15dp"
             android:hint="@string/tx_inputmoney"
             android:background="@color/white"
-            android:inputType="numberSigned"
+            android:inputType="numberDecimal"
             android:singleLine="true" />
     </LinearLayout>
       <LinearLayout

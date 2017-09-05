@@ -6,7 +6,6 @@ import android.content.ContextWrapper;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.view.ContextThemeWrapper;
 import android.text.TextUtils;
 
@@ -72,10 +71,10 @@ public class JCUtils {
      * @param context context
      * @return AppCompatActivity if it's not null
      */
-    public static AppCompatActivity getAppCompActivity(Context context) {
+    public static Activity  getAppCompActivity(Context context) {
         if (context == null) return null;
-        if (context instanceof AppCompatActivity) {
-            return (AppCompatActivity) context;
+        if (context instanceof Activity ) {
+            return (Activity) context;
         } else if (context instanceof ContextThemeWrapper) {
             return getAppCompActivity(((ContextThemeWrapper) context).getBaseContext());
         }

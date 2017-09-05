@@ -10,131 +10,43 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eea474f-8e3e-4a45-a175-e6fd9e871eb1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/1_picasso_2_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/CommonUtil_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bolts_tasks_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/drawee_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/fbcore_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/fresco_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/imagepipeline_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/imagepipeline_base_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_0_rc1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/fm/jiecao/jcvideoplayer_lib/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-zh.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/anim/quit_fullscreen.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/anim/start_fullscreen.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_add_volume.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_back_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_back_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_back_tiny_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_back_tiny_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_backward_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_brightness_video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_close_volume.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_enlarge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_error_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_error_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_forward_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_loading_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_pause_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_pause_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_play_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_play_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_shrink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jc_volume_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_bottom_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_bottom_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_bottom_seek_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_bottom_seek_thumb.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_click_back_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_click_back_tiny_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_click_error_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_click_pause_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_click_play_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_dialog_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_dialog_progress_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_loading.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_seek_thumb_normal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_seek_thumb_pressed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_title_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable/jc_volume_progress_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/jc_dialog_brightness.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/jc_dialog_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/jc_dialog_volume.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/jc_layout_base.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/jc_layout_standard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-zh/values-zh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/androidTest/java/fm/jiecao/jcvideoplayer_lib/ApplicationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCMediaManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCResizeTextureView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCUserAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCUserActionStandard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCVideoPlayer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCVideoPlayerManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCVideoPlayerSimple.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCVideoPlayerStandard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/anim/quit_fullscreen.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/anim/start_fullscreen.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_add_volume.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_back_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_back_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_back_tiny_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_back_tiny_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_backward_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_brightness_video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_close_volume.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_enlarge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_error_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_error_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_forward_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_loading_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_pause_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_pause_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_play_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_play_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_shrink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable-xhdpi/jc_volume_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_bottom_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_bottom_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_bottom_seek_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_bottom_seek_thumb.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_click_back_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_click_back_tiny_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_click_error_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_click_pause_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_click_play_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_dialog_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_dialog_progress_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_loading.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_seek_thumb_normal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_seek_thumb_pressed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_title_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/drawable/jc_volume_progress_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/layout/jc_dialog_brightness.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/layout/jc_dialog_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/layout/jc_dialog_volume.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/layout/jc_layout_base.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/layout/jc_layout_standard.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/values-pt/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/values-tr/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/values-zh/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/test/java/fm/jiecao/jcvideoplayer_lib/ExampleUnitTest.java" afterPath="" />
+    <list default="true" id="8eea474f-8e3e-4a45-a175-e6fd9e871eb1" name="Default" comment="还是接着无聊的一天">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/circle_cyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/circle_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/composer_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/composer_camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/composer_icn_plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/composer_music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/composer_place.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/composer_sleep.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/composer_thought.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/composer_with.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/logosmall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/p1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/p10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/p2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/p3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/p4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/p5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/p6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/p7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/p8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/p9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/slide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/crashreport_2_6_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/nativecrashreport_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/common/AppLogMessageMgr.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/common/AppManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/common/CrashHandlerUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/service/FloatViewService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/service/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/util/ToQQ.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/view/ArcMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/drawable/float_window_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/alert_window_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCG/src/main/res/xml/file_paths.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/drawable-hdpi-v4/slide.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi/slide.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -164,60 +76,93 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pickerview/build/outputs/aar/pickerview-release.aar" afterPath="$PROJECT_DIR$/pickerview/build/outputs/aar/pickerview-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wheel/build/outputs/aar/wheel-debug.aar" afterPath="$PROJECT_DIR$/wheel/build/outputs/aar/wheel-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wheel/build/outputs/aar/wheel-release.aar" afterPath="$PROJECT_DIR$/wheel/build/outputs/aar/wheel-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/picasso_2_5_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/picasso_2_5_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/SCG.iml" afterPath="$PROJECT_DIR$/SCG/SCG.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build.gradle" afterPath="$PROJECT_DIR$/SCG/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/generated/source/buildConfig/debug/com/czscg/BuildConfig.java" afterPath="$PROJECT_DIR$/SCG/build/generated/source/buildConfig/debug/com/czscg/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/com/bigkoo/pickerview/R.java" afterPath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/com/bigkoo/pickerview/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/com/czscg/R.java" afterPath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/com/czscg/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-land.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/com/jeremyfeinstein/slidingmenu/lib/R.java" afterPath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/com/jeremyfeinstein/slidingmenu/lib/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/kankan/wheel/R.java" afterPath="$PROJECT_DIR$/SCG/build/generated/source/r/debug/kankan/wheel/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values-v21.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/color-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/color.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-v21.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/SCG/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/SCG/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/SCG/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-land/values-land.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-land/values-land.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/activity_tab.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/activity_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/adapter_item_deal_new.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/adapter_item_deal_new.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/choosepaytype.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/choosepaytype.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/contactus.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/contactus.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/item_list_indexfragment.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/item_list_indexfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/layout_account_sx.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/layout_account_sx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/layout_index.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/layout_index.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/layout_touzi_sx.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/layout_touzi_sx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/people_info_withdrawal.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/people_info_withdrawal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/people_info_zhanghu.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/layout/people_info_zhanghu.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-pt/values-pt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-tr/values-tr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-v21/values-v21.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/SCG/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/SCG/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/proguard-project.txt" afterPath="$PROJECT_DIR$/SCG/proguard-project.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/ZxAdapter.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/ZxAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/SCG/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/TouZiAdapter.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/TouZiAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/BidItem_Scg.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/BidItem_Scg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/ContactUsActivity.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/ContactUsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/InterestratesecuritiesActivity.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/InterestratesecuritiesActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/LoginActivity_Scg.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/LoginActivity_Scg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/LogoActicity.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/LogoActicity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/MyBriberyMoney.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/MyBriberyMoney.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/PeopleInfoIdcard.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/PeopleInfoIdcard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/VIPActivity.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/VIPActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/peopleInfoDataActivity.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/peopleInfoDataActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/peopleInfoWithdrawalActivity.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/peopleInfoWithdrawalActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/LocationApplication.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/LocationApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenuLib/SlidingMenuLib.iml" afterPath="$PROJECT_DIR$/SlidingMenuLib/SlidingMenuLib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenuLib/build.gradle" afterPath="$PROJECT_DIR$/SlidingMenuLib/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/SystenmApi.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/SystenmApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/util/Default.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/util/Default.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/AccountFragment_Scg.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/AccountFragment_Scg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/IndexFragment_Scg.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/IndexFragment_Scg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/MainTabActivit_Scg.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/MainTabActivit_Scg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/SetFragment_Scg.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/SetFragment_Scg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/ZxFragment.java" afterPath="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/ZxFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/layout/activity_tab.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/activity_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/layout/adapter_item_deal_new.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/adapter_item_deal_new.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/layout/choosepaytype.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/choosepaytype.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/layout/contactus.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/contactus.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/layout/item_list_indexfragment.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/item_list_indexfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/layout/layout_account_sx.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/layout_account_sx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/layout/layout_index.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/layout_index.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/layout/layout_touzi_sx.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/layout_touzi_sx.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/layout/people_info_withdrawal.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/people_info_withdrawal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/layout/people_info_zhanghu.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/layout/people_info_zhanghu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/values/attr.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/values/attr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/values/pull_refresh_strings.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/values/pull_refresh_strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCG/src/main/res/values/strings_info.xml" afterPath="$PROJECT_DIR$/SCG/src/main/res/values/strings_info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenuLib/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/SlidingMenuLib/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenuLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/SlidingMenuLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenuLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/SlidingMenuLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" afterPath="$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCUtils.java" afterPath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCVideoPlayer.java" afterPath="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCVideoPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pickerview/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/pickerview/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pickerview/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/pickerview/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pickerview/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/pickerview/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pickerview/pickerview.iml" afterPath="$PROJECT_DIR$/pickerview/pickerview.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wheel/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/wheel/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wheel/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/wheel/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wheel/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/wheel/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wheel/wheel.iml" afterPath="$PROJECT_DIR$/wheel/wheel.iml" />
     </list>
     <ignored path="SCGAS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -312,7 +257,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state />
+        </projects_view>
       </state>
     </system>
   </component>
@@ -324,8 +271,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCG/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+            <state relative-caret-position="475">
+              <caret line="103" column="117" selection-start-line="103" selection-start-column="117" selection-end-line="103" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -333,55 +280,69 @@
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCG/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+            <state relative-caret-position="38">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="28" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="LogoActicity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/LogoActicity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="141" column="63" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
+              <folding>
+                <element signature="e#1784#1858#0" expanded="true" />
+                <element signature="e#1857#1858#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity_Scg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/LoginActivity_Scg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="295" column="60" selection-start-line="295" selection-start-column="60" selection-end-line="295" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTabActivit_Scg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/MainTabActivit_Scg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="158" column="59" selection-start-line="158" selection-start-column="59" selection-end-line="158" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountFragment_Scg.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/AccountFragment_Scg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="261" column="56" selection-start-line="261" selection-start-column="56" selection-end-line="261" selection-end-column="56" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="LocationApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/LocationApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+            <state relative-caret-position="380">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pickerview/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wheel/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SlidingMenuLib/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -392,6 +353,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -583,6 +545,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -783,6 +749,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugAndroidTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.tencent.bugly:crashreport:2.6.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComTencentBuglyCrashreport265Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1010,6 +981,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1196,6 +1171,11 @@
                 <option name="name" value="generateDebugBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.tencent.bugly:nativecrashreport:3.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComTencentBuglyNativecrashreport331Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="build" />
@@ -1321,6 +1301,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SCG" />
                 <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SCG" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -1496,6 +1480,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SCG" />
                 <option name="name" value="mergeDebugAndroidTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.tencent.bugly:crashreport:2.6.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SCG" />
+                <option name="name" value="prepareComTencentBuglyCrashreport265Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SCG" />
@@ -1709,6 +1698,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SCG" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SCG" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1891,6 +1884,11 @@
                 <option name="name" value="generateDebugBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.tencent.bugly:nativecrashreport:3.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SCG" />
+                <option name="name" value="prepareComTencentBuglyNativecrashreport331Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SCG" />
                 <option name="name" value="build" />
@@ -2035,6 +2033,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SlidingMenuLib" />
                 <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SlidingMenuLib" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -2384,6 +2386,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SlidingMenuLib" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SlidingMenuLib" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -2696,6 +2702,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/jcvideoplayer-lib" />
                 <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/jcvideoplayer-lib" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -3078,6 +3088,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/jcvideoplayer-lib" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/jcvideoplayer-lib" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -3390,6 +3404,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pickerview" />
                 <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pickerview" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -3739,6 +3757,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pickerview" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pickerview" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -4036,6 +4058,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/wheel" />
                 <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/wheel" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -4385,6 +4411,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/wheel" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/wheel" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -4579,7 +4609,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="E:\As\SCGAS" value="10500150701637" />
+        <entry key="E:\As\SCGAS" value="10507471543107" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -5159,20 +5189,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/common/AppLogMessageMgr.java" />
         <option value="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCVideoPlayer.java" />
-        <option value="$PROJECT_DIR$/SCG/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/fragment_zx.xml" />
-        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/test/javaBean.java" />
-        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/actvity_gettelyzm.xml" />
-        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/ZxFragment.java" />
-        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/MainTabActivit_Scg.java" />
-        <option value="$PROJECT_DIR$/SCG/proguard-project.txt" />
         <option value="$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCUtils.java" />
-        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/ZxAdapter.java" />
-        <option value="$PROJECT_DIR$/jcvideoplayer-lib/build.gradle" />
-        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/LocationApplication.java" />
-        <option value="$PROJECT_DIR$/SlidingMenuLib/build.gradle" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/BidItem_Scg.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/item_list_indexfragment.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/activity_tab.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/peopleInfoWithdrawalActivity.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/PeopleInfoIdcard.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/people_info_withdrawal.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/adapter_item_deal_new.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/SetFragment_Scg.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/values/strings_info.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/values/pull_refresh_strings.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/TouZiAdapter.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/layout_touzi_sx.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/layout_index.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/people_info_zhanghu.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/choosepaytype.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/peopleInfoDataActivity.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/layout_account_sx.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/VIPActivity.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/MyBriberyMoney.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/InterestratesecuritiesActivity.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/service/MainActivity.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/util/ToQQ.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/service/FloatViewService.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/WxMenu.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/layout_wxmenu.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/ZxFragment.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/IndexFragment_Scg.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/view/ArcMenu.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/values/attr.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/ContactUsActivity.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/contactus.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/menu_right_bottom.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/SystenmApi.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/layout/file_paths.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/MainTabActivit_Scg.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/res/xml/file_paths.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/util/Default.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/common/CrashHandlerUtil.java" />
         <option value="$PROJECT_DIR$/SCG/build.gradle" />
+        <option value="$PROJECT_DIR$/SCG/proguard-project.txt" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/LogoActicity.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/LocationApplication.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/LoginActivity_Scg.java" />
+        <option value="$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/AccountFragment_Scg.java" />
       </list>
     </option>
   </component>
@@ -5212,7 +5279,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -5226,29 +5293,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SCGAS" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SCGAS" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -5267,22 +5311,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCGAS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCGAS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCGAS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCGAS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="device.picker.selection" value="88AKBMP225KR" />
+    <property name="device.picker.selection" value="611A3BR62227W" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="last_opened_file_path" value="E:/scgapp" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SCG/build/outputs/apk/SCG-debug.apk" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.last.selected" value="SCG" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="ExportApk.ApkPath" value="E:\scgapp" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="ExportApk.SignV1" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/SCG/src/main/res/drawable-hdpi" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/SCG/build/outputs/apk/SCG-debug.apk" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\As\SCGAS\SCG\src\main\res\drawable-hdpi" />
+      <recent name="E:\As\SCGAS\SCG\src\main\res\layout" />
+      <recent name="E:\As\SCGAS\SCG\src\main\java\com\lmq\view" />
+      <recent name="E:\As\SCGAS\SCG\src\main\java\com\lmq\main\service" />
+      <recent name="E:\As\SCGAS\SCG\src\main\res\drawable" />
+    </key>
   </component>
   <component name="RunManager" selected="Android App.SCG">
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -5675,7 +5773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500282528956</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="还是接着无聊的一天">
+      <created>1500370319429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1500370319429</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -5692,63 +5797,34 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.48777506" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28604382" sideWeight="0.47310513" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28604382" sideWeight="0.46821517" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28604382" sideWeight="0.52689487" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.361015" sideWeight="0.4608802" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23875433" sideWeight="0.45110023" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29642445" sideWeight="0.5556235" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29642445" sideWeight="0.44437653" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.46821517" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23875433" sideWeight="0.44865525" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.46821517" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28604382" sideWeight="0.5195599" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29642445" sideWeight="0.5556235" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20110025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39907727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24388753" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.361015" sideWeight="0.502445" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.361015" sideWeight="0.49755502" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -5786,353 +5862,237 @@
     <MESSAGE value="刷新加载" />
     <MESSAGE value="无聊的一天" />
     <MESSAGE value="接着无聊的一天" />
-    <option name="LAST_COMMIT_MESSAGE" value="接着无聊的一天" />
+    <MESSAGE value="还是接着无聊的一天" />
+    <option name="LAST_COMMIT_MESSAGE" value="还是接着无聊的一天" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/PeopleInfoIdcard.java</url>
+          <line>170</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/PeopleInfoIdcard.java</url>
+          <line>194</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/MainTabActivit_Scg.java">
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/pay/ChoosePayType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="31">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3534">
-          <caret line="186" column="58" selection-start-line="186" selection-start-column="58" selection-end-line="186" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/ZxAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/ZxFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/LocationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/ZxAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/ZxFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/LocationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCVideoPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15884">
-          <caret line="866" column="0" selection-start-line="866" selection-start-column="2" selection-end-line="872" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/ZxAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/ZxFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/ZxAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCVideoPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="62" column="51" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshLayout/1.0.1/91245a53c9e57a13e66ed58a8efcf7afdfa8e37a/SmartRefreshLayout-1.0.1-sources.jar!/com/scwang/smartrefresh/layout/api/RefreshHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshLayout/1.0.1/91245a53c9e57a13e66ed58a8efcf7afdfa8e37a/SmartRefreshLayout-1.0.1-sources.jar!/com/scwang/smartrefresh/layout/api/RefreshLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshHeader/1.0.1/a8082d2478dadb505ff16b8ccd402a7eec3ef868/SmartRefreshHeader-1.0.1-sources.jar!/com/scwang/smartrefresh/header/DeliveryHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshLayout/1.0.1/91245a53c9e57a13e66ed58a8efcf7afdfa8e37a/SmartRefreshLayout-1.0.1-sources.jar!/com/scwang/smartrefresh/layout/constant/SpinnerStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshLayout/1.0.1/91245a53c9e57a13e66ed58a8efcf7afdfa8e37a/SmartRefreshLayout-1.0.1-sources.jar!/com/scwang/smartrefresh/layout/footer/ClassicsFooter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1773">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshLayout/1.0.1/91245a53c9e57a13e66ed58a8efcf7afdfa8e37a/SmartRefreshLayout-1.0.1-sources.jar!/com/scwang/smartrefresh/layout/footer/BallPulseFooter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshHeader/1.0.1/a8082d2478dadb505ff16b8ccd402a7eec3ef868/SmartRefreshHeader-1.0.1-sources.jar!/com/scwang/smartrefresh/header/FunGameHitBlockHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/test/javaBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/layout/activity_xxpay.xml">
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/layout/people_info_shimingyz.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/PeopleInfoSmrz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/layout/people_info_yhk.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Android/android-sdk/sources/android-25/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="2063" column="19" selection-start-line="2063" selection-start-column="19" selection-end-line="2063" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/layout/people_info_bind_bankcard.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="215" column="55" selection-start-line="215" selection-start-column="55" selection-end-line="215" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/peopleInfoDataActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="316" column="85" selection-start-line="316" selection-start-column="85" selection-end-line="316" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/layout/login_scg.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="109" column="49" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/layout/menu_right_bottom.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/SystenmApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9177">
+          <caret line="533" column="14" selection-start-line="533" selection-start-column="14" selection-end-line="533" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/layout/contactus.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="208" column="29" selection-start-line="208" selection-start-column="29" selection-end-line="208" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/PeopleInfo_backcard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2166">
+          <caret line="141" column="45" selection-start-line="141" selection-start-column="45" selection-end-line="141" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/registerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/ContactUsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/PeopleInfo_XS_backcard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="375" column="55" selection-start-line="375" selection-start-column="55" selection-end-line="375" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-v24/values-v24.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/build/intermediates/res/merged/debug/values-v23/values-v23.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/czscg/wxapi/WXEntryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/layout/file_paths.xml" />
+    <entry file="file://E:/Android/android-sdk/sources/android-25/android/net/Uri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="449" column="22" selection-start-line="449" selection-start-column="22" selection-end-line="449" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Android/android-sdk/extras/android/m2repository/com/android/support/support-core-utils/25.3.1/support-core-utils-25.3.1-sources.jar!/android/support/v4/content/FileProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="322" column="13" selection-start-line="322" selection-start-column="13" selection-end-line="322" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/http/NetWorkStatusBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/xml/file_paths.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCGAS.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-969">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/layout/fragment_zx.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="623" column="18" selection-start-line="623" selection-start-column="18" selection-end-line="623" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smartrefresh/SmartRefreshHeader/1.0.1/a8082d2478dadb505ff16b8ccd402a7eec3ef868/SmartRefreshHeader-1.0.1-sources.jar!/com/scwang/smartrefresh/header/MaterialHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/res/layout/actvity_gettelyzm.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.abrahamcaijin.commonutil/CommonUtil/1.0.0/b8a96d2bd571a3cd5faa9f0a0b9de1d882b6ab0a/CommonUtil-1.0.0-sources.jar!/com/jingewenku/abrahamcaijin/commonutil/CrashHandlerUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jcvideoplayer-lib/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+    <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jcvideoplayer-lib/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/import-summary.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jcvideoplayer-lib/src/main/java/fm/jiecao/jcvideoplayer_lib/JCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenuLib/src/main/java/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/adapter/ZxAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/ZxFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="155" column="18" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jcvideoplayer-lib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/IndexFragment_Scg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2321">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/tab/FragmentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/MainTabActivit_Scg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wheel/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pickerview/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="437">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -6144,18 +6104,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/Android/android-sdk/sources/android-25/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="624" column="16" selection-start-line="624" selection-start-column="16" selection-end-line="624" selection-end-column="16" />
+          <folding>
+            <element signature="e#26932#26933#0" expanded="false" />
+            <element signature="e#26975#26976#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Android/android-sdk/sources/android-25/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="1840" column="21" selection-start-line="1840" selection-start-column="21" selection-end-line="1840" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/common/AppManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/Crowd_Sx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Android/android-sdk/extras/android/m2repository/com/android/support/support-fragment/25.3.1/support-fragment-25.3.1-sources.jar!/android/support/v4/app/FragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4496">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/AboutUsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/build/outputs/apk/SCG-debug.apk">
+      <provider selected="true" editor-type-id="apk-viewer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SCG/proguard-project.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="480" column="15" selection-start-line="480" selection-start-column="15" selection-end-line="480" selection-end-column="15" />
+        <state relative-caret-position="361">
+          <caret line="466" column="30" selection-start-line="466" selection-start-column="30" selection-end-line="466" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SCG/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="475">
+          <caret line="103" column="117" selection-start-line="103" selection-start-column="117" selection-end-line="103" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/MainMenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -6165,26 +6213,86 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/util/Default.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/tab/FragmentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/MainTabActivit_Scg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="158" column="59" selection-start-line="158" selection-start-column="59" selection-end-line="158" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/common/CrashHandlerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="241" column="20" selection-start-line="241" selection-start-column="20" selection-end-line="241" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#3771#4056#0" expanded="true" />
+            <element signature="e#4055#4056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/LogoActicity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="141" column="63" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
+          <folding>
+            <element signature="e#1784#1858#0" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/activity/LoginActivity_Scg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="295" column="60" selection-start-line="295" selection-start-column="60" selection-end-line="295" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/main/api/LocationApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        <state relative-caret-position="380">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenuLib/build.gradle">
+    <entry file="file://$PROJECT_DIR$/SCG/src/main/java/com/lmq/menu/AccountFragment_Scg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="228">
+          <caret line="261" column="56" selection-start-line="261" selection-start-column="56" selection-end-line="261" selection-end-column="56" />
           <folding />
         </state>
       </provider>

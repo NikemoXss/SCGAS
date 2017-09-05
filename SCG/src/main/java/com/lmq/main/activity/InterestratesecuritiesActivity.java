@@ -97,6 +97,8 @@ public class InterestratesecuritiesActivity extends BaseActivity implements OnCl
 
 		listView = (PullToRefreshListView) findViewById(R.id.jxj_list);
 		listView.setMode(PullToRefreshBase.Mode.BOTH);
+		adapter = new CanAndNotUseJxjAdapter(InterestratesecuritiesActivity.this, list);
+		listView.setAdapter(adapter);
 		listView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener<ListView>() {
 			@Override
 			public void onRefresh(PullToRefreshBase<ListView> refreshView) {
@@ -252,18 +254,24 @@ public class InterestratesecuritiesActivity extends BaseActivity implements OnCl
 			showLoadingDialogNoCancle("请稍后努力加载中...");
 			TheAnimation(zero);// 平移动画
 			tipsType = 0;
+			list.clear();
+			page = 1;
 			getInvestData(getPostParams(), true);
 			break;
 		case R.id.used:
 			showLoadingDialogNoCancle("请稍后努力加载中...");
 			tipsType = 1;
 			TheAnimation(one);
+			list.clear();
+			page = 1;
 			getInvestData(getPostParams(), true);
 			break;
 		case R.id.cannouse:
 			showLoadingDialogNoCancle("请稍后努力加载中...");
 			tipsType = 2;
 			TheAnimation(two);
+			list.clear();
+			page = 1;
 			getInvestData(getPostParams(), true);
 			break;
 		case R.id.title:
@@ -274,9 +282,7 @@ public class InterestratesecuritiesActivity extends BaseActivity implements OnCl
 			mtriangle.setImageResource(R.drawable.wite_arrow_down);
 			mtriangle.startAnimation(animation);
 			animation.setFillAfter(true);
-
 			showPopList(0, v);
-
 			break;
 
 		}
@@ -344,11 +350,9 @@ public class InterestratesecuritiesActivity extends BaseActivity implements OnCl
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				dismissLoadingDialog();
-				adapter = new CanAndNotUseJxjAdapter(InterestratesecuritiesActivity.this, list);
-				listView.setAdapter(adapter);
 				adapter.notifyDataSetChanged();
 				listView.onRefreshComplete();
+				dismissLoadingDialog();
 
 			}
 
@@ -378,7 +382,7 @@ public class InterestratesecuritiesActivity extends BaseActivity implements OnCl
 	protected void getData(JSONObject json) {
 		// TODO Auto-generated method stub
 		try {
-
+			totalPage = json.getInt("totalpage");
 			JSONArray jsonArray = json.getJSONArray("msg");
 			for (int i = 0; i < jsonArray.length(); i++) {
 				map = new HashMap<String, Object>();
@@ -398,7 +402,9 @@ public class InterestratesecuritiesActivity extends BaseActivity implements OnCl
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
+		adapter.notifyDataSetChanged();
+		listView.onRefreshComplete();
+		adapter.notifyDataSetChanged();
 	}
 
 	public static String stampToDate(String s) {

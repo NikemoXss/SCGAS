@@ -1,7 +1,12 @@
 package com.lmq.menu;
 
-import org.apache.http.Header;
-import org.json.JSONObject;
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 
 import com.czscg.R;
 import com.lmq.http.BaseHttpClient;
@@ -15,13 +20,8 @@ import com.lmq.main.api.JsonBuilder;
 import com.lmq.main.api.SystenmApi;
 import com.lmq.main.util.Default;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
+import org.apache.http.Header;
+import org.json.JSONObject;
 //苏常设置
 public class SetFragment_Scg extends BaseFragment implements OnClickListener {
 
@@ -69,11 +69,11 @@ public class SetFragment_Scg extends BaseFragment implements OnClickListener {
 			SystenmApi.showShareView(getActivity(), "苏常网APP，随时随地掌握你的财富", "手机移动理财的指尖神器，帮您在“拇指时代”指点钱途，“掌握财富”。",
 					"http://www.czsuchang.com/Member/Common/AppRegister?invite="+Default.userId);//http://www.czsuchang.com/Member/Common/AppRegister?invite=881
 			break;
-		case R.id.item_contactus:
+		case R.id.item_contactus://联系我们
 			Intent intent = new Intent(getActivity(), ContactUsActivity.class);
 			startActivity(intent);
 			break;
-		case R.id.item_aboutus:
+		case R.id.item_aboutus://关于苏常
 			Intent intent1 = new Intent(getActivity(), AboutUsActivity.class);
 			startActivity(intent1);
 			break;

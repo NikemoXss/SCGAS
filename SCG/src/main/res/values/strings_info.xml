@@ -12,9 +12,9 @@
     <string name="company_weichat_str"></string>
     <!-- 数据地址 -->
     <string name="server_ip"></string>
-    <!-- 双雄数据地址 -->
+    <!--苏常数据地址 -->
      <string name="server_ip_sx">http://www.czsuchang.com/</string>
-    <!-- 双雄QQ群 -->
+    <!-- 苏常QQ群 -->
  <string name="company_QQ_str">458776578</string>
   <string name="company_phone_str">0519-68981592</string>
     <string-array name="bank_name">

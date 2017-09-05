@@ -7,4 +7,52 @@
 package com.bigkoo.pickerview;
 
 public final class R {
+    public static final class anim {
+        public static final int timepicker_anim_enter_bottom = 0x7f040024;
+        public static final int timepicker_anim_exit_bottom = 0x7f040025;
+    }
+    public static final class color {
+        public static final int wheel_timebtn_nor = 0x7f0a0063;
+        public static final int wheel_timebtn_pre = 0x7f0a0064;
+    }
+    public static final class drawable {
+        public static final int bg_above_timepicker = 0x7f020098;
+        public static final int bg_line_timepicker = 0x7f02009a;
+        public static final int wheel_timebtn = 0x7f0202da;
+        public static final int wheel_val = 0x7f0202db;
+    }
+    public static final class id {
+        public static final int btnCancel = 0x7f0c0359;
+        public static final int btnSubmit = 0x7f0c035a;
+        public static final int day = 0x7f0c01ab;
+        public static final int hour = 0x7f0c01ac;
+        public static final int min = 0x7f0c01ad;
+        public static final int month = 0x7f0c01aa;
+        public static final int options1 = 0x7f0c01a6;
+        public static final int options2 = 0x7f0c01a7;
+        public static final int options3 = 0x7f0c01a8;
+        public static final int optionspicker = 0x7f0c035b;
+        public static final int timepicker = 0x7f0c035c;
+        public static final int title = 0x7f0c004c;
+        public static final int year = 0x7f0c01a9;
+    }
+    public static final class layout {
+        public static final int include_optionspicker = 0x7f03005a;
+        public static final int include_timepicker = 0x7f03005b;
+        public static final int pw_options = 0x7f0300d1;
+        public static final int pw_time = 0x7f0300d2;
+    }
+    public static final class string {
+        public static final int pickerview_cancel = 0x7f0601b9;
+        public static final int pickerview_day = 0x7f0601ba;
+        public static final int pickerview_hours = 0x7f0601bb;
+        public static final int pickerview_minutes = 0x7f0601bc;
+        public static final int pickerview_month = 0x7f0601bd;
+        public static final int pickerview_seconds = 0x7f0601be;
+        public static final int pickerview_submit = 0x7f0601bf;
+        public static final int pickerview_year = 0x7f0601c0;
+    }
+    public static final class style {
+        public static final int timepopwindow_anim_style = 0x7f080199;
+    }
 }

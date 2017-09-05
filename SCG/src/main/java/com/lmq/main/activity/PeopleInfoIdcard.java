@@ -1,24 +1,5 @@
 package com.lmq.main.activity;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import org.apache.http.Header;
-import org.json.JSONObject;
-
-import com.lmq.http.BaseHttpClient;
-import com.lmq.http.JsonHttpResponseHandler;
-import com.lmq.main.api.BaseActivity;
-import com.lmq.main.api.JsonBuilder;
-import com.lmq.main.api.MyLog;
-import com.lmq.main.util.BitmapToStrUtil;
-import com.lmq.main.util.Default;
-import com.czscg.R;
-
 import android.app.AlertDialog;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -31,7 +12,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -42,6 +22,24 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.czscg.R;
+import com.lmq.http.BaseHttpClient;
+import com.lmq.http.JsonHttpResponseHandler;
+import com.lmq.main.api.BaseActivity;
+import com.lmq.main.api.JsonBuilder;
+import com.lmq.main.api.MyLog;
+import com.lmq.main.util.Default;
+
+import org.apache.http.Header;
+import org.json.JSONObject;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * 进行验证
@@ -175,7 +173,7 @@ public class PeopleInfoIdcard extends BaseActivity implements OnClickListener {
 
 					if (statusCode == 200) {
 						if (json.getInt("status") == 1) {
-							Toast.makeText(getApplicationContext(), "验证成功", 1).show();
+							Toast.makeText(getApplicationContext(), "验证成功", Toast.LENGTH_SHORT).show();
 
 							finish();
 

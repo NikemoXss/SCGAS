@@ -30,9 +30,12 @@ import com.lmq.menu.MainTabActivit_Scg;
 import com.lmq.view.EditTextWithDel;
 import com.nineoldandroids.animation.ValueAnimator;
 import com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener;
+import com.tencent.bugly.crashreport.CrashReport;
 
 import org.apache.http.Header;
 import org.json.JSONObject;
+
+
 
 @SuppressLint("NewApi")
 public class LoginActivity_Scg extends BaseActivity implements OnClickListener {
@@ -250,8 +253,8 @@ public class LoginActivity_Scg extends BaseActivity implements OnClickListener {
 	public void doHttp2() {
 		JsonBuilder builder = new JsonBuilder();
 
-		builder.put("sUserName", "一日千里");
-		builder.put("sPassword", "123123");
+		builder.put("sUserName", login_zh_sx_str);
+		builder.put("sPassword", login_mm_sx_str);
 
 		BaseHttpClient.post(getBaseContext(), Default.login, builder, new JsonHttpResponseHandler() {
 
@@ -285,6 +288,10 @@ public class LoginActivity_Scg extends BaseActivity implements OnClickListener {
 								}
 								LogoActicity.loginActivity.finish();
 								finish();
+								//腾讯bugly设置发生crash时，传给后台
+								CrashReport.putUserData(getApplicationContext(), "uid", Default.userId+"");
+								CrashReport.putUserData(getApplicationContext(), "version", Default.curVersion+"");
+								CrashReport.putUserData(getApplicationContext(), "username", username);
 								// Intent i = new Intent(LoginActivity_Scg.this,
 								// MainTabActivit_Scg.class);
 								// startActivity(i);

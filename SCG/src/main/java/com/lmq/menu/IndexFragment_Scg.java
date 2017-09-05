@@ -1,18 +1,30 @@
 package com.lmq.menu;
 
-import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.os.SystemClock;
+import android.support.annotation.Nullable;
+import android.support.v4.view.ViewPager;
+import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.AbsListView;
+import android.widget.ImageView;
+import android.widget.ImageView.ScaleType;
+import android.widget.LinearLayout;
+import android.widget.ListView;
 
-import org.apache.http.Header;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
+import com.czscg.R;
+import com.lmq.adapter.TouZiAdapter;
 import com.lmq.http.BaseHttpClient;
 import com.lmq.http.JsonHttpResponseHandler;
-import com.lmq.main.activity.BidItem_Scg;
-import com.lmq.main.activity.LoginActivity_Scg;
 import com.lmq.main.activity.NewsListActivity;
 import com.lmq.main.activity.TouziActivity;
 import com.lmq.main.api.BaseFragment;
@@ -27,35 +39,31 @@ import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
-import com.czscg.R;
+import com.scwang.smartrefresh.header.MaterialHeader;
+import com.scwang.smartrefresh.layout.api.RefreshLayout;
+import com.scwang.smartrefresh.layout.constant.SpinnerStyle;
+import com.scwang.smartrefresh.layout.footer.BallPulseFooter;
+import com.scwang.smartrefresh.layout.listener.OnLoadmoreListener;
+import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.Bitmap;
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.os.SystemClock;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.ImageView.ScaleType;
-import android.widget.LinearLayout;
-import android.widget.ProgressBar;
-import android.widget.TextView;
+import org.apache.http.Header;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
 
 //苏常主页
 public class IndexFragment_Scg extends BaseFragment implements OnClickListener, OnPageChangeListener {
 
-	private int curPage = 1, pageCount = 1;
-	private JSONArray list = null;
-	private long id_tt, id_yy;
-	private int type_tt, type_yy;
+	private int maxPage, curPage = 1, pageCount = 5;
 
 	private ViewPagerAdapter vpAdapter;
 	private List<View> views;
@@ -69,17 +77,20 @@ public class IndexFragment_Scg extends BaseFragment implements OnClickListener, 
 	private int number = 0;
 	private boolean isRunning = true;
 
-	LinearLayout item_tt, item_yy;
+	private TouZiAdapter touZiAdapter;
+	List<Map<String, Object>> dlist = new ArrayList<Map<String, Object>>();
+	Map<String, Object> map = null;
+	private JSONArray jsonArray = null;
 
 	private AutoVerticalScrollTextView autoVerticalScrollTextView;
 
-	TextView tt_borrow_name, tt_borrow_money, tt_has_borrow, tt_borrow_duration, tt_borrow_interest_rate, tt_jindu;
-	ProgressBar tt_progress;
-	TextView yy_borrow_name, yy_borrow_money, yy_has_borrow, yy_borrow_duration, yy_borrow_interest_rate, yy_jindu;
-	ProgressBar yy_progress;
-
 	List<String> list_str;
 	List<String> mStr;
+
+	@InjectView(R.id.videoList)
+	ListView videoList;
+	@InjectView(R.id.refreshLayout)
+	RefreshLayout refreshLayout;
 
 	private String[] strings1 = { "我的剑，就是你的剑!", "俺也是从石头里蹦出来得!", "我用双手成就你的梦想!", "人在塔在!", "犯我德邦者，虽远必诛!", "我会让你看看什么叫残忍!",
 			"我的大刀早已饥渴难耐了!" };
@@ -103,14 +114,72 @@ public class IndexFragment_Scg extends BaseFragment implements OnClickListener, 
 
 		autoVerticalScrollTextView.setOnClickListener(this);
 
-		mainView.findViewById(R.id.item_yy).setOnClickListener(this);
-		mainView.findViewById(R.id.item_tt).setOnClickListener(this);
-
 		initView(mainView);
-		initTtview(mainView);
-		initYyview(mainView);
 		mHandler.postDelayed(runable, 5000);
+		ButterKnife.inject(this, mainView);
 		return mainView;
+	}
+
+	public int firstVisible = 0, visibleCount = 0, totalCount = 0;
+
+	@Override
+	public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+		super.onViewCreated(view, savedInstanceState);
+		touZiAdapter = new TouZiAdapter(getActivity(), dlist);
+		videoList.setAdapter(touZiAdapter);
+		touZiAdapter.notifyDataSetChanged();
+		videoList.setOnScrollListener(new AbsListView.OnScrollListener() {
+			@Override
+			public void onScrollStateChanged(AbsListView view, int scrollState) {
+				switch (scrollState) {
+					case AbsListView.OnScrollListener.SCROLL_STATE_FLING:
+						Log.e("videoTest", "SCROLL_STATE_FLING");
+						break;
+					case AbsListView.OnScrollListener.SCROLL_STATE_IDLE:
+						Log.e("videoTest", "SCROLL_STATE_IDLE");
+//                        autoPlayVideo(view);
+						break;
+					case AbsListView.OnScrollListener.SCROLL_STATE_TOUCH_SCROLL:
+						Log.e("videoTest", "SCROLL_STATE_TOUCH_SCROLL");
+
+						break;
+					default:
+						break;
+				}
+			}
+
+			@Override
+			public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+				// firstVisibleItem   当前第一个可见的item
+				// visibleItemCount   当前可见的item个数
+				if (firstVisible == firstVisibleItem) {
+					return;
+				}
+				firstVisible = firstVisibleItem;
+				visibleCount = visibleItemCount;
+				totalCount = totalItemCount;
+			}
+		});
+
+		refreshLayout.setOnRefreshListener(new OnRefreshListener() {
+			@Override
+			public void onRefresh(RefreshLayout refreshlayout) {
+				refreshlayout.finishRefresh();
+			}
+		});
+		refreshLayout.setOnLoadmoreListener(new OnLoadmoreListener() {
+			@Override
+			public void onLoadmore(RefreshLayout refreshlayout) {
+				refreshlayout.finishLoadmore();
+			}
+		});
+
+		//设置 Header 为 Material风格
+		refreshLayout.setRefreshHeader(new MaterialHeader(getActivity()).setShowBezierWave(true));
+		//设置 Footer 为 球脉冲
+		refreshLayout.setRefreshFooter(new BallPulseFooter(getActivity()).setSpinnerStyle(SpinnerStyle.Scale));
+
+
 	}
 
 	public void initBannerData(JSONObject json) {
@@ -210,62 +279,11 @@ public class IndexFragment_Scg extends BaseFragment implements OnClickListener, 
 		// TODO Auto-generated method stub
 		super.onResume();
 		doHttp();
-		indexdoHttp();
 		ggdoHttp();
+		dobHttp();
 	}
 
-	/**
-	 * 首页推荐标
-	 */
-	public void indexdoHttp() {
 
-		JsonBuilder builder = new JsonBuilder();
-		builder.put("is_tuijian", 1);
-		builder.put("type", 11);
-		builder.put("page", curPage);
-		builder.put("limit", pageCount);
-
-		// 填充参数
-		BaseHttpClient.post(getActivity(), Default.tzList, null, new JsonHttpResponseHandler() {
-			@Override
-			public void onStart() {
-				// TODO Auto-generated method stub
-				super.onStart();
-			}
-
-			@Override
-			public void onSuccess(int statusCode, Header[] headers, JSONObject json) {
-				// TODO Auto-generated method stub
-				super.onSuccess(statusCode, headers, json);
-
-				try {
-					if (statusCode == 200) {
-						if (json.getInt("status") == 0) {
-							updateAddInfo(json);
-						} else {
-							showCustomToast(json.getString("message"));
-						}
-					} else {
-						showCustomToast(R.string.toast1);
-					}
-
-				} catch (JSONException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-
-				dismissLoadingDialog();
-			}
-
-			@Override
-			public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
-				// TODO Auto-generated method stub
-				super.onFailure(statusCode, headers, throwable, errorResponse);
-				dismissLoadingDialog();
-			}
-		});
-
-	}
 
 	public void ggdoHttp() {
 
@@ -322,22 +340,100 @@ public class IndexFragment_Scg extends BaseFragment implements OnClickListener, 
 
 	}
 
-	public void updateAddInfo(JSONObject json) {
 
-		try {
 
-			if (!json.isNull("list")) {
-				list = json.getJSONArray("list");
-				Message message = new Message();
-				message.what = 100;
-				message.obj = list;
-				handler.sendMessage(message);
+	public void dobHttp() {
+		JsonBuilder builder = new JsonBuilder();
+		curPage = 1;
+		builder.put("type", 11);
+		builder.put("page", curPage);
+		builder.put("limit", pageCount);
+
+		// 填充参数
+		BaseHttpClient.post(getActivity(), Default.tzAllList, builder, new JsonHttpResponseHandler() {
+
+			@Override
+			public void onStart() {
+				super.onStart();
+
+				showLoadingDialogNoCancle("请稍后努力加载中...");
 			}
 
+			@Override
+			public void onSuccess(int statusCode, Header[] headers, JSONObject json) {
+				// TODO Auto-generated method stub
+				super.onSuccess(statusCode, headers, json);
+				dismissLoadingDialog();
+				MyLog.e("statusCode=" + statusCode + "--headers=" + headers.toString() + "--json=" + json.toString());
+
+				if (statusCode == 200) {
+					try {
+						if (json.getInt("status") == 1) {
+							initJsonData(json);
+						} else {
+							showCustomToast(json.getString("message"));
+							dlist.clear();
+						}
+						dismissLoadingDialog();
+						touZiAdapter.notifyDataSetChanged();
+					} catch (JSONException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+
+				}
+			}
+
+			@Override
+			public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+				// TODO Auto-generated method stub
+				super.onFailure(statusCode, headers, throwable, errorResponse);
+				dismissLoadingDialog();
+			}
+		});
+
+	}
+
+	protected void initJsonData(JSONObject json) {
+		dlist.clear();
+		try {
+			// 散标数据初始化
+			List<Map<String, Object>> list2 = new ArrayList<Map<String, Object>>();
+			maxPage = json.getInt("totalPage");
+			curPage = json.getInt("nowPage");
+			if (!json.isNull("list")) {
+				jsonArray = json.getJSONArray("list");
+				if (jsonArray != null) {
+					for (int i = 0; i < jsonArray.length(); i++) {
+						JSONObject templist = jsonArray.getJSONObject(i);
+						map = new HashMap<String, Object>();
+						map.put("id", templist.getLong("id"));
+						map.put("type", templist.getInt("type"));
+
+						Double all = templist.getDouble("borrow_money");
+						Double has = templist.getDouble("has_borrow");
+
+						map.put("has_borrow_sx", getSubtract(all,has));
+
+						map.put("progress_tz_sx", templist.getDouble("progress"));
+						map.put("item_tzbt_sx", templist.getString("borrow_name"));
+						map.put("item_jkje_sx", templist.getString("borrow_money"));
+						map.put("item_tzqx_sx", templist.getString("borrow_duration"));
+						map.put("item_nhl_sx", templist.getString("borrow_interest_rate"));
+						map.put("item_time_sx", templist.getString("addtime"));
+						map.put("repayment_type", templist.getString("repayment_type"));
+						list2.add(map);
+					}
+				}
+			}
+			dlist.clear();
+			dlist.addAll(list2);
+			// handler.sendEmptyMessage(1);
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		touZiAdapter.notifyDataSetChanged();
 	}
 
 	/**
@@ -479,27 +575,7 @@ public class IndexFragment_Scg extends BaseFragment implements OnClickListener, 
 
 	}
 
-	private void initTtview(View mainView) {
-		// TODO Auto-generated method stub
-		tt_borrow_name = (TextView) mainView.findViewById(R.id.tt_borrow_name);
-		tt_borrow_money = (TextView) mainView.findViewById(R.id.tt_borrow_money);
-		tt_has_borrow = (TextView) mainView.findViewById(R.id.tt_has_borrow);
-		tt_borrow_duration = (TextView) mainView.findViewById(R.id.tt_borrow_duration);
-		tt_borrow_interest_rate = (TextView) mainView.findViewById(R.id.tt_borrow_interest_rate);
-		tt_jindu = (TextView) mainView.findViewById(R.id.tt_jindu);
-		tt_progress = (ProgressBar) mainView.findViewById(R.id.tt_progress);
-	}
 
-	private void initYyview(View mainView) {
-		// TODO Auto-generated method stub
-		yy_borrow_name = (TextView) mainView.findViewById(R.id.yy_borrow_name);
-		yy_borrow_money = (TextView) mainView.findViewById(R.id.yy_borrow_money);
-		yy_has_borrow = (TextView) mainView.findViewById(R.id.yy_has_borrow);
-		yy_borrow_duration = (TextView) mainView.findViewById(R.id.yy_borrow_duration);
-		yy_borrow_interest_rate = (TextView) mainView.findViewById(R.id.yy_borrow_interest_rate);
-		yy_jindu = (TextView) mainView.findViewById(R.id.yy_jindu);
-		yy_progress = (ProgressBar) mainView.findViewById(R.id.yy_progress);
-	}
 
 	private Handler handler = new Handler() {
 		@SuppressWarnings("unchecked")
@@ -512,55 +588,6 @@ public class IndexFragment_Scg extends BaseFragment implements OnClickListener, 
 				// autoVerticalScrollTextView.setText(strings[number %
 				// strings.length]);
 				autoVerticalScrollTextView.setText(mStr.get(number % mStr.size()));
-			} else if (msg.what == 100) {
-				try {
-					JSONArray ja = (JSONArray) msg.obj;
-					JSONObject jo = null;
-					for (int i = 0; i < ja.length(); i++) {
-						jo = ja.getJSONObject(i);
-						if (i == 0) {
-							id_tt = jo.getLong("id");
-							type_tt = jo.getInt("borrow_type");
-							tt_borrow_name.setText(jo.getString("borrow_name"));
-							tt_borrow_money.setText(jo.getString("borrow_money"));
-
-							if ("1".equals(jo.getString("repayment_type"))) {
-								tt_borrow_duration.setText(jo.getString("borrow_duration") + "天");
-							} else {
-								tt_borrow_duration.setText(jo.getString("borrow_duration") + "月");
-							}
-							tt_borrow_interest_rate.setText(jo.getString("borrow_interest_rate") + "%");
-							Double all = jo.getDouble("borrow_money");// getSubtract
-							Double has = jo.getDouble("has_borrow");
-							tt_has_borrow.setText(getSubtract(all, has));
-							int progress = getProgress(all, has);
-							tt_progress.setProgress(progress);
-							tt_jindu.setText("进度:" + progress + "%");
-						} else if (i == 1) {
-							id_yy = jo.getLong("id");
-							type_yy = jo.getInt("borrow_type");
-							yy_borrow_name.setText(jo.getString("borrow_name"));
-							yy_borrow_money.setText(jo.getString("borrow_money"));
-							yy_has_borrow.setText(jo.getString("has_borrow"));
-							if ("1".equals(jo.getString("repayment_type"))) {
-								yy_borrow_duration.setText(jo.getString("borrow_duration") + "天");
-							} else {
-								yy_borrow_duration.setText(jo.getString("borrow_duration") + "月");
-							}
-							yy_borrow_interest_rate.setText(jo.getString("borrow_interest_rate") + "%");
-							Double all = jo.getDouble("borrow_money");
-							Double has = jo.getDouble("has_borrow");
-							yy_has_borrow.setText(getSubtract(all, has));
-							int progress = getProgress(all, has);
-							yy_progress.setProgress(progress);
-							yy_jindu.setText("进度:" + progress + "%");
-
-						}
-					}
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
 			} else if (msg.what == 111) {
 				mStr = (List<String>) msg.obj;
 				if (mStr.size() > 0) {
@@ -580,15 +607,6 @@ public class IndexFragment_Scg extends BaseFragment implements OnClickListener, 
 		}
 	};
 
-	private int getProgress(Double all, Double has) {
-		BigDecimal b1 = new BigDecimal(all.toString());
-		BigDecimal b2 = new BigDecimal(has.toString());
-		Double isuse = b1.subtract(b2).doubleValue();
-		// BigDecimal isuse1 = new BigDecimal(isuse.toString());
-		Double res = b2.divide(b1, 3, BigDecimal.ROUND_HALF_UP).doubleValue();
-		int i = (int) (Double.parseDouble(res + "") * 100);
-		return i;
-	}
 
 	private String getSubtract(Double all, Double has) {
 		BigDecimal b1 = new BigDecimal(all.toString());
@@ -610,29 +628,7 @@ public class IndexFragment_Scg extends BaseFragment implements OnClickListener, 
 		case R.id.gg_loadmore:
 			Intent intent = new Intent(getActivity(), TouziActivity.class);
 			startActivity(intent);
-			break;
-		case R.id.item_tt:
-			if (Default.userId == 0) {
-				Intent intent1 = new Intent(getActivity(), LoginActivity_Scg.class);
-				startActivity(intent1);
-			} else {
-				Intent intent1 = new Intent(getActivity(), BidItem_Scg.class);
-				intent1.putExtra("id", id_tt);
-				intent1.putExtra("type", shabiphp(type_tt));
-				startActivity(intent1);
-			}
-
-			break;
-		case R.id.item_yy:
-			if (Default.userId == 0) {
-				Intent intent1 = new Intent(getActivity(), LoginActivity_Scg.class);
-				startActivity(intent1);
-			} else {
-				Intent intent2 = new Intent(getActivity(), BidItem_Scg.class);
-				intent2.putExtra("id", id_yy);
-				intent2.putExtra("type", shabiphp(type_yy));
-				startActivity(intent2);
-			}
+//			ToQQ.toQQ(getActivity(),"349729837");
 			break;
 		case R.id.autoVerticalScrollTextView:
 			getActivity().startActivity(new Intent(getActivity(), NewsListActivity.class));

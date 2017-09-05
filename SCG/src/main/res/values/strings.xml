@@ -205,7 +205,11 @@
     <string name="erro_login2">帐号或者密码错误</string>
     <string name="news"></string>
 
+    <string name="pull_to_refresh_pull_label">下拉可以刷新..</string>
+    <string name="pull_to_refresh_release_label">松手获取更多...</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
     <string name="pull_to_refresh_tap_label">efresh_tap..</string>
+
     <string name="about_info1">当前版本号:</string>
     <string name="about_info2">适用于Android2.1及以上操作系统</string>
     <string name="tzdetail">投标记录</string>

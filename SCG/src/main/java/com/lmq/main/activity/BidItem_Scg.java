@@ -1,17 +1,5 @@
 package com.lmq.main.activity;
 
-import org.apache.http.Header;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.lmq.http.BaseHttpClient;
-import com.lmq.http.JsonHttpResponseHandler;
-import com.lmq.main.api.BaseActivity;
-import com.lmq.main.api.JsonBuilder;
-import com.lmq.main.api.MyLog;
-import com.lmq.main.util.Default;
-import com.czscg.R;
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -25,6 +13,18 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.czscg.R;
+import com.lmq.http.BaseHttpClient;
+import com.lmq.http.JsonHttpResponseHandler;
+import com.lmq.main.api.BaseActivity;
+import com.lmq.main.api.JsonBuilder;
+import com.lmq.main.api.MyLog;
+import com.lmq.main.util.Default;
+
+import org.apache.http.Header;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 //投资详情
 public class BidItem_Scg extends BaseActivity implements OnClickListener {
@@ -100,56 +100,56 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		switch (v.getId()) {
-		case R.id.title_right:
-			finish();
-			break;
-		case R.id.calculator:
-			if (jl != null) {
-				Intent info = new Intent(BidItem_Scg.this, calculateActivity.class);
-				info.putExtra("lilv", nhl);
-				info.putExtra("qixian", jkqx);
-				info.putExtra("fangshi", jkfs);
-				info.putExtra("jiangli", jl);
-				info.putExtra("guanli", "0");
-				info.putExtra("zonge", ze);
-				startActivity(info);
-			} else {
-				showCustomToast(R.string.toast1);
-			}
-			break;
-		case R.id.item_xxpl:
-			Intent intent1 = new Intent(BidItem_Scg.this, XxplActivity.class);
-			intent1.putExtra("id", itemId);
-			startActivity(intent1);
-			break;
-		case R.id.cjjl_rs:
-			Intent intent2 = new Intent(BidItem_Scg.this, tzDetailsListActivity.class);
-			intent2.putExtra("id", itemId);
-			intent2.putExtra("type", itemType);
-			startActivity(intent2);
-			break;
-		case R.id.item_ljtj_rs:
-			if (Default.userId == 0) {
-				Intent intent = new Intent(BidItem_Scg.this, LoginActivity_Scg.class);
-				startActivity(intent);
-			} else {
-				inputTitleDialog();
-			}
-			break;
-		case R.id.choosejxj_scg:
-			Intent intent = new Intent(BidItem_Scg.this, ChooseJxjList.class);
-			intent.putExtra("borrow_duration", borrow_duration);
-			intent.putExtra("repayment_type", repayment_type);
-			startActivityForResult(intent, 0);
-			break;
-		case R.id.chooseredpkg_scg:
-			Intent i = new Intent(BidItem_Scg.this, ChooseRedPacketList.class);
-			i.putExtra("borrow_duration", borrow_duration);
-			i.putExtra("repayment_type", repayment_type);
-			startActivityForResult(i, 1);
-			break;
-		default:
-			break;
+			case R.id.title_right:
+				finish();
+				break;
+			case R.id.calculator:
+				if (jl != null) {
+					Intent info = new Intent(BidItem_Scg.this, calculateActivity.class);
+					info.putExtra("lilv", nhl);
+					info.putExtra("qixian", jkqx);
+					info.putExtra("fangshi", jkfs);
+					info.putExtra("jiangli", jl);
+					info.putExtra("guanli", "0");
+					info.putExtra("zonge", ze);
+					startActivity(info);
+				} else {
+					showCustomToast(R.string.toast1);
+				}
+				break;
+			case R.id.item_xxpl:
+				Intent intent1 = new Intent(BidItem_Scg.this, XxplActivity.class);
+				intent1.putExtra("id", itemId);
+				startActivity(intent1);
+				break;
+			case R.id.cjjl_rs:
+				Intent intent2 = new Intent(BidItem_Scg.this, tzDetailsListActivity.class);
+				intent2.putExtra("id", itemId);
+				intent2.putExtra("type", itemType);
+				startActivity(intent2);
+				break;
+			case R.id.item_ljtj_rs:
+				if (Default.userId == 0) {
+					Intent intent = new Intent(BidItem_Scg.this, LoginActivity_Scg.class);
+					startActivity(intent);
+				} else {
+					inputTitleDialog();
+				}
+				break;
+			case R.id.choosejxj_scg:
+				Intent intent = new Intent(BidItem_Scg.this, ChooseJxjList.class);
+				intent.putExtra("borrow_duration", borrow_duration);
+				intent.putExtra("repayment_type", repayment_type);
+				startActivityForResult(intent, 0);
+				break;
+			case R.id.chooseredpkg_scg:
+				Intent i = new Intent(BidItem_Scg.this, ChooseRedPacketList.class);
+				i.putExtra("borrow_duration", borrow_duration);
+				i.putExtra("repayment_type", repayment_type);
+				startActivityForResult(i, 1);
+				break;
+			default:
+				break;
 		}
 	}
 
@@ -193,7 +193,11 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 				redid = data.getStringExtra("return_cbid");
 				if (!"00".equals(id)) {
 					String rate = data.getStringExtra("return_cbmoney");
-					nll_tz_redpkg.setText(rate);
+					if("00".equals(rate)){
+						nll_tz_redpkg.setText("");
+					}else {
+						nll_tz_redpkg.setText(rate);
+					}
 				} else {
 					nll_tz_redpkg.setText("");
 					redid = "";

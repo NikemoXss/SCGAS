@@ -10,10 +10,12 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.net.ConnectivityManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.content.FileProvider;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -264,11 +266,23 @@ public class MainTabActivit_Scg extends FragmentActivity {
                 dialog.updateBtn.setText("安裝");
                 dialog.updateBtn.setTag(101);
 
-                MyLog.e(file.getPath());
+
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setDataAndType(Uri.fromFile(new File(file.getPath())),
-                        "application/vnd.android.package-archive");
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) { // 7.0+以上版本
+                    Uri apkUri = FileProvider.getUriForFile(MainTabActivit_Scg.this, "com.czscg.fileprovider", file);
+                    intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                    intent.setDataAndType(apkUri, "application/vnd.android.package-archive");
+                } else {
+                    intent.setDataAndType(Uri.fromFile(file), "application/vnd.android.package-archive");
+                }
                 startActivity(intent);
+
+//                MyLog.e(file.getPath());
+//                Intent intent = new Intent(Intent.ACTION_VIEW);
+//                intent.setDataAndType(Uri.fromFile(new File(file.getPath())),
+//                        "application/vnd.android.package-archive");
+//                startActivity(intent);
                 finish();
 
             }
@@ -566,19 +580,7 @@ public class MainTabActivit_Scg extends FragmentActivity {
 
     }
 
-    @Override
-    protected void onStop() {
-        // TODO Auto-generated method stub
-        // showCustomToast("ON STOP ");
-        super.onStop();
-        if (!isAppOnForeground()) {
-            // app 进入后台
 
-            // 全局变量isActive = false 记录当前已经进入后台
-            Default.isActive = false;
-
-        }
-    }
 
     @Override
     protected void onResume() {
@@ -749,9 +751,21 @@ public class MainTabActivit_Scg extends FragmentActivity {
 
     @Override
     protected void onStart() {
-        // TODO Auto-generated method stub
+//        Intent intent = new Intent(MainTabActivit_Scg.this, FloatViewService.class);
+//        startService(intent);
         super.onStart();
         getJxjNum();
+    }
+
+    @Override
+    protected void onStop() {
+//        Intent intent = new Intent(MainTabActivit_Scg.this, FloatViewService.class);
+//        stopService(intent);
+        super.onStop();
+        if (!isAppOnForeground()) {
+            // 全局变量isActive = false 记录当前已经进入后台
+            Default.isActive = false;
+        }
     }
 
     private void getJxjNum() {

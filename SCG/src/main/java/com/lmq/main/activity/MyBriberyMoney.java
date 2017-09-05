@@ -18,6 +18,7 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.czscg.R;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
@@ -54,7 +55,7 @@ public class MyBriberyMoney extends BaseActivity implements OnClickListener {
 	private PullToRefreshListView listView;
 	private RedPkgAdapter adapter;
 	private int page = 1;
-	private int limit = 5;
+	private int limit = 8;
 	private int totalPage = 0;
 	private TextView text;
 	private String requestURL = Default.redpkglist;
@@ -71,7 +72,7 @@ public class MyBriberyMoney extends BaseActivity implements OnClickListener {
 	DecimalFormat df = new DecimalFormat("0.00");
 	List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
 	Map<String, Object> map = null;
-
+	Toast t=null;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 
@@ -95,6 +96,8 @@ public class MyBriberyMoney extends BaseActivity implements OnClickListener {
 
 		listView = (PullToRefreshListView) findViewById(R.id.jxj_list);
 		listView.setMode(PullToRefreshBase.Mode.BOTH);
+		adapter = new RedPkgAdapter(MyBriberyMoney.this, list);
+		listView.setAdapter(adapter);
 		listView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener<ListView>() {
 			@Override
 			public void onRefresh(PullToRefreshBase<ListView> refreshView) {
@@ -195,7 +198,7 @@ public class MyBriberyMoney extends BaseActivity implements OnClickListener {
 			super.handleMessage(msg);
 
 			if (msg.what == 1) {
-				showCustomToast("无更多数据！");
+				t=showCustomToast("无更多数据！",t);
 
 				listView.onRefreshComplete();
 			}
@@ -251,18 +254,24 @@ public class MyBriberyMoney extends BaseActivity implements OnClickListener {
 			showLoadingDialogNoCancle("请稍后努力加载中...");
 			TheAnimation(zero);// 平移动画
 			tipsType = 0;
+			list.clear();
+			page = 1;
 			getInvestData(getPostParams(), true);
 			break;
 		case R.id.used:
 			showLoadingDialogNoCancle("请稍后努力加载中...");
 			tipsType = 1;
 			TheAnimation(one);
+			list.clear();
+			page = 1;
 			getInvestData(getPostParams(), true);
 			break;
 		case R.id.cannouse:
 			showLoadingDialogNoCancle("请稍后努力加载中...");
 			tipsType = 2;
 			TheAnimation(two);
+			list.clear();
+			page = 1;
 			getInvestData(getPostParams(), true);
 			break;
 		case R.id.title:
@@ -329,27 +338,23 @@ public class MyBriberyMoney extends BaseActivity implements OnClickListener {
 				super.onSuccess(statusCode, headers, json);
 				try {
 					if (statusCode == 200) {
-						// 没有新版本
 						if (json.getInt("status") == 1) {
 							getData(json);
 						} else if (json.optInt("status") == 0) {
-							showCustomToast(json.getString("message"));
+							t=showCustomToast(json.getString("message"),t);
 
 						} else {
-							showCustomToast(json.getString("message"));
+							t=showCustomToast(json.getString("message"),t);
 						}
 					} else {
-						showCustomToast(R.string.toast1);
+						t=showCustomToast("链接超时，请稍候再试！",t);
 					}
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				dismissLoadingDialog();
-				adapter = new RedPkgAdapter(MyBriberyMoney.this, list);
-				listView.setAdapter(adapter);
 				adapter.notifyDataSetChanged();
 				listView.onRefreshComplete();
-
+				dismissLoadingDialog();
 			}
 
 			@Override
@@ -357,7 +362,7 @@ public class MyBriberyMoney extends BaseActivity implements OnClickListener {
 				// TODO Auto-generated method stub
 				super.onFailure(statusCode, headers, responseString, throwable);
 				dismissLoadingDialog();
-				showCustomToast(responseString);
+				t=showCustomToast(responseString,t);
 				listView.onRefreshComplete();
 
 			}
@@ -374,7 +379,7 @@ public class MyBriberyMoney extends BaseActivity implements OnClickListener {
 	protected void getData(JSONObject json) {
 		// TODO Auto-generated method stub
 		try {
-
+			totalPage = json.getInt("totalpage");
 			JSONArray jsonArray = json.getJSONArray("msg");
 			for (int i = 0; i < jsonArray.length(); i++) {
 				map = new HashMap<String, Object>();
@@ -391,6 +396,9 @@ public class MyBriberyMoney extends BaseActivity implements OnClickListener {
 			e.printStackTrace();
 		}
 
+		adapter.notifyDataSetChanged();
+		listView.onRefreshComplete();
+		adapter.notifyDataSetChanged();
 	}
 
 	public static String stampToDate(String s) {
@@ -412,5 +420,29 @@ public class MyBriberyMoney extends BaseActivity implements OnClickListener {
 	public void finish() {
 		super.finish();
 	}
+	@Override
+	protected void onStop() {
+		// TODO Auto-generated method stub
+		super.onStop();
+		if(t!=null){
+			t.cancel();
+		}
+	}
 
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+		if(t!=null){
+			t.cancel();
+		}
+	}
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		if(t!=null){
+			t.cancel();
+		}
+	}
 }

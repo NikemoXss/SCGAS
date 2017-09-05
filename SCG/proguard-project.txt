@@ -434,7 +434,7 @@
 -keep class com.squareup.picasso.**{*;}
 -keep class com.taobao.sophix.**{*;}
 -keep class com.ta.utdid2.device.**{*;}
-
+-keep public class com.tencent.bugly.**{*;}
 #防止inline
 -dontoptimize
 
@@ -464,6 +464,7 @@
 -dontwarn com.squareup.picasso.**
 -dontwarn com.taobao.sophix.**
 -dontwarn com.ta.utdid2.device.**
+-dontwarn com.tencent.bugly.**
 
 -keep class butterknife.** { *; }
 -dontwarn butterknife.internal.**

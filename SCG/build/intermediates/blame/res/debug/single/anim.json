@@ -100,8 +100,16 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\dark_to_light.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\start_fullscreen.xml",
+        "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\anim\\start_fullscreen.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_out.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\anim\\alpha_out.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\quit_fullscreen.xml",
+        "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\anim\\quit_fullscreen.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_in.xml",

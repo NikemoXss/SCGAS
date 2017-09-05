@@ -20,6 +20,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\btn_long_2_on.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p2.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p2.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_3_s.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\tab_3_s.png"
     },
@@ -40,12 +44,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\xuxian.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\borrow_type_3.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\borrow_type_3.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_1_s.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\tab_1_s.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\borrow_type_3.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\borrow_type_3.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pay_kind1.png",
@@ -96,6 +100,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\netload_07.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\composer_place.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\composer_place.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -124,6 +132,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\menu_index.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logosmall.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\logosmall.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
@@ -146,6 +158,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pay_kind3.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\pay_kind3.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p10.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p10.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_logn_1.png",
@@ -248,12 +264,20 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\b_tz_type_201.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p9.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\update_exit_btn.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\update_exit_btn.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\peoplepic.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\peoplepic.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p6.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p6.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\borrow_type_1.png",
@@ -306,10 +330,6 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cannouse1.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\cannouse1.png"
-    },
-    {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\slide.jpg",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\slide.jpg"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zu4.png",
@@ -404,6 +424,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\dialog_bg.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p7.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p7.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\frame.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\frame.png"
     },
@@ -480,8 +504,16 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index1_1.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\circle_red.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\circle_red.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_05.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\icon_05.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\composer_thought.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\composer_thought.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_normal.png",
@@ -504,8 +536,16 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\popup.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p8.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p8.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p_left_right_back.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p_left_right_back.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\composer_camera.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\composer_camera.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_markas.png",
@@ -644,6 +684,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p1.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p1.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\duobianxing.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\duobianxing.png"
     },
@@ -660,12 +704,12 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index_3_2_2.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_background.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\menu_background.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zq_has_done.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\zq_has_done.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_background.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\menu_background.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bpush_message_prompt.png",
@@ -744,6 +788,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index_4_1_2.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\composer_with.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\composer_with.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\render_onchecked.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\render_onchecked.png"
     },
@@ -760,12 +808,20 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\borrow_type_2.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p3.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p3.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\b_tz_type_301.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\b_tz_type_301.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\composer_icn_plus.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\composer_icn_plus.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\index_4_1_4.png",
@@ -968,6 +1024,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\tjrpic.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\composer_button.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\composer_button.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
@@ -1100,6 +1160,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\icon_03.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\composer_music.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\composer_music.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ishas_1.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\ishas_1.png"
     },
@@ -1124,12 +1188,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_more.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\menu_more.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_bar_menu.png",
@@ -1192,6 +1256,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\b_page_1_2.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p5.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p5.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aboutus_tv.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\aboutus_tv.png"
     },
@@ -1212,6 +1280,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\slide.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\slide.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
@@ -1226,6 +1298,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\p4.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\p4.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\borrow_type_6.png",
@@ -1308,11 +1384,19 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\netload_05.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\composer_sleep.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\composer_sleep.png"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\b_page_2.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\b_page_2.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\update_btn.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\update_btn.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\circle_cyan.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\circle_cyan.png"
     }
 ]

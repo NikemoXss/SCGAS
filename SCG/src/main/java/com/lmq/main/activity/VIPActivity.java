@@ -1,12 +1,8 @@
 package com.lmq.main.activity;
 
-import org.apache.http.Header;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -21,10 +17,14 @@ import com.lmq.http.BaseHttpClient;
 import com.lmq.http.JsonHttpResponseHandler;
 import com.lmq.main.api.BaseActivity;
 import com.lmq.main.api.JsonBuilder;
-import com.lmq.main.api.MyLog;
 import com.lmq.main.api.SystenmApi;
 import com.lmq.main.dialog.PopDialog;
 import com.lmq.main.util.Default;
+
+import org.apache.http.Header;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class VIPActivity extends BaseActivity implements OnClickListener {
 
@@ -36,9 +36,8 @@ public class VIPActivity extends BaseActivity implements OnClickListener {
 	private TextView user_select_kfName, title;
 	ImageView imageView;
 	private boolean isClickItem = false;
-
 	private int index = 0;
-
+	private int status = 0;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -53,7 +52,7 @@ public class VIPActivity extends BaseActivity implements OnClickListener {
 		imageView.setVisibility(View.VISIBLE);
 		imageView.setOnClickListener(this);
 		title=(TextView) findViewById(R.id.title);
-		title.setText("VIP申请");
+
 		findViewById(R.id.vip_button).setOnClickListener(this);
 		vip_free_textView = (TextView) findViewById(R.id.vip_fee);
 
@@ -67,17 +66,19 @@ public class VIPActivity extends BaseActivity implements OnClickListener {
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
 				isClickItem = true;
-
 				kf_popDialog.setDefaultSelect(position);
-
 				index = position;
-
 			}
 		});
 
 		vip_info_editText = (EditText) findViewById(R.id.vip_info);
+		status=getIntent().getIntExtra("status",0);
+		if(status==0){
+			title.setText("VIP申请");
+		}else {
+			title.setText("VIP修改");
+		}
 	}
 
 	@Override
@@ -142,9 +143,11 @@ public class VIPActivity extends BaseActivity implements OnClickListener {
 				showCustomToast("请输入申请说明");
 				return;
 			} else {
-
-				vipActiondohttp();
-
+				if(status==0){
+					vipActiondohttp(Default.hf_vip);
+				}else {
+					vipActiondohttp(Default.applyhf_vip);
+				}
 			}
 
 			break;
@@ -193,7 +196,7 @@ public class VIPActivity extends BaseActivity implements OnClickListener {
 					public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
 						// TODO Auto-generated method stub
 						super.onSuccess(statusCode, headers, response);
-						MyLog.e("申请VIP获取的数据" + response.toString());
+						Log.e("onSuccess2",response.toString());
 						if (statusCode == 200) {
 							if (response != null) {
 
@@ -227,13 +230,18 @@ public class VIPActivity extends BaseActivity implements OnClickListener {
 
 	}
 
-	private void vipActiondohttp() {
+	private void vipActiondohttp(final String url) {
 		final JsonBuilder builder = new JsonBuilder();
 
-		builder.put("kfid", kf_id);
-		builder.put("des", vip_info_editText.getText().toString());
+		if(url.equals(Default.hf_vip)){//首次申请
+			builder.put("kfid", kf_id);
+			builder.put("des", vip_info_editText.getText().toString());
+		}else {
+			builder.put("kfid", kf_id);
+			builder.put("uid", Default.userId);
+		}
 
-		BaseHttpClient.post(getBaseContext(), Default.hf_vip, builder, new JsonHttpResponseHandler() {
+		BaseHttpClient.post(getBaseContext(),url, builder, new JsonHttpResponseHandler() {
 
 			@Override
 			public void onStart() {
@@ -247,24 +255,17 @@ public class VIPActivity extends BaseActivity implements OnClickListener {
 				// TODO Auto-generated method stub
 				super.onSuccess(statusCode, headers, response);
 
-				MyLog.e("点击申请以后上传的数据" + builder.toJsonString());
-
-				MyLog.e("点击申请以后返回的数据" + response.toString());
-
 				if (statusCode == 200) {
 					if (response != null) {
 						if (response.has("status")) {
 							try {
 								if (response.getInt("status") == 1) {
-
 									showCustomToast("提交申请成功，请等待管理员审核");
-
+									finish();
 								} else {
 									showCustomToast(response.getString("message"));
 									finish();
-
 								}
-
 								dismissLoadingDialog();
 							} catch (JSONException e) {
 								// TODO Auto-generated catch block

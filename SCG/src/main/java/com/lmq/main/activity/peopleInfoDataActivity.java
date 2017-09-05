@@ -3,8 +3,21 @@
  */
 package com.lmq.main.activity;
 
-import org.apache.http.Header;
-import org.json.JSONObject;
+import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.graphics.Bitmap;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.czscg.R;
 import com.lmq.http.BaseDialog;
@@ -21,23 +34,11 @@ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
 
-import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
-import android.graphics.Bitmap;
-import android.os.Bundle;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
+import org.apache.http.Header;
+import org.json.JSONObject;
 
 /**
- * 用户设置rs
+ * 用户设置scg
  *
  */
 
@@ -70,6 +71,7 @@ public class peopleInfoDataActivity extends BaseActivity implements OnClickListe
 	private TextView vip_tv, title, exit;
 	ImageView iv_back;
 	private int vip_status;
+	private int mNum=3;
 
 	private DisplayImageOptions options;
 
@@ -117,7 +119,6 @@ public class peopleInfoDataActivity extends BaseActivity implements OnClickListe
 				.imageScaleType(ImageScaleType.EXACTLY).bitmapConfig(Bitmap.Config.RGB_565).considerExifParams(true)
 				.displayer(new FadeInBitmapDisplayer(300)).build();
 
-		findViewById(R.id.rl_vip).setOnClickListener(this);
 
 		// vip_tv = (TextView) findViewById(R.id.tv_vip);
 
@@ -206,7 +207,13 @@ public class peopleInfoDataActivity extends BaseActivity implements OnClickListe
 
 		vip_status = json.optInt("vip_status", 4);
 
-		vip_tv.setText(getVIPStatus(vip_status));
+		if(vip_status==1){
+			vip_tv.setText(json.optString("customer_name"));
+		}else{
+			vip_tv.setText(getVIPStatus(vip_status));
+		}
+
+		mNum=json.optInt("choose_times", 3);
 
 		// mmm_status = json.optInt("escrow_account", 0);
 		// sq1_status = json.optInt("invest_auth", 0);
@@ -263,9 +270,15 @@ public class peopleInfoDataActivity extends BaseActivity implements OnClickListe
 		case R.id.rl_vip:
 			// 0 待审核 1 通过 2 未通过 3 处理中 4 未申请
 			if (vip_status == 4 || vip_status == 2) {
-				startActivity(new Intent(peopleInfoDataActivity.this, VIPActivity.class));
+				Intent intent=new Intent(peopleInfoDataActivity.this, VIPActivity.class);
+				intent.putExtra("status",0);
+				startActivity(intent);
 			} else if (vip_status == 1) {
-				showCustomToast("VIP认证已通过");
+				if(mNum==3){
+					showCustomToast("你的VIP修改次数已使用完");
+					return;
+				}
+				showVipDialog();
 			} else if (vip_status == 0) {
 				showCustomToast("VIP待审核");
 			} else {
@@ -379,6 +392,29 @@ public class peopleInfoDataActivity extends BaseActivity implements OnClickListe
 		dialog.show();
 	}
 
+	public void showVipDialog() {
+		int i=3-mNum;
+		BaseDialog dialog = BaseDialog.getDialog(this, "提示", "你的VIP修改次数还有"+i+"次", "确定", new DialogInterface.OnClickListener() {
+
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				// TODO Auto-generated method stub
+				Intent intent=new Intent(peopleInfoDataActivity.this, VIPActivity.class);
+				intent.putExtra("status",1);
+				startActivity(intent);
+				dialog.dismiss();
+			}
+		}, "取消", new DialogInterface.OnClickListener() {
+
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				// TODO Auto-generated method stub
+				dialog.dismiss();
+			}
+		});
+		dialog.show();
+	}
+
 	private void doHttpExit() {
 		BaseHttpClient.post(this, Default.exit, null, new JsonHttpResponseHandler() {
 
@@ -441,6 +477,7 @@ public class peopleInfoDataActivity extends BaseActivity implements OnClickListe
 			public void onSuccess(int statusCode, Header[] headers, JSONObject json) {
 				// TODO Auto-generated method stub
 				super.onSuccess(statusCode, headers, json);
+				Log.e("onSuccess",json.toString());
 				try {
 					if (statusCode == 200) {
 						if (json.getInt("status") == 1) {

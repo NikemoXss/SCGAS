@@ -9,10 +9,12 @@ import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.baidu.mapapi.CoordType;
 import com.baidu.mapapi.SDKInitializer;
+import com.lmq.main.util.Default;
 import com.lmq.main.util.LockPatternUtils;
 import com.taobao.sophix.PatchStatus;
 import com.taobao.sophix.SophixManager;
 import com.taobao.sophix.listener.PatchLoadStatusListener;
+import com.tencent.bugly.crashreport.CrashReport;
 import com.tencent.mm.sdk.openapi.IWXAPI;
 
 import cn.sharesdk.framework.ShareSDK;
@@ -54,12 +56,19 @@ public class LocationApplication extends Application {
         sophi();
         //捕获异常
         CrashE();
+
     }
 
     private void CrashE() {
 //        CrashHandlerUtil crashHandlerUtil = CrashHandlerUtil.getInstance();
 //        crashHandlerUtil.init(getApplicationContext());
-//        crashHandlerUtil.setCrashTip("很抱歉，程序出现异常，即将退出！");
+//        crashHandlerUtil.setCrashTip("很抱歉，程序出现异常，即将退出了！");
+        //腾讯bugly
+        CrashReport.UserStrategy strategy= new CrashReport.UserStrategy(getApplicationContext());
+        strategy.setAppVersion(Default.curVersion);      //App的版本
+        strategy.setAppPackageName("com.czscg");  //App的包名
+        CrashReport.initCrashReport(getApplicationContext(), "63ac54cbf8", true,strategy);
+
     }
 
     public void sophi() {
@@ -83,7 +92,7 @@ public class LocationApplication extends Application {
                             // SophixManager.getInstance().cleanPatches();
                             Toast.makeText(getApplicationContext(), "补丁加载失败", Toast.LENGTH_LONG).show();
                         } else {
-                            Toast.makeText(getApplicationContext(), "其他" + code, Toast.LENGTH_LONG).show();
+//                            Toast.makeText(getApplicationContext(), "其他" + code, Toast.LENGTH_LONG).show();
                             // 其它错误信息, 查看PatchStatus类说明
                         }
                     }
@@ -123,5 +132,7 @@ public class LocationApplication extends Application {
             e.printStackTrace();
         }
     }
+
+
 
 }

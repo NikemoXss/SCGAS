@@ -3,9 +3,6 @@
  */
 package com.lmq.main.activity;
 
-import org.apache.http.Header;
-import org.json.JSONObject;
-
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
@@ -26,6 +23,9 @@ import com.lmq.main.api.BaseActivity;
 import com.lmq.main.api.JsonBuilder;
 import com.lmq.main.api.MyLog;
 import com.lmq.main.util.Default;
+
+import org.apache.http.Header;
+import org.json.JSONObject;
 
 /**
  * @author zzx 个人中心-提现
@@ -133,7 +133,8 @@ public class peopleInfoWithdrawalActivity extends BaseActivity implements androi
 
 		tv_name.setText(mZsxm);
 		// info[3].setText(mSjhm);
-		tv_time.setText(mTkqx);
+//		tv_time.setText(mTkqx);
+		tv_time.setText("周一至周六9:00-16:30申请，当天处理，周日及国家法定节假日顺延。到账时间以银行处理为准，中午休息时间11：30-13:00期间的申请下午处理。");
 
 		mEdit_money = (EditText) findViewById(R.id.edit_money);
 		mEdit_pass = (EditText) findViewById(R.id.edit_pass);

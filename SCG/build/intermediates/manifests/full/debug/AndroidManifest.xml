@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.czscg"
     android:versionCode="2"
-    android:versionName="1.0.0" >
+    android:versionName="1.7" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -51,6 +51,7 @@
     <uses-permission android:name="android.permission.READ_LOGS" >
     </uses-permission>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <!-- Camera features - recommended -->
     <uses-feature
@@ -98,6 +99,17 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
+        <service android:name="com.lmq.main.service.FloatViewService" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.czscg.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
 
         <activity
             android:name="com.lmq.main.activity.LogoActicity"
