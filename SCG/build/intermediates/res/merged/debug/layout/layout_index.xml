@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#f0f4f5"
+              android:background="#f2f2f2"
               android:orientation="vertical">
 
     <LinearLayout
@@ -34,6 +34,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -55,6 +56,62 @@
             android:paddingLeft="5dp"
             android:text="AutoHorizontalScrollTextView"/>
 
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+       android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:background="@color/blue"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:paddingLeft="10dp"
+            android:text="新手体验标"/>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/item_newlist_indexfragment" />
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:background="@color/blue"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:paddingLeft="10dp"
+            android:text="推荐标的"/>
+
         <TextView
             android:id="@+id/gg_loadmore"
             android:layout_width="0dp"
@@ -62,8 +119,9 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="right"
-            android:text="加载更多"
+            android:text="加载更多>>"
             android:textColor="@color/gray"/>
+
     </LinearLayout>
 
     <com.scwang.smartrefresh.layout.SmartRefreshLayout
@@ -79,7 +137,37 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:divider="#00000000"
-            android:dividerHeight="10dp"/>
+            android:dividerHeight="1dp"/>
     </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+<LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:background="@color/gray"
+        android:layout_width="45dp"
+        android:layout_height="1dp"/>
+
+    <TextView
+        style="@style/gray18Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="苏常网,轻松创富"
+        android:textColor="#b2b2b2"/>
+
+    <ImageView
+        android:background="@color/gray"
+        android:layout_width="45dp"
+        android:layout_height="1dp"/>
+
+
+</LinearLayout>
+
+
 
 </LinearLayout>

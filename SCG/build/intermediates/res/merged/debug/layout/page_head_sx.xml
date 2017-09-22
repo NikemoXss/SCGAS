@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/title_color_sx"
-    android:padding="5dp" >
+                android:id="@+id/head_re"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_color_new"
+                android:padding="5dp">
 
     <!--  -->
 
@@ -14,23 +15,20 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:background="@drawable/button_b_to_left"
-        android:visibility="gone" />
+        android:visibility="gone"/>
 
-<!--     <ImageView
-        android:id="@+id/title_right1"
-        style="@style/title_img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:background="@drawable/button_b_to_left_sx"
-        android:visibility="gone" />
-     -->
-    
-    <TextView 
-        android:textColor="@color/white"
-        android:gravity="center"
-        android:text="个人中心"
+    <!--     <ImageView
+            android:id="@+id/title_right1"
+            style="@style/title_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_b_to_left_sx"
+            android:visibility="gone" />
+         -->
+
+    <TextView
         android:id="@+id/title_right1"
         style="@style/title_img"
         android:layout_width="wrap_content"
@@ -38,7 +36,10 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:drawableLeft="@drawable/button_b_to_left_sx"
-        android:visibility="gone" />
+        android:gravity="center"
+        android:text="个人中心"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/title"
@@ -46,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="读取中..." />
+        android:text="读取中..."/>
 
     <ImageView
         android:id="@+id/title_left"
@@ -55,7 +56,18 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/button_b_to_right_sx"
-        android:visibility="gone" />
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/title_left_tv"
+        android:text="注册"
+        style="@style/black20Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"/>
+
 
     <ImageView
         android:id="@+id/title_left1"
@@ -64,6 +76,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/shmm"
-        android:visibility="gone" />
+        android:visibility="gone"/>
 
 </RelativeLayout>

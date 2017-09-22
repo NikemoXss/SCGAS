@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1:1-1007:12
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1:1-1015:12
 	package
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:3:11-30
 		INJECTED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml
@@ -184,7 +184,7 @@ ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:74:5-65
 	android:name
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:74:22-63
 application
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:76:5-1005:19
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:76:5-1013:19
 MERGED from [SCGAS:wheel:unspecified] E:\As\SCGAS\wheel\build\intermediates\bundles\default\AndroidManifest.xml:11:5-12:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.1] C:\Users\Administrator\.android\build-cache\9224bd7899d421cd4e5785cbba6f0156897926cf\output\AndroidManifest.xml:11:5-15:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.1] C:\Users\Administrator\.android\build-cache\fc6f3a34d1e7785de9492ad9357d0de092f13215\output\AndroidManifest.xml:11:5-15:19
@@ -255,7 +255,7 @@ ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:102:9-110:20
 	android:name
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:103:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:107:13-109:54
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:107:13-109:53
 	android:resource
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:109:17-51
 	android:name
@@ -334,427 +334,427 @@ ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:153:9-157:20
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:156:13-66
 	android:name
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:154:13-61
+activity#com.lmq.main.activity.BidItem2_Scg
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:159:9-163:20
+	android:label
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:161:13-45
+	android:theme
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:162:13-66
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:160:13-62
 activity#com.lmq.main.activity.ZcItem_Sx
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:158:9-162:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:165:9-169:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:160:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:167:13-45
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:161:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:168:13-66
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:159:13-59
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:166:13-59
 activity#com.lmq.main.activity.XxplActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:163:9-167:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:170:9-174:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:165:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:172:13-45
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:166:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:173:13-66
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:164:13-62
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:171:13-62
 activity#com.lmq.main.activity.XxplImgActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:168:9-172:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:175:9-179:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:170:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:177:13-45
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:171:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:178:13-66
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:169:13-65
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:176:13-65
 activity#com.lmq.main.activity.TouziActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:173:9-177:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:180:9-184:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:175:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:182:13-45
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:176:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:183:13-66
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:174:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:181:13-63
 activity#com.lmq.pay.ChoosePayType
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:178:9-182:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:185:9-189:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:180:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:187:13-45
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:181:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:188:13-66
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:179:13-53
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:186:13-53
 activity#com.lmq.main.activity.XxPay
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:183:9-187:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:190:9-194:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:185:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:192:13-45
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:186:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:193:13-66
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:184:13-55
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:191:13-55
 activity#com.lmq.main.activity.LoginActivity_Scg
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:188:9-192:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:195:9-199:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:190:13-45
-	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:191:13-66
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:189:13-67
-activity#com.lmq.menu.MainTabActivit_Scg
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:193:9-199:20
-	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:197:13-49
-	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:196:13-45
-	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:195:13-74
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:197:13-45
 	android:theme
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:198:13-66
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:194:13-59
-activity#com.lmq.menu.MainTabActivity_Sx
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:200:9-204:20
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:196:13-67
+activity#com.lmq.menu.MainTabActivit_Scg
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:200:9-207:20
+	android:screenOrientation
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:205:13-49
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:202:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:203:13-45
+	android:launchMode
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:204:13-44
+	android:configChanges
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:202:13-74
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:203:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:206:13-66
 	android:name
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:201:13-59
+activity#com.lmq.menu.MainTabActivity_Sx
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:208:9-212:20
+	android:label
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:210:13-45
+	android:theme
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:211:13-66
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:209:13-59
 activity#com.lmq.main.activity.GestureLockViewActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:205:9-209:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:213:9-217:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:207:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:215:13-45
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:208:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:216:13-66
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:206:13-73
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:214:13-73
 activity#com.lmq.main.activity.BorrowMoney_Sx
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:210:9-214:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:218:9-222:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:212:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:220:13-45
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:213:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:221:13-66
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:211:13-64
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:219:13-64
 service#com.lmq.update.DownloadService
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:216:9-217:19
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:224:9-225:19
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:216:18-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:224:18-63
 activity#com.lmq.view.CustomDetailView
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:219:9-225:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:227:9-233:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:223:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:231:13-49
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:222:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:230:13-45
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:221:13-48
-	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:224:13-47
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:220:13-57
-activity#com.lmq.view.ShowBannerViewDetail
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:226:9-229:20
-	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:228:13-47
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:227:13-61
-activity#com.lmq.view.ShowWebImageView
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:230:9-233:20
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:229:13-48
 	android:theme
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:232:13-47
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:231:13-57
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:228:13-57
+activity#com.lmq.view.ShowBannerViewDetail
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:234:9-237:20
+	android:theme
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:236:13-47
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:235:13-61
+activity#com.lmq.view.ShowWebImageView
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:238:9-241:20
+	android:theme
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:240:13-47
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:239:13-57
 activity#com.lmq.main.activity.MyBriberyMoney
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:234:9-239:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:242:9-247:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:237:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:245:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:236:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:244:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:238:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:246:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:235:13-64
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:243:13-64
 activity#com.lmq.main.activity.MyCaupon
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:240:9-241:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:248:9-249:20
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:240:19-64
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:248:19-64
 activity#com.lmq.main.activity.CitiesActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:247:9-251:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:255:9-259:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:249:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:257:13-45
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:250:13-56
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:258:13-56
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:248:13-64
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:256:13-64
 meta-data#com.baidu.lbsapi.API_KEY
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:253:9-255:63
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:261:9-263:63
 	android:value
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:255:13-61
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:263:13-61
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:254:13-52
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:262:13-52
 activity#com.fuiou.pay.activity.FyWebActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:257:9-261:66
-	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:259:13-49
-	android:windowSoftInputMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:261:13-64
-	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:260:13-60
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:258:13-64
-activity#com.lmq.pay.FyPayActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:264:9-269:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:265:9-269:66
 	android:screenOrientation
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:267:13-49
-	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:266:13-63
+	android:windowSoftInputMode
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:269:13-64
 	android:theme
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:268:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:265:13-53
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:266:13-64
+activity#com.lmq.pay.FyPayActivity
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:272:9-277:20
+	android:screenOrientation
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:275:13-49
+	android:configChanges
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:274:13-63
+	android:theme
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:276:13-60
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:273:13-53
 activity#com.lmq.main.activity.VIPActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:282:9-287:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:290:9-295:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:285:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:293:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:284:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:292:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:286:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:294:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:283:13-61
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:291:13-61
 activity#com.mob.tools.MobUIShell
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:328:9-342:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:336:9-350:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:331:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:339:13-49
 	android:windowSoftInputMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:333:13-67
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:341:13-67
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:330:13-74
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:338:13-74
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:332:13-72
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:340:13-72
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:329:13-52
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:337:13-52
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:334:13-341:29
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:342:13-349:29
 data
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:335:17-59
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:343:17-59
 	android:scheme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:335:23-57
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:343:23-57
 action#android.intent.action.VIEW
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:337:17-68
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:345:17-68
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:337:25-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:345:25-66
 category#android.intent.category.BROWSABLE
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:339:17-77
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:347:17-77
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:339:27-75
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:347:27-75
 activity#com.czscg.wxapi.WXEntryActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:345:9-350:74
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:353:9-358:74
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:349:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:357:13-49
 	android:exported
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:348:13-36
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:356:13-36
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:347:13-74
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:355:13-74
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:350:13-72
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:358:13-72
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:346:13-50
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:354:13-50
 activity#com.lmq.main.api.TabGroupActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:363:9-368:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:371:9-376:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:366:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:374:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:365:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:373:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:367:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:375:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:364:13-61
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:372:13-61
 activity#com.lmq.main.activity.registerActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:369:9-375:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:377:9-383:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:372:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:380:13-49
 	android:windowSoftInputMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:374:13-67
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:382:13-67
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:371:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:379:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:373:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:381:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:370:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:378:13-66
 activity#com.lmq.main.activity.LoadIntroduceActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:376:9-381:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:384:9-389:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:379:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:387:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:378:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:386:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:380:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:388:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:377:13-71
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:385:13-71
 activity#com.lmq.main.activity.loginActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:382:9-388:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:390:9-396:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:385:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:393:13-49
 	android:windowSoftInputMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:387:13-67
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:395:13-67
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:384:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:392:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:386:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:394:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:383:13-63
-activity#com.lmq.main.activity.ForgotPwdActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:389:9-394:20
-	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:392:13-49
-	android:configChanges
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:391:13-63
+activity#com.lmq.main.activity.ForgotPwdActivity
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:397:9-402:20
+	android:screenOrientation
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:400:13-49
+	android:configChanges
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:399:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:393:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:401:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:390:13-67
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:398:13-67
 activity#com.lmq.main.activity.ForgotPwd2Activity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:395:9-400:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:403:9-408:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:398:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:406:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:397:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:405:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:399:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:407:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:396:13-68
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:404:13-68
 activity#com.lmq.main.activity.calculateActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:401:9-406:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:409:9-414:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:404:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:412:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:403:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:411:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:405:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:413:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:402:13-67
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:410:13-67
 activity#com.lmq.main.activity.itemInfo3_1Activity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:413:9-418:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:421:9-426:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:416:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:424:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:415:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:423:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:417:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:425:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:414:13-69
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:422:13-69
 activity#com.lmq.main.activity.itemInfo3_2Activity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:419:9-424:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:427:9-432:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:422:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:430:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:421:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:429:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:423:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:431:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:420:13-69
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:428:13-69
 activity#com.lmq.main.activity.itemInfo2_2Activity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:425:9-430:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:433:9-438:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:428:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:436:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:427:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:435:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:429:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:437:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:426:13-69
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:434:13-69
 activity#com.lmq.main.activity.IndexTouZiActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:431:9-436:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:439:9-444:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:434:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:442:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:433:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:441:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:435:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:443:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:432:13-68
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:440:13-68
 activity#com.lmq.main.activity.itemInfo2_1Activity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:475:9-480:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:483:9-488:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:478:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:486:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:477:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:485:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:479:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:487:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:476:13-69
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:484:13-69
 activity#com.lmq.main.activity.itemNewsActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:481:9-486:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:489:9-494:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:484:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:492:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:483:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:491:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:485:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:493:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:482:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:490:13-66
 activity#com.lmq.main.activity.tzDetailsListActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:487:9-492:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:495:9-500:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:490:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:498:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:489:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:497:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:491:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:499:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:488:13-71
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:496:13-71
 activity#com.lmq.main.activity.peopleInfoBonusActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:511:9-516:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:519:9-524:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:514:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:522:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:513:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:521:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:515:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:523:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:512:13-73
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:520:13-73
 activity#com.lmq.main.activity.peopleInfoDataActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:523:9-528:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:531:9-536:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:526:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:534:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:525:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:533:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:527:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:535:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:524:13-72
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:532:13-72
 activity#com.lmq.main.activity.ShowRegisterContextActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:529:9-534:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:537:9-542:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:532:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:540:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:531:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:539:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:533:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:541:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:530:13-77
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:538:13-77
 activity#com.lmq.main.activity.peopleInfoSafeActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:547:9-552:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:555:9-560:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:550:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:558:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:549:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:557:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:551:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:559:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:548:13-72
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:556:13-72
 activity#com.lmq.main.activity.peopleInfoWithdrawalActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:553:9-558:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:561:9-566:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:556:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:564:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:555:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:563:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:557:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:565:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:554:13-78
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:562:13-78
 activity#com.lmq.main.activity.passwordActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:566:9-571:20
-	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:569:13-49
-	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:568:13-63
-	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:570:13-60
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:567:13-66
-activity#com.lmq.main.activity.NewsListActivity
 ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:574:9-579:20
 	android:screenOrientation
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:577:13-49
@@ -764,7 +764,7 @@ ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:574:9-579:20
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:578:13-60
 	android:name
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:575:13-66
-activity#com.lmq.main.activity.NoticeActivity
+activity#com.lmq.main.activity.NewsListActivity
 ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:582:9-587:20
 	android:screenOrientation
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:585:13-49
@@ -773,8 +773,8 @@ ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:582:9-587:20
 	android:theme
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:586:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:583:13-64
-activity#com.lmq.main.activity.LendMoneyActivity
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:583:13-66
+activity#com.lmq.main.activity.NoticeActivity
 ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:590:9-595:20
 	android:screenOrientation
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:593:13-49
@@ -783,78 +783,78 @@ ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:590:9-595:20
 	android:theme
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:594:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:591:13-67
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:591:13-64
+activity#com.lmq.main.activity.LendMoneyActivity
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:598:9-603:20
+	android:screenOrientation
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:601:13-49
+	android:configChanges
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:600:13-63
+	android:theme
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:602:13-60
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:599:13-67
 activity#com.lmq.main.activity.myjiekuan
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:596:9-601:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:604:9-609:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:599:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:607:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:598:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:606:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:600:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:608:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:597:13-59
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:605:13-59
 activity#com.lmq.main.activity.LendMoney_Choice_kindActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:602:9-607:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:610:9-615:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:605:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:613:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:604:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:612:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:606:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:614:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:603:13-79
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:611:13-79
 activity#com.lmq.main.activity.LendMoneyRecordActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:608:9-613:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:616:9-621:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:611:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:619:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:610:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:618:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:612:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:620:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:609:13-73
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:617:13-73
 activity#com.lmq.main.activity.FeedbackActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:622:9-627:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:630:9-635:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:625:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:633:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:624:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:632:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:626:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:634:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:623:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:631:13-66
 activity#com.lmq.main.activity.AboutUsNewActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:637:9-642:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:645:9-650:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:640:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:648:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:639:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:647:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:641:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:649:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:638:13-68
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:646:13-68
 activity#com.lmq.main.activity.ChooseJxjList
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:643:9-648:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:651:9-656:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:646:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:654:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:645:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:653:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:647:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:655:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:644:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:652:13-63
 activity#com.lmq.main.activity.ChooseRedPacketList
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:649:9-654:20
-	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:652:13-49
-	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:651:13-63
-	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:653:13-60
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:650:13-69
-activity#com.lmq.main.activity.PeopleInfoIdcard
 ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:657:9-662:20
 	android:screenOrientation
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:660:13-49
@@ -863,108 +863,108 @@ ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:657:9-662:20
 	android:theme
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:661:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:658:13-66
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:658:13-69
+activity#com.lmq.main.activity.PeopleInfoIdcard
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:665:9-670:20
+	android:screenOrientation
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:668:13-49
+	android:configChanges
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:667:13-63
+	android:theme
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:669:13-60
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:666:13-66
 activity#com.lmq.main.activity.PeopleInfoSmrz
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:664:9-669:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:672:9-677:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:667:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:675:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:666:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:674:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:668:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:676:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:665:13-64
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:673:13-64
 activity#com.lmq.main.activity.PeopleInfoUpdatePhone
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:671:9-676:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:679:9-684:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:674:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:682:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:673:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:681:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:675:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:683:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:672:13-71
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:680:13-71
 activity#com.lmq.main.activity.PeopleInfoEmail
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:678:9-683:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:686:9-691:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:681:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:689:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:680:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:688:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:682:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:690:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:679:13-65
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:687:13-65
 activity#com.lmq.main.activity.PeopleInfo_backcard
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:685:9-690:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:693:9-698:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:688:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:696:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:687:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:695:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:689:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:697:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:686:13-69
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:694:13-69
 activity#com.lmq.main.activity.PeopleInfo_XS_backcard
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:692:9-697:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:700:9-705:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:695:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:703:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:694:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:702:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:696:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:704:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:693:13-72
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:701:13-72
 activity#com.lmq.main.activity.PeopleInfoJiaoYi_New
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:720:9-725:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:728:9-733:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:723:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:731:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:722:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:730:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:724:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:732:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:721:13-70
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:729:13-70
 activity#com.lmq.main.activity.GetTelYzm
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:726:9-731:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:734:9-739:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:729:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:737:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:728:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:736:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:730:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:738:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:727:13-59
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:735:13-59
 activity#com.lmq.main.activity.AddNewPwd
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:732:9-737:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:740:9-745:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:735:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:743:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:734:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:742:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:736:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:744:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:733:13-59
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:741:13-59
 activity#com.lmq.main.activity.AboutUsActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:738:9-743:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:746:9-751:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:741:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:749:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:740:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:748:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:742:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:750:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:739:13-65
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:747:13-65
 activity#com.lmq.main.activity.InterestratesecuritiesActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:744:9-749:20
-	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:747:13-49
-	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:746:13-63
-	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:748:13-60
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:745:13-80
-activity#com.lmq.main.activity.PasswordJaoYiActivity
 ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:752:9-757:20
 	android:screenOrientation
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:755:13-49
@@ -973,365 +973,375 @@ ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:752:9-757:20
 	android:theme
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:756:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:753:13-71
-activity#com.lmq.main.activity.ModifyUserPWDActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:766:9-771:20
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:753:13-80
+activity#com.lmq.main.activity.PasswordJaoYiActivity
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:760:9-765:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:769:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:763:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:768:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:762:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:770:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:764:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:767:13-71
-activity#com.lmq.gesture.UnlockGesturePasswordActivity
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:761:13-71
+activity#com.lmq.main.activity.ModifyUserPWDActivity
 ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:774:9-779:20
 	android:screenOrientation
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:777:13-49
-	android:launchMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:776:13-44
+	android:configChanges
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:776:13-63
 	android:theme
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:778:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:775:13-73
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:775:13-71
+activity#com.lmq.gesture.UnlockGesturePasswordActivity
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:782:9-787:20
+	android:screenOrientation
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:785:13-49
+	android:launchMode
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:784:13-44
+	android:theme
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:786:13-60
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:783:13-73
 activity#com.lmq.gesture.CreateGesturePasswordActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:780:9-784:62
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:788:9-792:62
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:783:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:791:13-49
 	android:launchMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:782:13-44
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:790:13-44
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:784:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:792:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:781:13-73
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:789:13-73
 activity#com.lmq.gesture.GuideGesturePasswordActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:785:9-789:62
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:793:9-797:62
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:788:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:796:13-49
 	android:launchMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:787:13-44
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:795:13-44
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:789:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:797:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:786:13-72
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:794:13-72
 activity#com.lmq.main.activity.investmanager.InvestManagerDebetActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:807:9-811:62
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:815:9-819:62
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:810:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:818:13-49
 	android:launchMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:809:13-44
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:817:13-44
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:811:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:819:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:808:13-90
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:816:13-90
 activity#com.lmq.main.activity.investmanager.InvestManagerMainActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:812:9-816:62
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:820:9-824:62
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:815:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:823:13-49
 	android:launchMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:814:13-44
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:822:13-44
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:816:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:824:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:813:13-89
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:821:13-89
 activity#com.lmq.main.activity.investmanager.AutoTenderActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:817:9-821:62
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:825:9-829:62
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:820:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:828:13-49
 	android:launchMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:819:13-44
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:827:13-44
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:821:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:829:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:818:13-82
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:826:13-82
 activity#com.lmq.main.activity.investmanager.InvestManagerDebetZR
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:822:9-826:62
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:830:9-834:62
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:825:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:833:13-49
 	android:launchMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:824:13-44
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:832:13-44
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:826:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:834:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:823:13-84
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:831:13-84
 activity#com.lmq.main.tools.LMQWebViewActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:827:9-832:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:835:9-840:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:830:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:838:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:829:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:837:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:831:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:839:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:828:13-65
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:836:13-65
 activity#com.lmq.main.activity.investmanager.InvestManagerStandardActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:833:9-838:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:841:9-846:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:836:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:844:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:835:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:843:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:837:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:845:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:834:13-93
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:842:13-93
 activity#com.lmq.main.activity.investmanager.InvestManagerDirectlyActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:839:9-844:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:847:9-852:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:842:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:850:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:841:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:849:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:843:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:851:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:840:13-93
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:848:13-93
 activity#com.lmq.main.activity.investmanager.RepaymentStandardDetailActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:845:9-850:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:853:9-858:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:848:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:856:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:847:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:855:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:849:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:857:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:846:13-95
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:854:13-95
 activity#com.imp.qq.QQLogin
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:851:9-856:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:859:9-864:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:854:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:862:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:853:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:861:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:855:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:863:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:852:13-46
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:860:13-46
 activity#com.imp.qq.WXLogin
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:857:9-862:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:865:9-870:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:860:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:868:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:859:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:867:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:861:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:869:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:858:13-46
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:866:13-46
 activity#com.lmq.main.activity.PersonalSetActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:863:9-868:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:871:9-876:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:866:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:874:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:865:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:873:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:867:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:875:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:864:13-69
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:872:13-69
 activity#com.lmq.map.MapActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:869:9-874:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:877:9-882:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:872:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:880:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:871:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:879:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:873:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:881:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:870:13-51
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:878:13-51
 activity#com.lmq.card.Card
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:875:9-880:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:883:9-888:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:878:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:886:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:877:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:885:13-63
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:879:13-60
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:887:13-60
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:876:13-45
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:884:13-45
 activity#io.card.payment.CardIOActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:881:9-885:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:889:9-893:20
 	android:screenOrientation
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:884:13-49
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:892:13-49
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:883:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:891:13-63
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:882:13-58
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:890:13-58
 activity#io.card.payment.DataEntryActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:886:9-887:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:894:9-895:20
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:886:19-67
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:894:19-67
 activity#com.tencent.tauth.AuthActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:890:9-902:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:898:9-910:20
 	android:launchMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:892:13-44
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:900:13-44
 	android:noHistory
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:893:13-37
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:901:13-37
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:891:13-58
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:899:13-58
 activity#com.tencent.connect.common.AssistActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:903:9-906:74
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:911:9-914:74
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:905:13-74
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:913:13-74
 	android:theme
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:906:13-72
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:914:13-72
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:904:13-69
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:912:13-69
 activity#com.baidu.android.pushservice.richmedia.MediaViewActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:909:9-913:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:917:9-921:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:912:13-46
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:920:13-46
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:911:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:919:13-63
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:910:13-85
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:918:13-85
 activity#com.baidu.android.pushservice.richmedia.MediaListActivity
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:914:9-919:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:922:9-927:20
 	android:label
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:917:13-46
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:925:13-46
 	android:launchMode
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:918:13-44
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:926:13-44
 	android:configChanges
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:916:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:924:13-63
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:915:13-85
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:923:13-85
 receiver#com.lmq.push.MyPushMessageReceiver
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:924:9-933:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:932:9-941:20
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:924:19-68
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:932:19-68
 intent-filter#com.baidu.android.pushservice.action.MESSAGE+com.baidu.android.pushservice.action.RECEIVE+com.baidu.android.pushservice.action.notification.CLICK
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:925:13-932:29
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:933:13-940:29
 action#com.baidu.android.pushservice.action.MESSAGE
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:928:17-86
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:936:17-86
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:928:25-84
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:936:25-84
 action#com.baidu.android.pushservice.action.RECEIVE
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:930:17-86
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:938:17-86
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:930:25-84
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:938:25-84
 action#com.baidu.android.pushservice.action.notification.CLICK
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:931:17-97
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:939:17-97
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:931:25-95
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:939:25-95
 provider#com.baidu.android.pushservice.PushInfoProvider
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:935:9-941:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:943:9-949:20
 	android:authorities
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:937:13-51
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:945:13-51
 	android:protectionLevel
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:939:13-48
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:947:13-48
 	android:exported
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:938:13-36
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:946:13-36
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:936:13-74
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:944:13-74
 	android:writePermission
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:940:13-93
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:948:13-93
 receiver#com.baidu.android.pushservice.PushServiceReceiver
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:944:9-958:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:952:9-966:20
 	android:process
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:946:13-44
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:954:13-44
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:945:13-77
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:953:13-77
 intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.baidu.android.pushservice.action.media.CLICK+com.baidu.android.pushservice.action.notification.SHOW
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:947:13-957:29
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:955:13-965:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:948:17-78
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:956:17-78
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:948:25-76
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:956:25-76
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:949:17-78
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:957:17-78
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:949:25-76
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:957:25-76
 action#com.baidu.android.pushservice.action.notification.SHOW
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:950:17-96
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:958:17-96
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:950:25-94
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:958:25-94
 action#com.baidu.android.pushservice.action.media.CLICK
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:951:17-90
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:959:17-90
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:951:25-88
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:959:25-88
 action#android.intent.action.MEDIA_MOUNTED
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:953:17-77
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:961:17-77
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:953:25-75
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:961:25-75
 action#android.intent.action.USER_PRESENT
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:954:17-76
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:962:17-76
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:954:25-74
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:962:25-74
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:955:17-86
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:963:17-86
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:955:25-84
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:963:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:956:17-89
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:964:17-89
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:956:25-87
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:964:25-87
 receiver#com.baidu.android.pushservice.RegistrationReceiver
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:959:9-971:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:967:9-979:20
 	android:process
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:961:13-44
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:969:13-44
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:960:13-78
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:968:13-78
 intent-filter#com.baidu.android.pushservice.action.BIND_SYNC+com.baidu.android.pushservice.action.METHOD
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:962:13-965:29
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:970:13-973:29
 action#com.baidu.android.pushservice.action.METHOD
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:963:17-85
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:971:17-85
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:963:25-83
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:971:25-83
 action#com.baidu.android.pushservice.action.BIND_SYNC
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:964:17-88
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:972:17-88
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:964:25-86
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:972:25-86
 intent-filter#android.intent.action.PACKAGE_REMOVED
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:966:13-970:29
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:974:13-978:29
 action#android.intent.action.PACKAGE_REMOVED
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:967:17-79
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:975:17-79
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:967:25-77
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:975:25-77
 receiver#com.lmq.http.NetWorkStatusBroadcastReceiver
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:972:9-976:20
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:980:9-984:20
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:972:19-77
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:980:19-77
 intent-filter#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:973:13-975:29
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:981:13-983:29
 service#com.baidu.android.pushservice.PushService
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:978:9-985:19
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:986:9-993:19
 	android:process
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:981:13-44
-	android:exported
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:980:13-36
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:979:13-69
-intent-filter#com.baidu.android.pushservice.action.PUSH_SERVICE
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:982:13-984:29
-action#com.baidu.android.pushservice.action.PUSH_SERVICE
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:983:17-91
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:983:25-89
-service#com.baidu.android.pushservice.CommandService
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:986:9-988:38
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:989:13-44
 	android:exported
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:988:13-36
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:987:13-72
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:987:13-69
+intent-filter#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:990:13-992:29
+action#com.baidu.android.pushservice.action.PUSH_SERVICE
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:991:17-91
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:991:25-89
+service#com.baidu.android.pushservice.CommandService
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:994:9-996:38
+	android:exported
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:996:13-36
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:995:13-72
 meta-data#api_key
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:991:9-993:63
-	android:value
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:993:13-61
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:992:13-35
-meta-data#com.taobao.android.hotfix.IDSECRET
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:996:9-998:41
-	android:value
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:998:13-39
-	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:997:13-62
-meta-data#com.taobao.android.hotfix.APPSECRET
 ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:999:9-1001:63
 	android:value
 		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1001:13-61
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1000:13-63
-meta-data#com.taobao.android.hotfix.RSASECRET
-ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1002:9-1004:1659
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1000:13-35
+meta-data#com.taobao.android.hotfix.IDSECRET
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1004:9-1006:41
 	android:value
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1004:13-1657
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1006:13-39
 	android:name
-		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1003:13-63
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1005:13-62
+meta-data#com.taobao.android.hotfix.APPSECRET
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1007:9-1009:63
+	android:value
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1009:13-61
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1008:13-63
+meta-data#com.taobao.android.hotfix.RSASECRET
+ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1010:9-1012:1659
+	android:value
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1012:13-1657
+	android:name
+		ADDED from E:\As\SCGAS\SCG\src\main\AndroidManifest.xml:1011:13-63
 meta-data#android.support.VERSION
 ADDED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\117103c2af8a51706d09d89150f5eb2458ed62c3\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\47c98bf930ce72ad3b712dafd96d935e89118803\output\AndroidManifest.xml:25:5-27:34

@@ -132,6 +132,10 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\common_dialog_generic.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\item_newlist_indexfragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_newlist_indexfragment.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\layout\\notification_action.xml"
     },
@@ -332,10 +336,6 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_updatephone.xml"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_touzi_sx_fragment.xml",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_touzi_sx_fragment.xml"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_jxj_scg.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_jxj_scg.xml"
     },
@@ -482,6 +482,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\news.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\news.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_mine.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_mine.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
@@ -748,6 +752,14 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_zcjl.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_tzfragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_list_tzfragment.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\coupon_tzy.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\coupon_tzy.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\diydialog.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\diydialog.xml"
     },
@@ -802,6 +814,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\jc_dialog_progress.xml",
         "source": "E:\\As\\SCGAS\\jcvideoplayer-lib\\build\\intermediates\\bundles\\default\\res\\layout\\jc_dialog_progress.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\biditem2.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\biditem2.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\calculate.xml",
@@ -900,6 +916,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\item_coupon_tzy.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\item_coupon_tzy.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\zc_diydialog.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\zc_diydialog.xml"
     },
@@ -910,6 +930,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\47c98bf930ce72ad3b712dafd96d935e89118803\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_touzi_scw_fragment.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_touzi_scw_fragment.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\debet_zr_layout.xml",
@@ -978,6 +1002,10 @@
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\people_info_safe.xml",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\people_info_safe.xml"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\layout_lor.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\layout\\layout_lor.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\layout\\qqlogin.xml",

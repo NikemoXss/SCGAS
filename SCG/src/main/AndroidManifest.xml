@@ -51,7 +51,7 @@
     <uses-permission android:name="android.permission.READ_LOGS">
     </uses-permission>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
     <!-- Camera features - recommended -->
     <uses-feature
@@ -106,7 +106,7 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths" />
+                android:resource="@xml/file_paths"/>
         </provider>
 
 
@@ -155,6 +155,13 @@
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Light.NoTitleBar">
         </activity>
+
+        <activity
+            android:name="com.lmq.main.activity.BidItem2_Scg"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+
         <activity
             android:name="com.lmq.main.activity.ZcItem_Sx"
             android:label="@string/app_name"
@@ -194,6 +201,7 @@
             android:name="com.lmq.menu.MainTabActivit_Scg"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/app_name"
+            android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar">
         </activity>

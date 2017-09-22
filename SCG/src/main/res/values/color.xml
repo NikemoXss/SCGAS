@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="transparent_background">#80000000</color>
+    <color name="transparent_background">#30000000</color>
     <color name="red">#ff0000</color>
     <color name="orgine">#FF613A</color>
     <color name="gray_sx">#F5F5F5</color>
@@ -21,7 +21,12 @@
     <color name="gesture_background">#ff303237</color>
     <color name="color_hei_8">#00000000</color>
     <color name="title_color">#e25453</color>
- 
+
+    <color name="main_color_new">#0e7ff9</color>
+    <color name="space_color_new">#f2f2f2</color>
+    <color name="line_color_new">#e5e5e5</color>
+
+
     <color name="green_color_sx">#30C37C</color>
     <color name="tz_title_color">#FF8247</color>
     <color name="title_black">#333333</color>

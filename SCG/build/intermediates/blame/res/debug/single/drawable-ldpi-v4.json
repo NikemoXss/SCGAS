@@ -8,8 +8,16 @@
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-ldpi\\app_01.png"
     },
     {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\btn_ljjrbktcs.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-ldpi\\btn_ljjrbktcs.xml"
+    },
+    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\simple_notification_icon.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-ldpi\\simple_notification_icon.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\btn_tztitlebk.xml",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-ldpi\\btn_tztitlebk.xml"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\qiandao.png",

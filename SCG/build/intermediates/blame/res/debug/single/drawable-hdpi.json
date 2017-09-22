@@ -1,27 +1,27 @@
 [
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index_00_bg.9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index_00_bg.9.png"
-    },
-    {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index3_3.9.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index3_3.9.png"
+    },
+    {
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index_00_bg.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index_00_bg.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index3_1.9.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index3_1.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bpush_top_bg.9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\bpush_top_bg.9.png"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index3_2.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index3_2.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index3_4.9.png",
         "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index3_4.9.png"
     },
     {
-        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index3_2.9.png",
-        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\index3_2.9.png"
+        "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bpush_top_bg.9.png",
+        "source": "E:\\As\\SCGAS\\SCG\\src\\main\\res\\drawable-hdpi\\bpush_top_bg.9.png"
     },
     {
         "merged": "E:\\As\\SCGAS\\SCG\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\index_1_bg.9.png",

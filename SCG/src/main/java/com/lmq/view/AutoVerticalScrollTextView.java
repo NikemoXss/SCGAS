@@ -1,12 +1,9 @@
 package com.lmq.view;
 
-import com.czscg.R;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Camera;
-import android.graphics.Color;
 import android.graphics.Matrix;
-import android.graphics.drawable.Drawable;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.Gravity;
@@ -17,6 +14,8 @@ import android.view.animation.Transformation;
 import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
+
+import com.czscg.R;
 
 /**
  * 自动垂直滚动的TextView
@@ -72,7 +71,7 @@ public class AutoVerticalScrollTextView extends TextSwitcher implements ViewSwit
 		textView.setSingleLine(true);
 		textView.setGravity(Gravity.CENTER_VERTICAL);
 		textView.setEllipsize(TextUtils.TruncateAt.END);
-		textView.setTextColor(getResources().getColor(R.color.zdwzlb));
+		textView.setTextColor(getResources().getColor(R.color.main_color_new));
 		return textView;
 
 	}

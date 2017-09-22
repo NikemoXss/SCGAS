@@ -1,8 +1,5 @@
 package com.lmq.main.activity;
 
-import org.apache.http.Header;
-import org.json.JSONObject;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -11,6 +8,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.czscg.R;
@@ -21,6 +19,9 @@ import com.lmq.main.api.JsonBuilder;
 import com.lmq.main.api.SystenmApi;
 import com.lmq.main.util.Default;
 
+import org.apache.http.Header;
+import org.json.JSONObject;
+
 public class registerActivity extends BaseActivity implements OnClickListener {
 	private EditText mPassw, mPassw2, mPhone, mPhoneNum, register_people;
 	private String info[];
@@ -28,10 +29,11 @@ public class registerActivity extends BaseActivity implements OnClickListener {
 	/**
 	 * 注册同意协议 按钮
 	 */
-	private Button registerContextBtn, mSendPhoneNum;
+	private Button mSendPhoneNum;
 	private boolean mRemember = true;
 	TextView title;
 	ImageView iv;
+	RelativeLayout head_re;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -39,13 +41,15 @@ public class registerActivity extends BaseActivity implements OnClickListener {
 		Button register = (Button) findViewById(R.id.register);
 		register.setOnClickListener(this);
 		iv = (ImageView) findViewById(R.id.title_right);
+		iv.setBackgroundResource(R.drawable.back);
 		iv.setVisibility(View.VISIBLE);
 		iv.setOnClickListener(this);
 		title = (TextView) findViewById(R.id.title);
-		title.setText("注册");
+		title.setText("");
+		head_re=(RelativeLayout) findViewById(R.id.head_re);
+		head_re.setBackgroundResource(R.color.white);
 		findViewById(R.id.show_context).setOnClickListener(this);
-		registerContextBtn = (Button) findViewById(R.id.register_flag);
-		registerContextBtn.setOnClickListener(this);
+
 
 		mSendPhoneNum = (Button) findViewById(R.id.sendphonenum);
 		mSendPhoneNum.setOnClickListener(this);
@@ -88,15 +92,6 @@ public class registerActivity extends BaseActivity implements OnClickListener {
 			}
 			time.start();
 			doHttpSendPhone(phone);
-			break;
-		case R.id.register_flag:
-			if (mRemember) {
-				mRemember = false;
-				registerContextBtn.setBackgroundResource(R.drawable.b_chech_1_0);
-			} else {
-				mRemember = true;
-				registerContextBtn.setBackgroundResource(R.drawable.b_chech_1_1);
-			}
 			break;
 		case R.id.show_context:
 

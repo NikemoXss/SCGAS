@@ -13,10 +13,13 @@ public class Default {
 	/** 富友支付 */
 	public static final boolean use_fy = true;
 
-//	public static final String ip = "http://123.56.18.67";
-	public static final String ip = "http://www.czsuchang.com";
 
-	public static final String yu = "http://www.czsuchang.com/";
+	public static final String bdip = "http://192.168.1.7";
+
+//	public static final String ip = "http://www.czsuchang.com";
+	public static final String ip = "http://192.168.1.18";
+
+	public static final String yu = "http://192.168.1.18/";
 //签到
 	public static String qiandao = "NO";
 
@@ -71,8 +74,8 @@ public class Default {
 	public static final String peoInfotouxiang = "/Member/Mcenter/upload_photo";
 	public static final String peoInfoPhone = "/Member/Mcenter/commitphone"; // 获取手机验证码
 	public static final String registerPhone = "/member/Mobilecommon/commitphone"; // 注册获取手机验证码
-	public static final String bannerPic = "/Home/Main/slideshow"; // 获取banner图片
-	public static final String bannerPicDetail = "/main/bnedit"; // 获取banner图片详情
+	public static final String bannerPic = "/Home/Nmain/slideshow"; // 获取banner图片
+	public static final String bannerPicDetail = "/Nmain/bnedit"; // 获取banner图片详情
 																	// //
 																	// 提交用于验证的手机号
 	public static final String peoInfoPhone2 = "/Member/Mcenter/verifyphone"; // 验证手机号
@@ -81,8 +84,8 @@ public class Default {
 	public static final String peoInfoxsbankcard = "/Member/MCenter/obtain_bound_debit"; // 显示绑定银行信息
 	public static final String peoInfoxsbankcard_sx = "/member/Mcenter/bank_verify"; // 显示绑定银行信息
 	public static final String peoInfoxsjiaoyipsw = "/Member/MCenter/change_pay_passwd"; // 交易密码
-	public static final String zq_request = "/Main/ajax_debt"; // 债权转让
-	public static final String zq_buy_request = "/Main/buy_debt"; // 债权转让
+	public static final String zq_request = "/Nmain/ajax_debt"; // 债权转让
+	public static final String zq_buy_request = "/Nmain/buy_debt"; // 债权转让
 
 	/** 融宝支付接口 */
 	public static final String pay_rongbao_type = "/Pay/reapal_app"; // 债权转让
@@ -122,29 +125,31 @@ public class Default {
 	/** VIP修改 **/
 	public static final String applyhf_vip = "/member/mcenter/applyVip";
 	//首页地址图片请求
-	public static final String indexurlpic = "/Home/Main/activityLogo";
+	public static final String indexurlpic = "/Home/Nmain/activityLogo";
 	//最新2个标
-	public static final String tzList = "/Home/Main/newInvest";
+	public static final String tzList = "/Home/Nmain/investList";
 	
-	public static final String sygg = "/Main/getinfo";
+	public static final String sygg = "/Nmain/getinfo";
 	
-	public static final String tzAllList = "/Main/index_class";
+	public static final String tzAllList = "/Nmain/index_class";
+
+	public static final String sytznewList = "/Nmain/index";
 	
-	public static final String choosejxjList = "/Home/Main/getTicket";
+	public static final String choosejxjList = "/Home/Nmain/getTicket";
 	
-	public static final String chooseredpkgList = "/Home/Main/getRedPacket";
+	public static final String chooseredpkgList = "/Home/Nmain/getRedPacket";
 	
-	public static final String tznewList = "/Home/Main/newhand";
+	public static final String tznewList = "/Home/Nmain/newhand";
 	
-	public static final String zcList = "/Home/Main/raiseIndex";
+	public static final String zcList = "/Home/Nmain/raiseIndex";
 	//众筹详情
-	public static final String zcListxq = "/Home/Main/raiseShowInfor";
+	public static final String zcListxq = "/Home/Nmain/raiseShowInfor";
 	//众筹投标
-	public static final String zcListtb = "/Home/Main/raiseInvest";
+	public static final String zcListtb = "/Home/Nmain/raiseInvest";
 	//是否投标
-	public static final String zcjlissupport = "/Home/Main/raiseVote";
+	public static final String zcjlissupport = "/Home/Nmain/raiseVote";
 	//首页活动
-	public static final String syList_sx = "/Home/Main/event_list";
+	public static final String syList_sx = "/Home/Nmain/event_list";
 	// 红包接口
 	public static final String mycanbmList = "/member/mcenter/coupon";
 	public static final String myusedbmList = "/member/mcenter/usedcoupon";
@@ -152,60 +157,60 @@ public class Default {
 
 	public static final String uppic = "/Member/Mcenter/myverify_personalid";
 	// 验证码借口
-	public static final String getyzm = "/main/getpassword";
-	public static final String getyzmyz = "/main/validatephone";
+	public static final String getyzm = "/Nmain/getpassword";
+	public static final String getyzmyz = "/Nmain/validatephone";
 	public static final String yzmyz = "/Member/Mcenter/validate_code_temp";
-	public static final String yzmyzsx = "/main/validatephone";
+	public static final String yzmyzsx = "/Nmain/validatephone";
 	public static final String addnewpwd = "/Member/Mcenter/find_phone_pinpass";
 	//忘记登录密码
-	public static final String addloginnewpwdsx = "/Home/main/updatepass";
+	public static final String addloginnewpwdsx = "/Home/Nmain/updatepass";
 	//忘记支付密码
 	public static final String addzhifunewpwdsx = "/member/Mcenter/find_pin";
-	public static final String tzList2 = "/Main/index";
-	public static final String tzListItem = "/Main/detail";
-	public static final String xxpl = "/Main/getInvestinfor";
-	// public static final String tzListItem = "/Main/detail";
-	public static final String tzListItem2 = "/Main/ajax_invest";
-	// public static final String tzListItem2 = "/Main/ajax_invest";
-	public static final String tzListItem3 = "/Main/investcheck";
-	public static final String tzListItem4 = "/Main/investmoney";
-	public static final String tztListItem = "/Main/detail";
-	// public static final String tztListItem = "/Main/tdetail";
-	public static final String tztListItem2 = "/Main/ajax_invest";
-	// public static final String tztListItem2 = "/Main/tajax_invest";
-	public static final String tztListItem3 = "/Main/tinvestcheck";
-	public static final String tztListItem4 = "/Main/tinvestmoney";
+	public static final String tzList2 = "/Nmain/index";
+	public static final String tzListItem = "/Nmain/detail";
+	public static final String xxpl = "/Nmain/getInvestinfor";
+	// public static final String tzListItem = "/Nmain/detail";
+	public static final String tzListItem2 = "/Nmain/ajax_invest";
+	// public static final String tzListItem2 = "/Nmain/ajax_invest";
+	public static final String tzListItem3 = "/Nmain/investcheck";
+	public static final String tzListItem4 = "/Nmain/investmoney";
+	public static final String tztListItem = "/Nmain/detail";
+	// public static final String tztListItem = "/Nmain/tdetail";
+	public static final String tztListItem2 = "/Nmain/ajax_invest";
+	// public static final String tztListItem2 = "/Nmain/tajax_invest";
+	public static final String tztListItem3 = "/Nmain/tinvestcheck";
+	public static final String tztListItem4 = "/Nmain/tinvestmoney";
 	// 新闻
-	public static final String news = "/Main/getNews";
-	public static final String newsListItem = "/Main/event_show";
+	public static final String news = "/Nmain/getNews";
+	public static final String newsListItem = "/Nmain/event_show";
 	public static final String exit = "/Member/Mobilecommon/mactlogout";
 	public static final String changepass = "/Member/Mcenter/changepwd"; // 登录密码
 	public static final String tradinglog = "/Member/Mcenter/tradinglog"; // 交易记录
-	public static final String showPtbjl = "/Main/investlog";
-	public static final String showLzbjl = "/Main/tinvestlog";
+	public static final String showPtbjl = "/Nmain/investlog";
+	public static final String showLzbjl = "/Nmain/tinvestlog";
 	public static final String chargeMoney = "/member/MCenter/chargeMoney";
 	public static final String withdrawMoney = "/member/MCenter/withdrawMoney";
 	// 检测更新
-	public static final String version = "/Main/version";
+	public static final String version = "/Nmain/version";
 	public static final String getBankInfo = "/member/MCenter/bankinfo";
 	public static final String getCity = "/member/MCenter/getcity";
 	
 	//获取公司法人银行卡接口
-	public static final String offinecharge = "/Home/Main/offinecharge"; 
+	public static final String offinecharge = "/Home/Nmain/offinecharge"; 
 	//上传公司法人银行卡接口
-	public static final String offinepay = "/Home/Main/offinepay"; 
+	public static final String offinepay = "/Home/Nmain/offinepay"; 
 	// 活动
-	public static final String notice = "/Main/getArticle";
-	public static final String noticeListItem = "/Main/gg_show";
+	public static final String notice = "/Nmain/getArticle";
+	public static final String noticeListItem = "/Nmain/gg_show";
 
 	// public static List<String> LEND_MONEY_STATUE = new ArrayList<String>();
 
 	// 意见反馈
-	public static final String FEEDBACK = "/Main/feedback";
+	public static final String FEEDBACK = "/Nmain/feedback";
 	public static final String FORGOT_PWD_0 = "/member/common/phtous";// 获取手机验证码
-	public static final String FORGOT_PWD_1 = "/main/getpassword";// 获取手机验证码
-	// public static final String FORGOT_PWD_2 = "/main/validatephone";
-	public static final String FORGOT_PWD_3 = "/main/repreatphone";// 修改密码
+	public static final String FORGOT_PWD_1 = "/Nmain/getpassword";// 获取手机验证码
+	// public static final String FORGOT_PWD_2 = "/Nmain/validatephone";
+	public static final String FORGOT_PWD_3 = "/Nmain/repreatphone";// 修改密码
 	public static final String GET_REGISTER_CONTEXT = "/api/ruleserver";// 注册协议
 
 	/** 富友支付接口 */

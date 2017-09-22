@@ -12,12 +12,15 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.EditText;
 
+import static android.R.attr.id;
+
 public class EditTextWithDel extends EditText {
 	private final static String TAG = "EditTextWithDel";
 	private Drawable imgInable;
 	private Drawable imgAble;
 	private Drawable imgzh;
 	private Context mContext;
+
 
 	public EditTextWithDel(Context context) {
 		super(context);
@@ -37,9 +40,6 @@ public class EditTextWithDel extends EditText {
 		init();
 	}
 
-	public void setPic(int id) {
-		imgzh = mContext.getResources().getDrawable(id);
-	}
 
 	private void init() {
 		imgInable = mContext.getResources().getDrawable(R.drawable.delete_gray);
@@ -65,9 +65,9 @@ public class EditTextWithDel extends EditText {
 	// 设置删除图片
 	private void setDrawable() {
 		if (length() < 1)
-			setCompoundDrawablesWithIntrinsicBounds(imgzh, null, imgInable, null);
+			setCompoundDrawablesWithIntrinsicBounds(null, null, imgInable, null);
 		else
-			setCompoundDrawablesWithIntrinsicBounds(imgzh, null, imgAble, null);
+			setCompoundDrawablesWithIntrinsicBounds(null, null, imgAble, null);
 	}
 
 	// 处理删除事件
@@ -82,6 +82,7 @@ public class EditTextWithDel extends EditText {
 			rect.left = rect.right - 50;
 			if (rect.contains(eventX, eventY))
 				setText("");
+
 		}
 		return super.onTouchEvent(event);
 	}

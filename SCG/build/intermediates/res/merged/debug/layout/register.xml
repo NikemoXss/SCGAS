@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@color/back"
+    android:background="@color/white"
     android:orientation="vertical" >
 
     <include layout="@layout/page_head_sx" />
@@ -14,7 +14,7 @@
         android:scrollbars="none" >
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
@@ -22,43 +22,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dip"
-                android:background="@android:drawable/editbox_background"
                 android:orientation="vertical" >
 
-                <!--
-             <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="5dp" >
-
-            <TextView
-                style="@style/gray18Text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dip"
-                android:text="@string/register_0" />
-
-            <EditText
-                android:id="@+id/editname"
-                style="@style/edittext"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dip"
-                android:background="@null"
-                android:hint="@string/register_name"
-                android:inputType="textPersonName"
-                android:maxLength="20"
-                android:maxLines="1"
-                android:textSize="16dp"
-                android:width="190dip" />
-        </LinearLayout>
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1dip"
-            android:background="@color/line" />
-                -->
 
                 <LinearLayout
                     android:layout_width="fill_parent"
@@ -73,8 +38,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dip"
                         android:background="@null"
-                        android:drawableLeft="@drawable/peoplepic"
-                        android:hint="@string/toastphone"
+                        android:drawableLeft="@drawable/register_iphone"
+                        android:hint="@string/whitephone"
                         android:inputType="phone"
                         android:maxLength="11"
                         android:maxLines="1"
@@ -101,7 +66,7 @@
                         android:layout_centerVertical="true"
                         android:layout_margin="5dip"
                         android:background="@null"
-                        android:drawableLeft="@drawable/yzmpic"
+                        android:drawableLeft="@drawable/register_com"
                         android:hint="@string/toastyzm"
                         android:inputType="textEmailAddress"
                         android:maxLines="1"
@@ -112,9 +77,9 @@
                         android:layout_width="90dp"
                         android:layout_height="40dp"
                         android:layout_alignParentRight="true"
-                        android:background="@drawable/btn_yj"
+                        android:background="@color/white"
                         android:text="@string/register_8"
-                        android:textColor="@color/white"
+                        android:textColor="@color/main_color_new"
                         android:textSize="14sp" />
                 </RelativeLayout>
 
@@ -136,7 +101,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dip"
                         android:background="@null"
-                        android:drawableLeft="@drawable/pwdpic"
+                        android:drawableLeft="@drawable/register_lock"
                         android:hint="@string/register_password"
                         android:inputType="textPassword"
                         android:maxLength="16"
@@ -158,40 +123,13 @@
                     android:padding="5dp" >
 
                     <EditText
-                        android:id="@+id/editpassw2"
-                        style="@style/edittext"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dip"
-                        android:background="@null"
-                        android:drawableLeft="@drawable/pwdpic"
-                        android:hint="@string/register_password2"
-                        android:inputType="textPassword"
-                        android:maxLength="16"
-                        android:maxLines="1"
-                        android:textSize="16dp"
-                        android:width="190dip" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="fill_parent"
-                    android:layout_height="1dip"
-                    android:background="@color/line" />
-
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="5dp" >
-
-                    <EditText
                         android:id="@+id/editem_people"
                         style="@style/edittext"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dip"
                         android:background="@null"
-                        android:drawableLeft="@drawable/tjrpic"
+                        android:drawableLeft="@drawable/register_referrer"
                         android:hint="@string/register_tips3"
                         android:inputType="textEmailAddress"
                         android:maxLines="1"
@@ -203,34 +141,35 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center_horizontal"
                 android:orientation="horizontal" >
 
-                <Button
-                    android:id="@+id/register_flag"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:background="@drawable/b_chech_1_1"
-                    android:gravity="center_horizontal" />
+               <TextView
+                   android:text="注册即表示你已同意"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
 
                 <TextView
                     android:id="@+id/show_context"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="我已阅读并同意《用户协议》"
-                    android:textColor="@color/blue" />
+                    android:text="《苏常用户注册协议》"
+                    android:textColor="@color/red" />
             </LinearLayout>
 
             <Button
+
                 android:id="@+id/register"
                 style="@style/white18Text"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dip"
-                android:background="@drawable/btn_yj"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/mine_cztx_in"
                 android:padding="10dp"
-                android:text="@string/register" />
+                android:text="@string/register1" />
         </LinearLayout>
     </ScrollView>
 

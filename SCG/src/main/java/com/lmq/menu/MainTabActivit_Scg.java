@@ -22,8 +22,11 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,7 +35,6 @@ import com.lmq.gesture.UnlockGesturePasswordActivity;
 import com.lmq.http.BaseHttpClient;
 import com.lmq.http.JsonHttpResponseHandler;
 import com.lmq.http.NetWorkStatusBroadcastReceiver;
-import com.lmq.main.activity.LoginActivity_Scg;
 import com.lmq.main.api.ActivityManager;
 import com.lmq.main.api.JsonBuilder;
 import com.lmq.main.api.MyLog;
@@ -78,11 +80,23 @@ public class MainTabActivit_Scg extends FragmentActivity {
     private boolean changeToHomeFlag = false;
     private int homeType = 0;
 
+    ImageView touxiang, mine_left;
+    LinearLayout mine_right, mine_right_tv;
+
+    RelativeLayout main_title;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab);
         mainTabActivity = this;
+
+        touxiang = (ImageView) findViewById(R.id.touxiang);
+        mine_left = (ImageView) findViewById(R.id.mine_left);
+        mine_right = (LinearLayout) findViewById(R.id.mine_right);
+        mine_right_tv = (LinearLayout) findViewById(R.id.mine_right_tv);
+        main_title=(RelativeLayout)findViewById(R.id.main_title);
+
         titleView = (TextView) findViewById(R.id.title_view);
         oneButton = (RadioButton) findViewById(R.id.tab_one);
         towButton = (RadioButton) findViewById(R.id.tab_two);
@@ -113,7 +127,7 @@ public class MainTabActivit_Scg extends FragmentActivity {
 
         Fragment fragment = FragmentFactory.getInstanceByIndex(1);
         getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment).commit();
-        titleView.setText("理财");
+        titleView.setText("首页");
         oneButton.setChecked(true);
 
         radioGroup = (RadioGroup) findViewById(R.id.rg_tab);
@@ -157,15 +171,22 @@ public class MainTabActivit_Scg extends FragmentActivity {
                 changeTitle(selectedId);
 
                 Fragment fragment = FragmentFactory.getInstanceByIndex(selectedId);
-                if (changeToHomeFlag) {
-                    HomeFragment homeFragment = (HomeFragment) fragment;
-                    homeFragment.swith_flag = homeType;
-                    changeToHomeFlag = false;
-                    homeType = -1;
+//                if (changeToHomeFlag) {
+//                    HomeFragment homeFragment = (HomeFragment) fragment;
+//                    homeFragment.swith_flag = homeType;
+//                    changeToHomeFlag = false;
+//                    homeType = -1;
+//                }
+                if(selectedId==3&&Default.userId==0){
+                    Fragment fragment1 = FragmentFactory.getInstanceByIndex(4);
+                    getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment).add(R.id.content_frame,fragment1)
+                            .commitAllowingStateLoss();
+                }else {
+                    getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment)
+                            .commitAllowingStateLoss();
                 }
 
-                getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment)
-                        .commitAllowingStateLoss();
+
 
             }
         });
@@ -467,7 +488,7 @@ public class MainTabActivit_Scg extends FragmentActivity {
                 break;
             case 5000:
                 if (resultCode == Default.LOGIN_TYPE_2) {
-                    titleView.setText("个人账户");
+                    titleView.setText("投资");
                     Fragment fragment = FragmentFactory.getInstanceByIndex(2);
                     getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment)
                             .commitAllowingStateLoss();
@@ -524,19 +545,24 @@ public class MainTabActivit_Scg extends FragmentActivity {
 
         switch (index) {
             case 1:
-                titleView.setText("理财");
+                main_title.setVisibility(View.VISIBLE);
+                mine_left.setVisibility(View.GONE);
+                mine_right.setVisibility(View.GONE);
+                titleView.setText("苏常网");
                 break;
             case 2:
-                if (Default.userId == 0) {
-                    Intent userInfoLoginIntent = new Intent();
-                    userInfoLoginIntent.setClass(this, LoginActivity_Scg.class);
-                    startActivity(userInfoLoginIntent);
-                } else {
-                    titleView.setText("个人账户");
-                }
+                main_title.setVisibility(View.VISIBLE);
+                mine_left.setVisibility(View.GONE);
+                mine_right.setVisibility(View.GONE);
+                titleView.setText("投资");
                 break;
             case 3:
-                titleView.setText("设置");
+                if(Default.userId==0){
+                    main_title.setVisibility(View.GONE);
+                }
+                mine_left.setVisibility(View.VISIBLE);
+                mine_right.setVisibility(View.VISIBLE);
+                titleView.setText("");
                 break;
             case 4:
                 titleView.setText("咨询");
@@ -555,6 +581,12 @@ public class MainTabActivit_Scg extends FragmentActivity {
     public void IndexView() {
 
         oneButton.setChecked(true);
+
+    }
+
+    public void TouziView() {
+
+        towButton.setChecked(true);
 
     }
 
@@ -579,7 +611,6 @@ public class MainTabActivit_Scg extends FragmentActivity {
         threeButton.setChecked(true);
 
     }
-
 
 
     @Override

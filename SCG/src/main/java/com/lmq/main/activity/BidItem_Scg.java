@@ -31,10 +31,9 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 	ImageView imageview;
 	TextView title;
 	private long itemId;
-	private int itemType;
 	TextView tzxq_title, item_nhl, item_jkje, item_jkqx, item_syje, item_jd;
 	ProgressBar item_progress;
-	EditText tzje_rs;
+	TextView tzje_rs;
 	/** 投标记录的显示 */
 	private TextView info1;
 	String jkqx, jkfs, jl;
@@ -72,7 +71,7 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 		findViewById(R.id.chooseredpkg_scg).setOnClickListener(this);
 		choosejxj_scg = (RelativeLayout) findViewById(R.id.choosejxj_scg);
 		choosejxj_scg.setOnClickListener(this);
-		tzje_rs = (EditText) findViewById(R.id.tzje_rs);
+		tzje_rs = (TextView) findViewById(R.id.tzje_rs);
 
 		info1 = (TextView) findViewById(R.id.info1);
 
@@ -81,7 +80,6 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 
 		Intent intent = getIntent();
 		itemId = intent.getExtras().getLong("id");
-		itemType = intent.getExtras().getInt("type");
 		initView();
 	}
 
@@ -125,15 +123,15 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 			case R.id.cjjl_rs:
 				Intent intent2 = new Intent(BidItem_Scg.this, tzDetailsListActivity.class);
 				intent2.putExtra("id", itemId);
-				intent2.putExtra("type", itemType);
 				startActivity(intent2);
 				break;
 			case R.id.item_ljtj_rs:
-				if (Default.userId == 0) {
+				if (Default.userId != 0) {
 					Intent intent = new Intent(BidItem_Scg.this, LoginActivity_Scg.class);
 					startActivity(intent);
 				} else {
-					inputTitleDialog();
+					Intent intent = new Intent(BidItem_Scg.this, BidItem2_Scg.class);
+					startActivity(intent);
 				}
 				break;
 			case R.id.choosejxj_scg:
@@ -158,35 +156,7 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 		// TODO Auto-generated method stub
 		super.onActivityResult(requestCode, resultCode, data);
 
-		// if (requestCode == 0 && data != null) {
-		// id = data.getStringExtra("return_cbid");
-		// if (!"00".equals(id)) {
-		// String rate = data.getStringExtra("return_cbrate");
-		// nll_tz_jxj.setText(rate);
-		// } else {
-		// nll_tz_jxj.setText("");
-		// id = "";
-		// }
-		//
-		// } else {
-		// nll_tz_jxj.setText("");
-		// id = "";
-		// }
-		//
-		// if (requestCode == 1 && data != null) {
-		// redid = data.getStringExtra("return_cbid");
-		// if (!"00".equals(id)) {
-		// String rate = data.getStringExtra("return_cbmoney");
-		// nll_tz_redpkg.setText(rate);
-		// } else {
-		// nll_tz_redpkg.setText("");
-		// redid = "";
-		// }
-		//
-		// } else {
-		// nll_tz_redpkg.setText("");
-		// redid = "";
-		// }
+
 
 		if (data != null) {
 			if (requestCode == 1) {
@@ -269,14 +239,13 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 	protected void onResume() {
 		// TODO Auto-generated method stub
 		super.onResume();
-		getPageInfoHttp();
+//		getPageInfoHttp();
 	}
 
 	public void getPageInfoHttp() {
 
 		JsonBuilder builder = new JsonBuilder();
 		builder.put("id", itemId);
-		builder.put("type", itemType);
 
 		BaseHttpClient.post(getBaseContext(), Default.tzListItem, builder, new JsonHttpResponseHandler() {
 
@@ -333,7 +302,7 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 		try {
 			item_jd.setText("进度：" + json.optString("progress") + "%");
 			tzxq_title.setText(json.optString("borrow_name"));
-			item_nhl.setText(json.getDouble("borrow_interest_rate") + "%");
+			item_nhl.setText(json.optString("borrow_interest_rate") + "%");
 			if ("1".equals(json.optString("repayment_type"))) {
 				item_jkqx.setText(json.optString("borrow_duration") + "天");
 			} else {
@@ -365,7 +334,6 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 
 		JsonBuilder builder = new JsonBuilder();
 		builder.put("borrow_id", itemId);
-		builder.put("type", itemType);
 		builder.put("pin", pwd_str);// 支付密码
 		builder.put("money", tzje_rs.getText().toString());
 		builder.put("uid", Default.userId);
@@ -423,59 +391,5 @@ public class BidItem_Scg extends BaseActivity implements OnClickListener {
 		});
 	}
 
-	// public void doHttpInvestMoney(String pwd_str, String pwd_dxb) {
-	//
-	// JsonBuilder builder = new JsonBuilder();
-	// builder.put("borrow_id", itemId);
-	// builder.put("type", itemType);
-	// builder.put("pin", pwd_str);// 支付密码
-	// builder.put("money", tzje_rs.getText().toString());
-	// builder.put("uid", Default.userId);
-	// builder.put("borrow_pass", pwd_dxb);
-	//
-	// BaseHttpClient.post(getBaseContext(), Default.tzListItem4, builder, new
-	// JsonHttpResponseHandler() {
-	//
-	// @Override
-	// public void onStart() {
-	// // TODO Auto-generated method stub
-	// super.onStart();
-	// showLoadingDialogNoCancle(getResources().getString(R.string.toast2));
-	// }
-	//
-	// @Override
-	// public void onSuccess(int statusCode, Header[] headers, JSONObject json)
-	// {
-	// // TODO Auto-generated method stub
-	// super.onSuccess(statusCode, headers, json);
-	// try {
-	// MyLog.e("123", "确认支付之后返回参数---" + json.toString());
-	// if (statusCode == 200) {
-	// if (json.getInt("status") == 1) {
-	// showCustomToast("投标成功");
-	// } else {
-	// showCustomToast(json.getString("message"));
-	// finish();
-	// }
-	// } else {
-	// showCustomToast(R.string.toast1);
-	// finish();
-	// }
-	// } catch (Exception e) {
-	// e.printStackTrace();
-	// }
-	// dismissLoadingDialog();
-	// }
-	//
-	// @Override
-	// public void onFailure(int statusCode, Header[] headers, String
-	// responseString, Throwable throwable) {
-	// // TODO Auto-generated method stub
-	// super.onFailure(statusCode, headers, responseString, throwable);
-	// dismissLoadingDialog();
-	// showCustomToast(responseString);
-	// }
-	//
-	// });
-	// }
+
 }

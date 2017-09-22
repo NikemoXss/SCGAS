@@ -1,16 +1,5 @@
 package com.lmq.main.activity;
 
-import org.apache.http.Header;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.czscg.R;
-import com.lmq.http.BaseHttpClient;
-import com.lmq.http.JsonHttpResponseHandler;
-import com.lmq.main.api.BaseActivity;
-import com.lmq.main.api.JsonBuilder;
-import com.lmq.main.util.Default;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,6 +9,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.czscg.R;
+import com.lmq.http.BaseHttpClient;
+import com.lmq.http.JsonHttpResponseHandler;
+import com.lmq.main.api.BaseActivity;
+import com.lmq.main.api.JsonBuilder;
+import com.lmq.main.util.Default;
+
+import org.apache.http.Header;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class AddNewPwd extends BaseActivity implements OnClickListener {
 	Button conmit_bt;
@@ -38,9 +38,9 @@ public class AddNewPwd extends BaseActivity implements OnClickListener {
 		newpwd_et = (EditText) findViewById(R.id.newpwd_sx);
 		title = (TextView) findViewById(R.id.title);
 		iszf = intent.getStringExtra("iszf");
-		title.setText("添加新登录密码");
+		title.setText("重置登录密码");
 		if (iszf.equals("0")) {
-			title.setText("添加新支付密码");
+			title.setText("重置支付密码");
 		}
 		back_iv = (ImageView) findViewById(R.id.title_right);
 		back_iv.setVisibility(View.VISIBLE);

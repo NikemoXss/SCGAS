@@ -4,21 +4,72 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
-    <FrameLayout
-        android:layout_width="fill_parent"
+    <RelativeLayout
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/title_color_sx">
+        android:background="@color/main_color_new">
+
+        <LinearLayout
+            android:id="@+id/mine_right"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp">
+
+            <ImageView
+                android:id="@+id/touxiang"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/touxiang"/>
+
+            <LinearLayout
+                android:id="@+id/mine_right_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ICARUS"/>
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/rightarrow"
+                    android:text="密码,银行卡"/>
+            </LinearLayout>
+        </LinearLayout>
 
         <TextView
             android:id="@+id/title_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
             android:padding="7dp"
             android:text=""
             android:textColor="@color/white"
             android:textSize="24sp"/>
-    </FrameLayout>
+
+        <ImageView
+            android:id="@+id/mine_left"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/setmiddle"/>
+
+    </RelativeLayout>
 
     <FrameLayout
         android:id="@+id/content_frame"
@@ -39,26 +90,26 @@
             android:id="@+id/tab_one"
             style="@style/tab_bar"
             android:drawableTop="@drawable/tab_home_attention_selector"
-            android:text="理财"/>
+            android:text="首页"/>
 
         <RadioButton
             android:id="@+id/tab_two"
             style="@style/tab_bar"
             android:drawableTop="@drawable/tab_touzi_attention_selector"
-            android:text="个人账户"/>
+            android:text="投资"/>
 
         <RadioButton
             android:id="@+id/tab_three"
             style="@style/tab_bar"
             android:drawableTop="@drawable/tab_setting_attention_selector"
-            android:text="设置"/>
+            android:text="我的"/>
 
         <RadioButton
-            android:visibility="gone"
             android:id="@+id/tab_four"
             style="@style/tab_bar"
             android:drawableTop="@drawable/tab_setting_attention_selector"
-            android:text="资讯"/>
+            android:text="资讯"
+            android:visibility="gone"/>
     </RadioGroup>
 
 </LinearLayout>

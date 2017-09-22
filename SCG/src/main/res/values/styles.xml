@@ -2,13 +2,33 @@
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+
+
+
+
+
+
+
     -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+            backward-compatibility can go here.
+
+
+
+
+
+
+
+
+
+
         -->
     </style>
 
@@ -105,6 +125,25 @@
     <style name="red25Text">
         <item name="android:textColor">@color/red</item>
         <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="main25Text">
+        <item name="android:textColor">@color/main_color_new</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="main20Text">
+        <item name="android:textColor">@color/main_color_new</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="main15Text">
+        <item name="android:textColor">@color/main_color_new</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="main10Text">
+        <item name="android:textColor">@color/main_color_new</item>
+        <item name="android:textSize">10sp</item>
     </style>
 
     <style name="black18Text">
@@ -242,6 +281,11 @@
         <item name="android:textSize">10sp</item>
     </style>
 
+    <style name="black15Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
     <style name="gray10Text">
         <item name="android:textColor">@color/gray</item>
         <item name="android:textSize">10sp</item>
@@ -318,7 +362,7 @@
         <item name="android:windowBackground">@color/transparent_background</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
     </style>
 
     <style name="notitle">

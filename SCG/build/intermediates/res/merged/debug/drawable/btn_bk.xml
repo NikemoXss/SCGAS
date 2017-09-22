@@ -4,8 +4,8 @@
     <!-- 连框颜色值 -->
     <item>
         <shape>
-            <solid android:color="@color/main_color" />
-               <corners android:radius="5dip" />
+            <solid android:color="@color/main_color_new" />
+               <corners android:radius="3dip" />
         </shape>
     </item>
     <!-- 主体背景颜色值 -->
@@ -18,7 +18,7 @@
         <!-- 设置只有底部有边框 -->
         <shape>
             <solid android:color="@color/gray_sx" />
-               <corners android:radius="5dip" />
+               <corners android:radius="3dip" />
         </shape>
     </item>
 

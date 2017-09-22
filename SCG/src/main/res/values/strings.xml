@@ -43,6 +43,7 @@
     <string name="login_info3">忘记密码?</string>
     <string name="touzi">我要投资</string>
     <string name="register">完成</string>
+    <string name="register1">注册</string>
     <string name="register_0">用&#160;&#160;户&#160;&#160;名:</string>
     <string name="register_1">邮箱</string>
     <string name="register_2">密&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;码:</string>
@@ -51,9 +52,9 @@
     <string name="register_5">6-16个字符，建议使用字母加数字的组合密码</string>
     <string name="register_6">验&#160;&#160;证&#160;&#160;码:</string>
     <string name="register_7">手机号码:</string>
-    <string name="register_8">立即获取</string>
+    <string name="register_8">获取验证码</string>
     <string name="register_name">输入用户名</string>
-    <string name="register_password">密码</string>
+    <string name="register_password">设置密码</string>
     <string name="register_password2">确认密码</string>
     <string name="register_eml">输入邮箱地址</string>
     <string name="peo_password_1">修改密码</string>
@@ -335,7 +336,7 @@
     <string name="zq_buy_price">购买价格&#160;&#160;:&#160;&#160;</string>
     <string name="zq_left_money">当前余额&#160;&#160;:&#160;&#160;</string>
     <string name="zq_pwd">支付密码&#160;&#160;:&#160;&#160;</string>
-    <string name="toastyzm">验证码</string>
+    <string name="toastyzm">设置验证码</string>
     <string name="tx_daozhang">到账</string>
     <string name="bd_1">请输入银行</string>
     <string name="bd_2">请输入卡号</string>
@@ -579,7 +580,7 @@
     <string name="zh_mmmsq">投标授权</string>
     <string name="zh_mmmsq2">还款授权</string>
     <string name="register_tips2">推&#160;&#160;荐&#160;&#160;人:</string>
-    <string name="register_tips3">推荐人</string>
+    <string name="register_tips3">推荐人(可不选)</string>
     <string name="invest_manager">投资记录</string>
     <string name="jxq_manager">加息劵</string>
     <string name="invest_manager_sb">散标投资</string>
